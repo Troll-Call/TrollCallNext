@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -18,6 +19,7 @@
 # misc
 .DS_Store
 *.pem
+/src/**/.*
 
 # debug
 npm-debug.log*
@@ -27,6 +29,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
