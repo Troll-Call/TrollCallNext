@@ -1,7 +1,7 @@
 import { Flair } from "./flair";
 
 export interface User {
-  user: string;
+  username: string;
   url: string;
-  flairs: Flair[];
+  flairs: any[]; // Reference
 }

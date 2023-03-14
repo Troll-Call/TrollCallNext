@@ -1,26 +1,26 @@
+import { DocumentReference } from "firebase/firestore";
 import { HeightMeasure, TimeMeasure, Name, Policy, Preference, Color } from "./generics";
 import { User } from "./user";
 
-export interface Character {
-  reference: string;
-  owners: User[];
+export interface Troll {
+  owners: (DocumentReference|any)[]; // Reference
   name: Name; // Joltif Zoxxit
   pronunciation: Name; // joel-teef zox-sit
   username: string; // technologicalConnectivity
 
   description: string; // Joltif is a goldblood nerd-o who's not ashamed...
 
-  age: TimeMeasure;
+  age: number;
   sign: {
     extended: string;
-    sign: number;
+    color: number;
   };
   species: string;
   pronouns: [string, string][];
   gender: string;
-  height: HeightMeasure;
+  height: number;
 
-  colors: Color[];
+  colors: number[];
 
   policies: {
     fanart: Policy;
@@ -29,7 +29,7 @@ export interface Character {
     shipping: Policy;
     fanfiction: Policy;
   };
-  likes: Preference[];
+  preferences: Preference[];
   facts: string[];
 
   quirks: {[quirk: string]: QuirkFunction[]};

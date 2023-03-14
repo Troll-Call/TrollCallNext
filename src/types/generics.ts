@@ -1,4 +1,5 @@
-import { Character } from "./troll";
+import { DocumentReference } from "firebase/firestore";
+import { Troll } from "./troll";
 
 export type Color = [number, number, number];
 export const rgb = (r:number, g:number, b:number):Color => ([r,g,b]);
@@ -16,7 +17,7 @@ export interface Name {
   last: string;
 }
 export interface Preference {
-  name: string;
+  thing: string;
   opinion: "loves" | "likes" | "neutral" | "dislikes" | "hates";
 };
 export type Policy = "yes" | "ask" | "no";
@@ -32,7 +33,6 @@ export interface Log {
 }
 
 export interface CharacterStatus {
-  character: Character
-  time?: string; // "FUTURE"
-  // FUTURE technologicConnectivity [FTC]
+  character: (DocumentReference|any) // Reference
+  time?: string;
 }
