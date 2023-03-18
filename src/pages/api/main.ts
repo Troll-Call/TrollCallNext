@@ -1,5 +1,6 @@
 import { getDocs, getDoc, doc, updateDoc, serverTimestamp } from 'firebase/firestore';
 import { database } from "@/middleware/firebase";
+import validtypes from './[type]/validtypes';
 
 export enum requestType {
   POST = "POST",
@@ -10,7 +11,7 @@ export enum requestType {
 }
 
 export async function findOne(collection: string, documen:string) {
-  const object = await getDoc(doc(database, collection, documen));
+  const object = await getDoc(doc(database, collection, documen).withConverter(validtypes[collection]));
   return object.data();
 }
 

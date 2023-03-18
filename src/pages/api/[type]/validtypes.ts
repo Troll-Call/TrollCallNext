@@ -13,9 +13,9 @@ interface FirestoreConverter {
 
 const validtypes:{[key:string]:FirestoreConverter} = {
   "trolls": {
-    fromFirestore (input, options):Troll {
+    async fromFirestore (input, options):Promise<Troll> {
       let troll = input.data(options) as Troll;
-      troll.owners = troll.owners.map(async x => x = (await getDoc(x)).data())
+      troll.owners = await Promise.all(troll.owners.map(async x => x = await (await getDoc(x.withConverter(validtypes.users))).data()))
       return troll;
     },
     toFirestore (input:Troll):(Troll|null) {
@@ -29,13 +29,13 @@ const validtypes:{[key:string]:FirestoreConverter} = {
     }
   },
   "users": {
-    fromFirestore (input, options):User {
+    async fromFirestore (input, options):Promise<User> {
       let user = input.data(options) as User;
-      user.flairs = user.flairs.map(async x => x = (await getDoc(x)).data())
+      user.flairs = await Promise.all(user.flairs.map(async x => x = await (await getDoc(x)).data()));
       return user;
     },
-    toFirestore (input:User):User {
-      input.flairs = input.flairs.map(x => x = doc(database, x).withConverter(validtypes.flairs));
+    async toFirestore (input:User):Promise<User> {
+      input.flairs = await input.flairs.map(x => x = doc(database, x).withConverter(validtypes.flairs));
       return input;
     }
   },
@@ -49,11 +49,11 @@ const validtypes:{[key:string]:FirestoreConverter} = {
     }
   },
   "pesters": {
-    fromFirestore (input, options):Pesterlog {
+    async fromFirestore (input, options):Promise<Pesterlog> {
       let pester = input.data(options) as Pesterlog;
       console.log(pester.owners, pester.characters);
-      pester.owners = pester.owners.map(async x => x = (await getDoc(x)).data());
-      pester.characters = pester.characters.map(async x => x.character = (await getDoc(x.character)).data());
+      pester.owners = await Promise.all(pester.owners.map(async x => x = await (await getDoc(x.withConverter(validtypes.users))).data()));
+      pester.characters = await Promise.all(pester.characters.map(async x => x.character = await (await getDoc(x.character.withConverter(validtypes.trolls))).data()));
       return pester;
     },
     toFirestore (input:Pesterlog):(Pesterlog|null) {
