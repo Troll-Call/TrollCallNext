@@ -11,12 +11,16 @@ async function handler(
   let rqt:string = req.query.type as string;
   let rqr:string = req.query.ref as string;
   if (!validtypes.hasOwnProperty(rqt)) {
-    res.status(404).send({}); 
+    res.status(404).send(`Endpoint "${rqt}" Not Found`); 
     return;
   }
   switch (req.method) {
     case requestType.GET: {
-      res.status(200).json(await findOne(rqt, rqr));
+      var rp = await findOne(rqt, rqr);
+      if (rp)
+        res.status(200).json(rp)
+      else
+        res.status(404).send(`${validtypes[rqt].name} "${rqr}" Not Found`);
       break;
     }
     case requestType.POST: {

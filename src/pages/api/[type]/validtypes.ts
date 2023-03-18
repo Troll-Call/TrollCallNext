@@ -7,12 +7,14 @@ import { database } from '@/middleware/firebase';
 import console from 'console';
 
 interface FirestoreConverter {
+  name: string,
   fromFirestore: (input:DocumentSnapshot, options:SnapshotOptions) => any,
   toFirestore: (input:any) => any|null
 }
 
 const validtypes:{[key:string]:FirestoreConverter} = {
   "trolls": {
+    name: "Troll",
     async fromFirestore (input, options):Promise<Troll> {
       let troll = input.data(options) as Troll;
       troll.owners = await Promise.all(troll.owners.map(async x => x = await (await getDoc(x.withConverter(validtypes.users))).data()))
@@ -24,22 +26,24 @@ const validtypes:{[key:string]:FirestoreConverter} = {
         input.name.first.length === 6,
         input.name.last.length === 6
       ];
-      if (trigger) input.owners = input.owners.map(x => x = doc(database, x).withConverter(validtypes.users));
+      if (trigger) input.owners = input.owners.map(x => x = doc(database, x));
       return trigger.every(x=>x) ? input : null;
     }
   },
   "users": {
+    name: "User",
     async fromFirestore (input, options):Promise<User> {
       let user = input.data(options) as User;
       user.flairs = await Promise.all(user.flairs.map(async x => x = await (await getDoc(x)).data()));
       return user;
     },
-    async toFirestore (input:User):Promise<User> {
-      input.flairs = await input.flairs.map(x => x = doc(database, x).withConverter(validtypes.flairs));
+    toFirestore (input:User):User {
+      input.flairs = input.flairs.map(x => x = doc(database, x));
       return input;
     }
   },
   "flairs": {
+    name: "Flair",
     fromFirestore (input, options):Flair {
       return input.data(options) as Flair;
     },
@@ -49,6 +53,7 @@ const validtypes:{[key:string]:FirestoreConverter} = {
     }
   },
   "pesters": {
+    name: "Pesterlog",
     async fromFirestore (input, options):Promise<Pesterlog> {
       let pester = input.data(options) as Pesterlog;
       console.log(pester.owners, pester.characters);
@@ -61,8 +66,8 @@ const validtypes:{[key:string]:FirestoreConverter} = {
         (input.date <= Date.now() && input.date >= 0),
         input.log.every(x => (x.character < input.characters.length && x.character >= 0))
       ];
-      if (trigger) input.owners = input.owners.map(x => x = doc(database, x).withConverter(validtypes.users));
-      if (trigger) input.characters = input.characters.map(x => x.character = doc(database, x.character).withConverter(validtypes.trolls));
+      if (trigger) input.owners = input.owners.map(x => x = doc(database, x));
+      if (trigger) input.characters = input.characters.map(x => x.character = doc(database, x.character));
       return trigger ? input : null;
     }
   }
