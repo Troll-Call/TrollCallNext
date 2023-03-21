@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
+const json = require('./package.json');
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  publicRuntimeConfig: json,
 }
 
 module.exports = nextConfig

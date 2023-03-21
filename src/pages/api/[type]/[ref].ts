@@ -1,8 +1,8 @@
-import { requestType, findOne, findUpdate } from '../main';
+import { requestType, findOne, findUpdate } from '../../../lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import validtypes from './validtypes';
 import { setDoc, doc } from 'firebase/firestore';
-import { database } from "@/middleware/firebase";
+import { database } from "@/lib/firebase";
 
 async function handler(
   req: NextApiRequest,
@@ -31,7 +31,7 @@ async function handler(
       const user = doc(database, rqt, rqr).withConverter(validtypes[rqt]);
       setDoc(user, req.body)
         .then(function () {
-          res.redirect(301, "/api/users/id/" + user.id);
+          res.redirect(301, "/api/" + rqt + "/" + user.id);
         })
         .catch(function (err:Error) {
           res.status(500).send({ error: err.message });

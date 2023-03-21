@@ -1,3 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* trollcall-display-regular */
+@font-face {
+	font-family: TrollCall Display;
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/trollcall-display/trollcall-display-regular.woff2) format("woff2");
+  src: url(/assets/trollcall-display/trollcall-display-regular.woff) format("woff");
+}
+
+body {
+  @apply
+    flex
+    flex-col
+    items-center
+    font-body
+    border-pos-900
+    bg-pos-100
+    p-8
+    bg-pattern
+    min-h-screen;
+}
+body > div {
+  @apply
+    flex
+    flex-col
+    items-center
+    min-h-full
+    w-full;
+}
+body > div > div {
+  @apply
+    flex
+    flex-col
+    gap-2
+    min-h-full
+    w-full
+    max-w-screen-md;
+}
+p, details, ul {
+  display:inline-block;
+  @apply
+    text-base
+    p-2
+    w-full;
+}
+details {
+  border-width: 1px;
+  @apply
+    rounded-lg
+    border-neg-800;
+  border-right-width: 0;
+  border-top-width: 0;
+}
+a {
+  @apply
+    underline;
+}
+@layer components {
+  .title {
+    @apply
+      font-title
+      uppercase
+      p-0;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .subtitle {
+    @apply
+      font-title
+      text-xl
+      uppercase
+      p-0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .monospace {
+    @apply
+      font-mono
+      text-base
+      p-0;
+  }
+  .box {
+    border-width: 1px;
+    @apply
+      rounded-lg
+      border-pos-800
+      text-pos-800
+      bg-pos-200
+      p-2;
+  }
+  .negative {
+    border-width: 1px;
+    @apply
+      rounded-lg
+      border-neg-800
+      text-neg-800
+      bg-neg-200
+      p-2;
+  }
+  .noborder {
+    border-width: 0;
+  }
+  .noshow {
+    @apply p-2
+      flex
+      flex-col
+      gap-2;
+  }
+}

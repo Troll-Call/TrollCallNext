@@ -3,8 +3,7 @@ import { User } from '@/types/user';
 import { Flair } from '@/types/flair';
 import { Pesterlog } from '@/types/pester';
 import { DocumentSnapshot, SnapshotOptions, doc, getDoc } from 'firebase/firestore';
-import { database } from '@/middleware/firebase';
-import console from 'console';
+import { database } from '@/lib/firebase';
 
 interface FirestoreConverter {
   name: string,

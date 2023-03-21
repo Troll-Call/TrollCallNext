@@ -1,6 +1,6 @@
-import { getDocs, getDoc, doc, updateDoc, serverTimestamp } from 'firebase/firestore';
-import { database } from "@/middleware/firebase";
-import validtypes from './[type]/validtypes';
+import { getDocs, getDoc, doc, updateDoc, serverTimestamp, collection } from 'firebase/firestore';
+import { database } from "@/lib/firebase";
+import validtypes from '../pages/api/[type]/validtypes';
 
 export enum requestType {
   POST = "POST",
@@ -15,11 +15,9 @@ export async function findOne(collection: string, documen:string) {
   return object.data();
 }
 
-export async function findAll(collection: any) {
-  const object = await getDocs(collection(database, collection));
-  var blah:{[key:string]:any} = {};
-  object.docs.forEach(x => blah[x.id] = x.data());
-  return blah;
+export async function findAll(collectionName: string) {
+  const object = await getDocs(collection(database, collectionName));
+  return object.docs.map(x => x.id);
 }
 
 export async function findUpdate(collection:string, documen:string, update:{[key:string]:any}) {

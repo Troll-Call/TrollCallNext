@@ -1,0 +1,50 @@
+[
+  {
+    "name": "discord",
+    "title": "DISCORD SERVER",
+    "description": "We have a Discord server! It's pretty cool. You should join it! It involves news about an upcoming game, and extra lore on characters!",
+    "color": "#5865f2"
+  },
+  {
+    "name": "signup",
+    "title": "ADD TROLL",
+    "description": "Want your own fantroll to have a cool refsheet? Simply take this form!",
+    "color": "#FF0080"
+  },
+  {
+    "name": "hs",
+    "title": "HIVESWAP",
+    "description": "Looking for the original Friendsim TrollCall website? Here it is!",
+    "color": "#c000c0"
+  },
+  {
+    "name": "source",
+    "title": "SOURCE",
+    "description": "Want to contribute?\n...why?",
+    "color": "#202020"
+  },
+  {
+    "name": "legacy",
+    "title": "LEGACY",
+    "description": "The original TrollCall website. It is most definitely missing characters, but it has more fancy bullshit.",
+    "color": "#ff0000"
+  },
+  {
+    "name": "rev2",
+    "title": "TROLLCALL REV2",
+    "description": "The TrollCall website you're probably the most familiar with.",
+    "color": "#000080"
+  },
+  {
+    "name": "me",
+    "title": "MEOWCATHEORANGE",
+    "description": "Website creator, form manager",
+    "color": "#FF8000"
+  },
+  {
+    "name": "redact",
+    "title": "REDACT4K",
+    "description": "Website co-creator, domain holder",
+    "color": "#808080"
+  }
+]

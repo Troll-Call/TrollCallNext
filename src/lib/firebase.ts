@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 
 // const connectFirebase = handler => async (req : NextApiRequest, res : NextApiResponse) => {
   
@@ -14,3 +15,5 @@ export const app = initializeApp( {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 });
 export const database = getFirestore();
+export const storage = getStorage();
+
