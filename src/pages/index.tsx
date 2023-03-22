@@ -11,7 +11,6 @@ export default function Home() {
       <Head>
         <title>{module.exports.default.name + " | " + name}</title>
       </Head>
-      <Navbar title={name} type={module.exports.default.name} />
       <Box title={name} className="negative">
         <p>
           Welcome to {name}, a website for indexing various fantrolls. Check them out!

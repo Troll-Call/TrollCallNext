@@ -12,7 +12,7 @@ export default function User({ user }:{user:userType}) {
   return (
     <div>
       <Head>
-        <title>{module.exports.default.name + " | " + name}</title>
+        <title>{user.username + " - " + module.exports.default.name + " | " + name}</title>
       </Head>
       <Navbar title={user.username} type={module.exports.default.name} />
       <Box title={user.username}>

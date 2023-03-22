@@ -6,7 +6,7 @@ export default function Navbar({title, type}:{title:string, type:string}) {
       <Link href="/" className="monospace text-left flex-none">
         &lt;== Back
       </Link>
-      <span className="subtitle text-center break-words grow w-full">
+      <span className="subtitle text-center break-words grow">
         {title}
       </span>
       <span className="monospace text-right flex-none">
