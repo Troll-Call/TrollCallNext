@@ -1,0 +1,63 @@
+import { lightness, toHex } from "@/types/assist/colors";
+import { Bloods } from "@/types/assist/signs";
+import { GenericHolder } from "@/types/generics";
+import Link from "next/link";
+import styles from '@/styles/trollcard.module.css';
+
+export default function TrollCard({ troll, simple }: { troll: GenericHolder, simple: boolean }) {
+  const hexColor = toHex(Bloods[troll.data.sign.color].colormap.map(x => x * 0xff));
+  const styleBlah = {
+    backgroundColor: toHex(lightness(hexColor, 60, false)),
+    color: toHex(lightness(hexColor, 80, true)),
+    borderColor: toHex(lightness(hexColor, 25, false))
+  };
+  const svgHexagon = (
+    <svg width="70" height="61" style={{filter: `drop-shadow(${hexColor} 0px 0px 4px)`}} viewBox="0 0 80 70" xmlns="http://www.w3.org/2000/svg">
+      <path stroke={toHex(lightness(hexColor, 90, true))} stroke-width="2" fill={styleBlah.color} d="M-1.74846e-06 35L20 0.358977L60 0.358976L80 35L60 69.641L20 69.641L-1.74846e-06 35Z"/>
+    </svg>
+  )
+  var stroke = toHex(lightness(hexColor, 50, true));
+  const svgBox = (
+    <svg width="261" height="208" viewBox="0 0 261 208" xmlns="http://www.w3.org/2000/svg">
+      <style>{`
+ul {
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:stretch;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  line-height: 18px;
+  gap: 8px;
+}
+      `}</style>
+      <path d="M252.5 17.5L13.5 10.5L8.5 191.5L247.5 198.5L252.5 17.5Z" fill={styleBlah.borderColor} stroke={stroke} stroke-width="3"/>
+      <path d="M20.5 2.5L2.5 182.5L240.5 206L258.5 26L20.5 2.5Z" stroke={stroke} fill="transparent" stroke-width="3"/>
+      <foreignObject x="20" y="26" width="221" height="156">
+        <ul>
+          {troll.data.facts.map((x:string, i:number) => <li key={i}>{x}</li>)}
+        </ul>
+      </foreignObject>
+    </svg>
+  )
+  const box = (
+    <div style={styleBlah} className={"box bg-pattern " + styles.cardBox}>
+      <img src={"/api/cdn/trolls/" + troll.id + "/image.png"} alt="" />
+      {svgBox}
+      <div>
+        <span className="font-title">
+          {troll.data.name.first.toUpperCase()}<br />{troll.data.name.last.toUpperCase()}
+        </span>
+        {svgHexagon}
+      </div>
+    </div>
+  );
+  if (simple) return (
+    <Link href={"/troll/" + troll.id} className={styles.simpleCardLink}>
+      {box}
+    </Link>
+  )
+  return box;
+}

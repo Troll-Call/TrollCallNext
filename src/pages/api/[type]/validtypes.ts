@@ -15,9 +15,7 @@ const validtypes:{[key:string]:FirestoreConverter} = {
   "trolls": {
     name: "Troll",
     async fromFirestore (input, options):Promise<Troll> {
-      let troll = input.data(options) as Troll;
-      troll.owners = await Promise.all(troll.owners.map(async x => x = await (await getDoc(x.withConverter(validtypes.users))).data()))
-      return troll;
+      return input.data(options) as Troll;
     },
     toFirestore (input:Troll):(Troll|null) {
       const trigger:boolean[] = [
@@ -25,7 +23,7 @@ const validtypes:{[key:string]:FirestoreConverter} = {
         input.name.first.length === 6,
         input.name.last.length === 6
       ];
-      if (trigger) input.owners = input.owners.map(x => x = doc(database, x));
+      if (trigger) input.owners = input.owners.map(x => x = doc(database, "/users/" + x));
       return trigger.every(x=>x) ? input : null;
     }
   },
@@ -56,7 +54,6 @@ const validtypes:{[key:string]:FirestoreConverter} = {
     async fromFirestore (input, options):Promise<Pesterlog> {
       let pester = input.data(options) as Pesterlog;
       console.log(pester.owners, pester.characters);
-      pester.owners = await Promise.all(pester.owners.map(async x => x = await (await getDoc(x.withConverter(validtypes.users))).data()));
       pester.characters = await Promise.all(pester.characters.map(async x => x.character = await (await getDoc(x.character.withConverter(validtypes.trolls))).data()));
       return pester;
     },
@@ -65,7 +62,7 @@ const validtypes:{[key:string]:FirestoreConverter} = {
         (input.date <= Date.now() && input.date >= 0),
         input.log.every(x => (x.character < input.characters.length && x.character >= 0))
       ];
-      if (trigger) input.owners = input.owners.map(x => x = doc(database, x));
+      if (trigger) input.owners = input.owners.map(x => x = doc(database, "/users/" + x));
       if (trigger) input.characters = input.characters.map(x => x.character = doc(database, x.character));
       return trigger ? input : null;
     }

@@ -3,7 +3,7 @@ import { HeightMeasure, TimeMeasure, Name, Policy, Preference, Color } from "./g
 import { User } from "./user";
 
 export interface Troll {
-  owners: (DocumentReference|any)[]; // Reference
+  owners: string[]; // Reference
   name: Name; // Joltif Zoxxit
   pronunciation: Name; // joel-teef zox-sit
   username: string; // technologicalConnectivity
@@ -16,7 +16,7 @@ export interface Troll {
     color: number;
   };
   species: string;
-  pronouns: [string, string][];
+  pronouns: string[];
   gender: string;
   height: number;
 
@@ -35,4 +35,7 @@ export interface Troll {
   quirks: {[quirk: string]: QuirkFunction[]};
 }
 
-type QuirkFunction = [string, string[]];
+interface QuirkFunction {
+  function: string,
+  arguments?: any[]
+};

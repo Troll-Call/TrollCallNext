@@ -22,6 +22,10 @@ body {
     bg-pattern
     min-h-screen;
 }
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
 body > div {
   @apply
     flex
@@ -37,7 +41,7 @@ body > div > div {
     gap-2
     min-h-full
     w-full
-    max-w-screen-md;
+    max-w-screen-lg;
 }
 p, details, ul {
   display:inline-block;

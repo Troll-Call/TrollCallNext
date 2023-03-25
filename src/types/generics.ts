@@ -1,5 +1,8 @@
 import { DocumentReference } from "firebase/firestore";
+import { Flair } from "./flair";
+import { Pesterlog } from "./pester";
 import { Troll } from "./troll";
+import { User } from "./user";
 
 export type Color = [number, number, number];
 export const rgb = (r:number, g:number, b:number):Color => ([r,g,b]);
@@ -35,4 +38,9 @@ export interface Log {
 export interface CharacterStatus {
   character: (DocumentReference|any) // Reference
   time?: string;
+}
+
+export interface GenericHolder {
+  id: string,
+  data: Troll | Pesterlog | User | Flair
 }

@@ -1,0 +1,56 @@
+.cardBox {
+  border-width: 3px;
+  border-radius: 16px;
+  width: 320px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 45px;
+  /* margin-left: 32px; */
+}
+
+.cardBox>img {
+  /* height: calc(100% - 24px); */
+  height: 100%;
+  z-index: 2;
+  /* position: absolute;
+  left: -32px;
+  bottom: 12px; */
+}
+
+.cardBox>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  gap: 12px;
+}
+
+.cardBox>div>span {
+  padding-right: 12px;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.cardBox>div>svg {
+  padding-bottom: 27px;
+  padding-right: 24px;
+  box-sizing: content-box;
+}
+
+.cardBox>svg {
+  position: absolute;
+  right: -45px;
+  top: 14px
+}
+
+.simpleCardLink {
+  width: max-content;
+  display: inline-block;
+  text-decoration: none;
+}

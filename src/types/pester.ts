@@ -5,7 +5,7 @@ import { User } from "./user";
 
 export interface Pesterlog {
   reference: string;
-  owners: (DocumentReference|any)[]; // Reference
+  owners: string[]; // Reference
   name: string;
   description: string | string[];
   date: number;
