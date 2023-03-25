@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg18888"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemra.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Prospit\Gemra.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title19461">Gemra</title>
+  <defs
+     id="defs18882" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="169.36636"
+     inkscape:cy="157.2591"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata18885">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gemra</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(53.852783,-100.29165)">
+    <path
+       style="fill:#a1a101;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -14.165283,123.06493 c -10.462397,0 -22.25815,4.42002 -30.804837,16.91422 8.546687,12.4942 20.34244,16.91421 30.804837,16.91421 10.462398,0 22.2581525,-4.42001 30.804837,-16.91421 -8.5466845,-12.4942 -20.342439,-16.91422 -30.804837,-16.91422 z m -1.984374,4.21267 v 25.4031 c -1.247863,-0.0674 -2.492677,-0.19991 -3.732589,-0.40928 v -24.58455 c 1.239912,-0.20937 2.484726,-0.34189 3.732589,-0.40927 z m 3.968749,0 c 1.247863,0.0674 2.4926771,0.1999 3.7325886,0.40928 v 24.58454 c -1.2399115,0.20937 -2.4847256,0.3419 -3.7325886,0.40928 z m -11.670088,1.35754 v 22.68802 c -5.541328,-1.72974 -10.939859,-5.21339 -16.016593,-11.34401 5.076734,-6.13062 10.475265,-9.61428 16.016593,-11.34401 z m 19.3714266,0 c 5.5413301,1.72973 10.9398592,5.21339 16.0165944,11.34401 -5.0767352,6.13062 -10.4752643,9.61427 -16.0165944,11.34401 z"
+       id="path19444"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

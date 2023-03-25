@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Saginius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Prospit\Saginius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7754">Saginius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="133.06018"
+     inkscape:cy="135.91731"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Saginius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(798.57141,-659.05353)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:15.51618004;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.4723619"
+       d="m -702.61535,723.54572 -57.3672,38.8125 8.46875,15.33789 33.66407,-22.86523 v 139.73047 h 15.27735 V 723.60822 Z m 34.34765,0 -0.043,0.0625 v 170.95313 h 15.27735 v -27.14844 h 58.46289 v 27.14844 h 15.27734 V 754.83088 l 33.66406,22.86523 8.46876,-15.33789 -57.36719,-38.8125 -0.043,0.0625 v 125.875 h -58.46289 v -94.65234 l 33.66406,22.86523 8.46875,-15.33789 z"
+       id="rect7738"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

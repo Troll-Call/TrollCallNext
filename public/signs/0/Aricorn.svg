@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg1982"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aricorn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Aricorn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2546">Aricorn</title>
+  <defs
+     id="defs1976" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="41.728071"
+     inkscape:cy="151.8071"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false" />
+  <metadata
+     id="metadata1979">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aricorn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 24.854813,14.719985 C 14.33892,14.884762 11.114604,24.13382 11.49904,28.169809 c 0.701913,7.369006 6.479839,12.763326 12.620418,15.147912 3.691793,1.433645 11.699366,1.927855 13.336136,9.315712 l 0.0708,12.024071 h 0.02222 4.277776 0.02222 L 41.9194,52.633433 c 1.636777,-7.387857 9.644346,-7.882067 13.336141,-9.315712 6.14058,-2.384586 11.918505,-7.778906 12.620418,-15.147912 0.384437,-4.035989 -2.839881,-13.285047 -13.355774,-13.449824 -4.38684,-0.06874 -12.178702,1.242939 -12.329996,9.439217 -0.120172,6.510227 4.807968,8.973431 9.033041,8.960692 5.768684,-0.01739 8.547328,-2.251456 8.689909,-5.619295 0.197001,-4.653316 -3.579572,-6.046122 -7.056416,-5.91075 v 3.778064 c 1.614733,0.0089 2.836574,0.625698 2.732648,2.059822 -0.07447,1.027695 -1.361689,1.7844 -4.334102,1.779736 -1.481434,-0.0023 -4.55449,-0.421386 -4.758884,-4.378543 -0.261199,-5.056996 3.431345,-6.202591 7.739063,-6.205823 4.92769,-0.0037 9.43121,3.500372 9.383408,9.26972 -0.03227,3.894746 -4.135755,9.858936 -9.894488,11.630297 -6.388261,1.965003 -10.452687,2.767357 -14.036868,7.767484 -3.584183,-5.000127 -7.648606,-5.802481 -14.03687,-7.767484 -5.758732,-1.771361 -9.862216,-7.735551 -9.894486,-11.630297 -0.0478,-5.769348 4.455719,-9.27342 9.383406,-9.26972 4.307718,0.0032 8.000264,1.148827 7.739062,6.205823 -0.204393,3.957157 -3.277446,4.376244 -4.758883,4.378543 -2.972413,0.0047 -4.259631,-0.752041 -4.334101,-1.779736 -0.103926,-1.434124 1.117914,-2.050922 2.73265,-2.059822 v -3.778064 c -3.476846,-0.135372 -7.253419,1.257434 -7.056417,5.91075 0.14258,3.367839 2.921224,5.601906 8.689909,5.619295 4.225071,0.01274 9.15321,-2.450465 9.033039,-8.960692 -0.151291,-8.196278 -7.943157,-9.507957 -12.329996,-9.439217 z"
+       id="path2539"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

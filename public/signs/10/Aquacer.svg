@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquacer.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Prospit\Aquacer.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4915">Aquacer</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="115.04355"
+     inkscape:cy="151.64161"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquacer</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(104.28571,-584.76782)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -11.86286,650.95044 57.578124,82.63477 57.576166,-82.63477 H 84.451594 l -38.73633,56.02735 -38.73828,-56.02735 z m -45.43164,31.43554 v 37.80665 h -28.183594 v 15.24219 H -57.2945 v 37.00195 h 15.242187 v -37.00195 h 30.230469 l 57.537108,83.15039 57.537106,-83.15039 h 30.22852 v 37.00195 h 15.24218 v -37.00195 h 28.1836 v -15.24219 h -28.1836 v -37.80665 h -15.24218 v 37.80665 H 95.518004 l -49.80274,71.78516 -49.80469,-71.78516 h -37.962887 v -37.80665 z"
+       id="path4893"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

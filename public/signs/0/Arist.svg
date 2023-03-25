@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg1979"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arist.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Arist.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2559">Arist</title>
+  <defs
+     id="defs1973" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="78.070572"
+     inkscape:cy="150.69455"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false" />
+  <metadata
+     id="metadata1976">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arist</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 39.688011,14.39265 -2.811197,2.834969 0.05116,0.05374 -10.374558,10.860318 2.811198,2.881995 8.38605,-8.808247 v 33.761246 c -0.373996,3.095059 -1.636262,5.037924 -3.74034,4.99246 -3.423409,-0.07397 -5.457314,-7.18566 -8.110099,-17.862475 h -3.98632 c 0.683297,3.854516 1.724161,8.355634 3.214274,12.270052 l -0.175183,-0.348816 c -0.03768,3.326204 -1.463321,5.883002 -3.697966,5.886979 -3.139357,0.0056 -5.512434,-7.982503 -6.869347,-12.58528 h -4.107759 c 1.373011,5.773576 4.458644,16.63623 10.760065,16.652732 3.517582,0.0092 5.982401,-2.270045 6.738606,-4.236434 1.651032,2.499688 3.648708,4.150985 6.052344,4.221964 1.671082,0.04935 4.719005,-1.094888 5.77329,-2.676321 0.02941,-0.02701 0.05668,-0.05482 0.08527,-0.08217 0.02859,0.02734 0.05585,0.05516 0.08527,0.08217 1.054288,1.581433 4.102207,2.725671 5.77329,2.676321 2.403636,-0.07098 4.401312,-1.722276 6.052344,-4.221964 0.756205,1.966389 3.221024,4.245634 6.738605,4.236434 6.301424,-0.0165 9.387054,-10.879156 10.760068,-16.652732 h -4.107759 c -1.356916,4.602777 -3.729993,12.590881 -6.869348,12.58528 -2.234648,-0.004 -3.660285,-2.560775 -3.697967,-5.886979 l -0.175185,0.348816 c 1.490112,-3.914418 2.530978,-8.415536 3.214275,-12.270052 H 53.474768 C 50.821981,53.783474 48.788076,60.895165 45.364667,60.969134 43.3627,61.012394 42.121666,59.256463 41.683755,56.420058 V 22.276406 l 8.327657,8.747269 2.811198,-2.881995 -10.374562,-10.860318 0.05116,-0.05374 z"
+       id="path2538"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

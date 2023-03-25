@@ -1,7 +1,7 @@
 .cardBox {
   border-width: 3px;
   border-radius: 16px;
-  width: 320px;
+  width: max-content;
   height: 400px;
   position: relative;
   display: flex;
@@ -10,12 +10,13 @@
   align-items: flex-end;
   text-align: right;
   margin-right: 45px;
-  /* margin-left: 32px; */
+  margin-left: 48px;
 }
 
 .cardBox>img {
   /* height: calc(100% - 24px); */
   height: 100%;
+  margin-left: -48px;
   z-index: 2;
   /* position: absolute;
   left: -32px;

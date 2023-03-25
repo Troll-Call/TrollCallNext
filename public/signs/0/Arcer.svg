@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg4287"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arcer.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Arcer.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4851">Arcer</title>
+  <defs
+     id="defs4281" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="101.81122"
+     inkscape:cy="166.12212"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer7"
+     showgrid="false" />
+  <metadata
+     id="metadata4284">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arcer</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 38.54287,13.219606 c -0.291028,1.513741 -0.685625,4.258669 -2.069642,6.254915 -0.87181,1.257462 -1.584492,2.225079 -3.133659,3.584795 -1.282364,1.125543 -3.422605,2.478943 -5.285983,3.975467 -7.829547,6.2881 -9.170131,15.381866 -5.900414,20.076294 2.28367,3.278733 8.197246,5.218578 11.098031,2.838588 0.420587,4.916659 0.531305,7.727891 -1.295013,9.480557 -2.437278,2.338986 -6.922984,2.975579 -8.116816,3.134175 v 3.590997 h 0.05684 c 5.23909,-0.33477 12.174372,-2.825557 13.489616,-8.981882 V 45.744234 l -3.095419,-0.850077 c -0.357214,0.739942 -2.047438,2.168636 -4.488614,2.171446 -2.452523,0.0028 -5.994815,-2.212779 -5.386235,-6.518465 1.68263,-11.904559 12.801178,-12.87352 15.071948,-18.615402 0.07002,-0.04418 0.136081,-0.09186 0.199988,-0.141077 0.064,0.0493 0.129861,0.09683 0.199988,0.141077 2.270771,5.741882 13.389319,6.710843 15.071947,18.615402 0.608582,4.305686 -2.93371,6.521264 -5.386234,6.518465 -2.441178,-0.0028 -4.131402,-1.431504 -4.488613,-2.171446 l -3.095419,0.850077 v 11.429278 c 1.315244,6.156325 8.251042,8.647112 13.49013,8.981882 h 0.05633 v -3.590997 c -1.193834,-0.158596 -5.679022,-0.795189 -8.116303,-3.134175 -1.826315,-1.752666 -1.715598,-4.563898 -1.295011,-9.480557 2.900786,2.37999 8.813845,0.440145 11.097514,-2.838588 3.269718,-4.694428 1.929133,-13.788194 -5.900414,-20.076294 -1.863379,-1.496524 -4.003617,-2.849924 -5.285984,-3.975467 -1.549164,-1.359716 -2.26133,-2.327333 -3.13314,-3.584795 -1.384017,-1.996246 -1.778616,-4.741174 -2.069642,-6.254915 h -0.02222 -2.245857 z"
+       id="path4844"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -4,15 +4,13 @@ import Navbar from "@/components/nav";
 import Head from "next/head";
 import * as fuck from "@/lib/dbFunctions";
 import { GetStaticPropsContext } from "next/types";
-import { User as userType } from "@/types/user";
+import { ServerUser as userType } from "@/types/user";
 import Flair from "@/components/flair";
 import Footer from "@/components/footer";
-import { Troll as trollType } from "@/types/troll";
 import TrollCard from "@/components/trollcard";
 import { GenericHolder } from "@/types/generics";
 
 export default function User({ user, trolls }:{user:userType, trolls:GenericHolder[]}) {
-  console.log(trolls);
   return (
     <div>
       <Head>
@@ -26,7 +24,7 @@ export default function User({ user, trolls }:{user:userType, trolls:GenericHold
         <p className="pt-0"><a href={user.url} target="_blank">{user.url}</a></p>
       </Box>
       <Box subtitle={true} title={user.username + "'S TROLLS"}>
-        <div className="noshow">
+        <div className="noshow flex-row flex-wrap justify-around">
           {trolls.map((x, i) => <TrollCard troll={x} key={i} simple={true} />)}
         </div>
       </Box>

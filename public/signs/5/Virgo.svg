@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virgo.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virgo.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title8257">Virgo</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="136.60664"
+     inkscape:cy="124.0472"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virgo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(12.857142,200.94644)">
+    <path
+       style="fill:#078446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 115.1353,-148.26772 c -12.66872,0 -26.627753,13.84997 -30.000001,26.25 -2.138106,-9.47782 -4.770039,-18.45635 -9.822266,-22.47071 l -17.826172,0.71485 c 7.766837,6.18977 11.4297,19.42095 11.429688,26.21875 V 5.345555 h 16.753906 v -99.15039 c 2e-5,-14.005175 16.815745,-38.035155 23.392585,-38.035155 5.08571,0 5.53513,9.19944 5.53515,14.28516 l 0.002,122.722645 15.71289,0.17774 1.60742,-94.86328 c 0.23662,-13.966695 11.9838,-41.072265 20.89258,-41.072265 3.2927,0 6.44064,4.20732 6.42968,7.5 0,45.586105 0.42743,104.037335 2.49024,131.992185 -12.41798,7.05045 -24.44011,10.70498 -30.88281,12.11523 v 15 c 12.07291,-3.36711 23.0344,-7.50987 32.78906,-12.36133 0.0618,0.19859 0.12203,0.42961 0.18555,0.5918 1.83074,12.05782 10.5957,22.12695 10.5957,22.12695 h 19.82226 c 0,0 -11.46594,-13.03571 -16.11132,-31.04101 25.1277,-16.65172 38.98018,-39.32546 38.6621,-66.41602 -0.43493,-37.04301 -16.18858,-65.384765 -17.5,-65.384765 -5.73222,0 -17.98927,10.504 -22.73046,21.054685 V -126.84 c 0,-4.09368 -4.96399,-21.42773 -16.25,-21.42773 -18.94814,0 -31.25,27.14257 -31.25,27.14257 0.25707,-5.00229 -2.74898,-27.14257 -13.92774,-27.14257 z m 78.92774,54.730455 c 2.45661,0 9.10742,17.33492 9.10742,35.98243 0,26.19687 -12.23183,44.30273 -26.95508,56.52343 l 0.34766,-57.41601 c 0.0799,-13.19136 12.5511,-35.08985 17.5,-35.08985 z"
+       id="path8254"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagimino.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Prospit\Sagimino.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title5440">Sagimino</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="33.914036"
+     inkscape:cy="137.05108"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagimino</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(561.42859,-224.76784)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:13.54468822;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49246234"
+       d="m -427.45203,270.67214 -92.74023,76.32031 h 25.64258 l 50.90625,-41.89258 v 173.76367 h 16.29492 V 388.9319 h 31.83984 v 89.93164 h 16.29492 V 305.09987 l 50.90625,41.89258 h 25.64258 l -92.74023,-76.32031 -0.10352,0.125 v 101.83985 h -31.83984 V 270.79714 Z m -54.67383,139 c -10.60135,6.3e-4 -19.19516,8.79469 -19.19531,19.64258 1.5e-4,10.84789 8.59396,19.64195 19.19531,19.64258 10.60212,4.7e-4 19.19712,-8.7939 19.19727,-19.64258 -1.5e-4,-10.84868 -8.59515,-19.64305 -19.19727,-19.64258 z m 141.39454,0 c -10.60212,-4.7e-4 -19.19712,8.7939 -19.19727,19.64258 1.5e-4,10.84868 8.59515,19.64305 19.19727,19.64258 10.60135,-6.3e-4 19.19516,-8.79469 19.19531,-19.64258 -1.5e-4,-10.84789 -8.59396,-19.64195 -19.19531,-19.64258 z"
+       id="rect5391"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

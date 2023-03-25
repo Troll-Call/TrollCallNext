@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Scoriborn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\08 Blue\Derse\Scoriborn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6531">Scoriborn</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="169.59392"
+     inkscape:cy="130.60915"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Scoriborn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(781.42859,-156.19641)">
+    <path
+       style="fill:#004183;fill-opacity:1;stroke:none;stroke-width:15.31432056;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49246234"
+       d="m -631.36707,203.30774 c -15.18618,0 -27.56054,12.61417 -27.56054,27.83007 0,15.2159 12.37436,27.83008 27.56054,27.83008 15.18618,0 27.5625,-12.61418 27.5625,-27.83008 0,-15.2159 -12.37632,-27.83007 -27.5625,-27.83007 z m -76.57226,4.14843 v 201.62891 h 16.03711 V 207.45617 Z m 136.98633,0 v 201.62891 h 16.03515 V 207.45617 Z m -60.41407,11.91211 c 6.38827,0 11.50196,5.11511 11.50196,11.76953 0,6.65442 -5.11369,11.76954 -11.50196,11.76954 -6.38827,0 -11.50195,-5.11512 -11.50195,-11.76954 0,-6.65442 5.11368,-11.76953 11.50195,-11.76953 z m -35.95898,64.01953 -6.15821,0.16211 v 125.53516 h 16.03711 V 300.10656 c 6.84823,0.67688 12.88258,1.84265 18.16016,3.41211 v 105.56641 h 16.03516 V 310.7511 c 13.85066,9.09411 18.33984,22.14136 18.33984,33.29492 v 65.03906 h 16.03516 v -65.03906 c 0,-23.24601 -16.30412,-61.07644 -78.44922,-60.65821 z"
+       id="rect6509"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

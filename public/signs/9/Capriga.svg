@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Capriga.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Derse\Capriga.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6820">Capriga</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="154.13703"
+     inkscape:cy="133.11284"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Capriga</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(890,-10.482122)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:15.59135437;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49748745"
+       d="m -802.03223,57.442424 v 33.478515 h -23.20898 v 14.765621 h 23.20898 v 32.94141 h 14.76563 v -32.94141 h 94.64453 l -113.26758,102.51563 c -10.24748,9.27473 -20.36772,28.90853 -8.27734,44.84961 13.76388,18.14759 33.64549,9.15874 43.28124,-0.44922 l 65.00391,-64.81641 c 3.88006,-3.86887 11.03176,-6.41016 15.32422,-6.41016 9.43569,0 19.63867,9.09256 19.63867,20.48829 0,9.55695 -5.07644,13.8394 -11.70508,18.17773 -6.75109,4.41848 -21.04657,4.6338 -23.45703,3.39648 l -0.002,15.33008 c 10.07956,0 19.95365,-0.12227 28.29297,-4.66406 15.14738,-8.2496 21.85546,-17.26635 21.85547,-31.44727 0,-16.80627 -13.20287,-36.17187 -34.92383,-36.17187 -11.48286,0 -22.82527,8.23399 -25.19922,10.5918 l -64.3711,63.93359 c -5.55794,5.52016 -15.19058,12.66994 -22.56835,2.41211 -5.41921,-7.53469 2.21767,-20.34313 6.81054,-24.5 L -654.75879,90.920939 h -0.004 -132.50381 V 57.442424 Z"
+       id="rect6796"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccssssssscccssssssccccc" />
+  </g>
+</svg>

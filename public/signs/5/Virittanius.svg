@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virittanius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virittanius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title14582">Virittanius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="151.18121"
+     inkscape:cy="196.29089"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virittanius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(890,123.80359)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -778.46387,-19.596536 c 0,0 -13.41791,-19.730474 -32.5,-19.730474 -13.05733,0 -22.52148,13.00731 -22.52148,35.6289045 0,9.54667 0.35482,19.6635105 2.53515,28.1914105 8.73695,34.172699 27.61869,58.47717 33.2793,63.3457 l 8.42773,-5.61133 c 0,0 -27.01757,-38.93567 -27.01757,-83.3437505 0,-7.30088 0.4734,-20.8769505 6.63867,-20.8769505 8.80542,0 26.54843,21.6041305 30.3789,37.435551 2.10994,8.72042 6.42774,29.28515 6.42774,29.28515 4.7099,15.86675 10.38578,26.26821 21.78711,39.28711 -7.2159,7.02065 -15.21543,14.2536 -38.2793,25.566405 l 4.72851,10.27734 c 19.24408,-7.26351 33.884,-15.94362 44.57813,-25.837885 10.69415,9.894345 25.33392,18.574325 44.57812,25.837885 l 4.73047,-10.27734 c -23.06387,-11.312805 -31.06339,-18.545755 -38.27929,-25.566405 11.40133,-13.0189 17.07525,-23.42036 21.78515,-39.28711 0,0 4.31975,-20.56473 6.42969,-29.28515 3.83047,-15.8314205 21.57153,-37.435551 30.37695,-37.435551 6.16527,0 6.63868,13.5760705 6.63868,20.8769505 0,44.4080805 -27.01563,83.3437505 -27.01563,83.3437505 l 8.42578,5.61133 c 5.66061,-4.868531 24.5443,-29.173001 33.28125,-63.345701 2.18033,-8.527899 2.53516,-18.6447395 2.53516,-28.1914095 0,-22.6215945 -9.46416,-35.6289045 -22.52149,-35.6289045 -19.08209,0 -32.5,19.730474 -32.5,19.730474 -1.79114,-20.657038 -10.14015,-47.869179 -38.46484,-47.869179 -29.08634,0 -35.96391,27.427054 -38.46289,47.869179 z m 38.46289,-30.617192 c 17.89661,0.317023 21.36523,21.554032 21.36523,45.5996125 0,31.7911695 -7.0761,57.8514995 -21.36523,76.6660105 -14.28913,-18.81451 -21.36328,-44.87484 -21.36328,-76.6660105 0,-24.0453675 3.46708,-45.2822215 21.36328,-45.5996125 z"
+       id="path14577"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssccssscccccccccsssccssscscccccc" />
+  </g>
+</svg>

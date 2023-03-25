@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Lera.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\05 Olive\Prospit\Lera.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7111">Lera</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="134.44275"
+     inkscape:cy="183.41465"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Lera</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(544.28571,-153.33926)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#336601;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.43239307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -423.41852,207.60981 c -16.66393,0 -28.14641,6.26968 -37.74219,12.53125 l 3.57226,5 c 0,0 14.02491,-5.61524 31.40821,-5.61524 37.19563,0 67.31836,34.21481 67.31836,68.42969 0,41.6658 -36.71707,65.26323 -57.3418,68.67383 l 1.76758,6.95898 c 52.24721,-8.45927 67.16788,-38.9449 69.64453,-66.89062 31.78906,-1.211 51.66602,12.22138 51.66602,44.69336 0,24.67635 -26.9192,42.85835 -63.39258,42.85742 l -77.14258,-0.002 c -25.29184,-6.4e-4 -61.07227,-15.3967 -61.07227,-46.78515 0,-20.16319 13.69046,-34.30326 21.9668,-37.19531 5.33359,19.0243 22.85139,33.0664 43.5293,33.0664 24.88177,0 45.20703,-20.32526 45.20703,-45.20703 0,-24.88176 -20.32526,-45.20703 -45.20703,-45.20703 -23.77913,0 -43.38222,18.56805 -45.07422,41.93164 -16.35659,4.8907 -36.13477,27.40092 -36.13477,52.61133 0,34.13444 34.42231,61.60741 77.32032,61.60742 h 74.48828 c 37.70158,0 80.51172,-15.86647 80.51172,-57.67773 0,-49.29662 -37.18814,-60.68106 -66.50782,-60.88477 -3.54247,-50.00183 -45.26836,-72.89648 -78.78515,-72.89648 z m -5.81836,49.74023 c 17.08192,0 30.77539,13.69348 30.77539,30.77539 0,17.08192 -13.69347,30.77539 -30.77539,30.77539 -17.08192,0 -30.77344,-13.69347 -30.77344,-30.77539 0,-17.08191 13.69152,-30.77539 30.77344,-30.77539 z"
+       id="path7101"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsscccsssscssscsssscssssss" />
+  </g>
+</svg>

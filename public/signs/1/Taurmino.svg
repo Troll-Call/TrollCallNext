@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg3199"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Taurmino.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\02 Bronze\Prospit\Taurmino.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3771">Taurmino</title>
+  <defs
+     id="defs3193" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="129.04189"
+     inkscape:cy="161.11747"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata3196">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Taurmino</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(7.1815476,-113.68155)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a15203;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.30724907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 9.1143569,131.86184 C 9.3079459,146.235 13.08649,159.437 22.348691,164.97196 v 9.90431 h 3.827158 v -8.1716 c 1.57675,0.51115 3.276442,0.83973 5.108216,0.96066 0.834932,0.062 1.6458,0.0741 2.44326,5.2e-4 1.832544,-0.12093 3.532971,-0.44973 5.110281,-0.96118 v 8.17159 h 3.827159 v -9.90482 c 9.261062,-5.53561 13.039203,-18.73722 13.232783,-33.10961 h -3.816305 c -1.190061,25.14191 -10.358668,30.50165 -17.637165,31.57792 v -6.26732 c 6.007373,-0.96792 10.630874,-6.22207 10.630874,-12.515 0,-6.97516 -5.679525,-12.67622 -12.628687,-12.67622 -6.949159,0 -12.629202,5.70106 -12.629202,12.67622 0,6.33535 4.685802,11.61854 10.752314,12.53464 v 6.2482 C 23.290703,162.36437 14.1213,157.005 12.931179,131.86184 Z m 23.3319081,4.43643 c 4.625695,0 8.329726,3.71616 8.329726,8.35917 0,4.643 -3.704031,8.36125 -8.329726,8.36125 -4.625692,0 -8.328173,-3.71825 -8.328173,-8.36125 0,-4.64301 3.702481,-8.35917 8.328173,-8.35917 z"
+       id="path3755"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="320"
+       inkscape:export-ydpi="320" />
+  </g>
+</svg>

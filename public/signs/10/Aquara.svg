@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquara.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Prospit\Aquara.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3160">Aquara</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="129.00748"
+     inkscape:cy="155.18862"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquara</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.857142,486.66074)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:15.97599602;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57788942"
+       d="m 118.57394,-428.94199 v 54.27734 c -24.715837,-5.81012 -47.818429,-16.99363 -62.537111,-35.17383 H 38.314173 c 14.32958,26.49913 44.725401,43.05271 80.259767,50.3418 v 81.21094 c -8.60445,-10.16063 -22.535083,-20.29091 -45.794923,-29.54297 v 15.71484 c 42.455723,20.31445 44.589593,37.92958 45.794923,47.73438 h 14.59179 v -112.67383 c 9.70812,1.27088 19.67158,1.90234 29.69141,1.90234 10.16086,0 20.26222,-0.65189 30.09961,-1.95898 v 112.73047 h 14.5918 c 1.20533,-9.8048 3.33919,-27.41993 45.79492,-47.73438 v -15.71484 c -23.25826,9.25143 -37.19033,19.38108 -45.79492,29.54102 v -81.29688 c 35.3579,-7.33216 65.57717,-23.85683 79.85156,-50.25391 H 269.6755 c -14.63731,18.07969 -37.56571,29.24096 -62.12695,35.07813 v -54.18164 h -14.5918 v 57.01172 c -10.12801,1.54642 -20.30954,2.27148 -30.09961,2.27148 -9.6584,0 -19.69826,-0.70136 -29.69141,-2.20508 v -57.07812 z"
+       id="rect3145"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

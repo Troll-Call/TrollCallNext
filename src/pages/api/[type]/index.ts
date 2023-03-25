@@ -1,6 +1,6 @@
-import { requestType, findAll, findUpdate } from '../../../lib/dbFunctions';
+import { requestType, findAll, findUpdate } from '@/lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import validtypes from './validtypes';
+import validtypes from '@/lib/validtypes';
 import { setDoc, doc } from 'firebase/firestore';
 import { database } from "@/lib/firebase";
 

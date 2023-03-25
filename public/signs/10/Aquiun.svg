@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquiun.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Derse\Aquiun.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6079">Aquiun</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="28.236876"
+     inkscape:cy="109.5939"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquiun</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(678.57141,192.37502)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:14.83300018;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57788942"
+       d="m -528.57141,-131.3008 -54.20313,95.13086 -28.47656,-28.2832 -32.76953,32.55078 v 22.39062 l 32.77149,-32.54687 32.0039,31.78515 50.67383,-88.933589 50.67383,88.933589 32.0039,-31.78515 32.77149,32.54687 v -22.39062 l -32.76953,-32.55078 -28.47656,28.2832 z m 0,56.0625 -54.20313,95.13086 -28.47656,-28.2832 -32.76953,32.55078 v 22.39062 l 32.77149,-32.54687 32.0039,31.78515 50.67383,-88.93359 50.67383,88.93359 32.0039,-31.78515 32.77149,32.54687 V 24.16014 l -32.76953,-32.55078 -28.47656,28.2832 z"
+       id="rect6053"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg5561"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Tauro.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\02 Bronze\Derse\Tauro.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6135">Tauro</title>
+  <defs
+     id="defs5555" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="73.351386"
+     inkscape:cy="138.27377"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata5558">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Tauro</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-59.720238,-79.663689)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a15203;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.87612391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 99.742345,97.935439 c -8.034176,0 -14.697333,6.063981 -15.571658,13.833791 h -7.915279 v 3.70829 h 7.945251 c 0.64368,5.02177 3.706244,9.30575 7.984009,11.65976 -4.828421,2.65639 -8.114233,7.76954 -8.114233,13.62966 h 3.876759 c 0,-5.29485 4.055649,-11.68922 12.031379,-11.68922 7.975727,0 11.558397,6.61179 11.558397,11.68922 h 3.87573 c 0,-5.86028 -3.28518,-10.97334 -8.1132,-13.62966 4.27722,-2.35402 7.33895,-6.63801 7.98246,-11.65976 h 7.27811 v -3.70829 h -7.24813 c -0.87409,-7.76981 -7.53542,-13.833792 -15.569595,-13.833791 z m 0,3.876771 c 6.544525,0 11.794635,5.52747 11.794635,11.69334 0,6.16588 -4.48656,11.69104 -11.841363,11.69128 -7.354805,2.4e-4 -11.583135,-5.92556 -11.748415,-11.69128 -0.16528,-5.76571 5.250621,-11.69334 11.795143,-11.69334 z"
+       id="path6117"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccczcccccccsszzzs" />
+  </g>
+</svg>

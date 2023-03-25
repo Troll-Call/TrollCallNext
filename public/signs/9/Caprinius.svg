@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Caprinius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Prospit\Caprinius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4825">Caprinius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="185.71429"
+     inkscape:cy="148.77448"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Caprinius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(550,663.80359)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -427.79786,-607.10201 c -44.01441,0 -66.03124,29.40669 -66.03124,57.3164 0,43.02611 32.38281,43.22975 32.38281,80.00586 0,33.30295 -26.64243,33.27339 -34.38867,32.23438 v 16.91992 c 30.25397,1.7633 50.40429,-15.93702 50.40429,-48.14844 0,-47.83443 -32.11718,-45.34651 -32.11718,-80.80664 0,-19.58626 15.32632,-40.21484 50.36913,-40.21484 4.06362,0 7.79027,0.4158 11.20508,1.17383 -10.40386,11.17896 -16.73242,26.9038 -16.73242,45.76757 0,23.37759 11.25322,46.59375 32.70703,46.59375 21.45381,0 32.70703,-23.21616 32.70703,-46.59375 0,-18.86344 -6.32887,-34.58865 -16.73242,-45.76757 3.41481,-0.75803 7.14146,-1.17383 11.20508,-1.17383 35.04282,0 50.36719,20.62858 50.36719,40.21484 0,35.46013 -32.11524,32.97221 -32.11524,80.80664 0,32.21142 20.14838,49.91174 50.40235,48.14844 v -16.91992 c -7.74624,1.03901 -34.38868,1.06857 -34.38868,-32.23438 0,-36.77611 32.38477,-36.97975 32.38477,-80.00586 0,-27.90971 -22.01878,-57.3164 -66.0332,-57.3164 -10.08612,0 -19.5139,2.27455 -27.79688,6.46679 -8.28316,-4.19249 -17.7124,-6.46679 -27.79883,-6.46679 z m 27.79883,25.93359 c 12.0525,9.49784 16.63281,25.05819 16.63281,37.42188 0,15.41011 -5.17017,30.37695 -16.63281,30.37695 -11.46264,0 -16.63477,-14.96684 -16.63477,-30.37695 1e-5,-12.36384 4.58195,-27.92407 16.63477,-37.42188 z"
+       id="path4816"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

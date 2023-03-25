@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Scormino.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\08 Blue\Prospit\Scormino.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3663">Scormino</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="159.26046"
+     inkscape:cy="98.186979"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Scormino</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(221.42857,-299.05356)">
+    <path
+       style="fill:#004183;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -170.22251,349.73715 0.002,187.85742 h 18.32031 v -49.82422 c 2.41425,-38.1058 19.74223,-58.09375 23.19727,-58.09375 8.19846,0 6.26486,74.8797 6.3125,107.70899 h 18.43554 c -1.36555,-35.27006 -2.19088,-54.39317 2.06055,-70.63477 6.828443,-26.08645 20.590873,-37.95703 22.687503,-37.95703 7.23759,0 5.70889,26.10401 5.68359,32.07227 -0.13928,32.85648 -0.12695,76.51953 -0.12695,76.51953 h 18.93945 c 0,0 -1.05585,-40.0198 0.63282,-58.46289 1.85115,-20.21766 14.15334,-49.11914 22.34961,-49.11914 4.1316,0 5.7214,6.45804 5.89648,21.46679 l 0.66992,57.32618 c 0.18112,15.52656 4.7998,39.77343 24.4961,39.77343 h 20.32812 l 7.70312,-16.66797 -20.83398,-0.125 c -10.54132,-0.0639 -14.22288,-9.07573 -14.26953,-16.66795 l -0.50391,-82.20119 c -0.06441,-10.48309 -5.96219,-25.48056 -16.79492,-25.38086 -20.67552,0.19027 -32.57617,33.4629 -32.57617,33.4629 0,0 -0.7978,-33.84179 -16.03711,-33.84179 -18.13725,0 -30.556643,30.05273 -30.556643,30.05273 0.56945,-6.26392 -6.88016,-33.83984 -20.20312,-33.83984 -13.1162,0 -24.34675,24.34521 -26.95508,30.44531 V 372.77231 H 15.099753 v -23.03516 z"
+       id="path3658"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

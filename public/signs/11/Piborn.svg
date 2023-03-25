@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Piborn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Derse\Piborn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2542">Piborn</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="133.07103"
+     inkscape:cy="106.51542"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Piborn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(835.71429,-459.05356)">
+    <path
+       style="fill:#99014e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 150 66.427734 C 78.90195 66.427734 36.477274 111.14226 30.089844 146.16016 L 45.535156 146.16016 C 54.106561 119.74203 75.648129 100.60097 102.32227 90.304688 L 102.32227 233.57227 L 117.32227 233.57227 L 117.32227 85.578125 C 125.41338 83.568889 133.80531 82.306278 142.32227 81.832031 L 142.32227 233.57227 L 157.32227 233.57227 L 157.32227 81.816406 C 165.52323 82.251848 173.61022 83.4156 181.42773 85.275391 L 181.42773 233.57227 L 196.42773 233.57227 L 196.42773 89.816406 C 223.68102 99.991728 245.75925 119.32844 254.46484 146.16016 L 269.91016 146.16016 C 263.52273 111.14226 221.09805 66.427734 150 66.427734 z "
+       id="path2531"
+       transform="translate(-835.71429,459.05356)" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Pisces.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Derse\Pisces.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title832">Pisces</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="86.078526"
+     inkscape:cy="155.05077"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pisces</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-70,563.80359)">
+    <path
+       style="fill:#99004d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.82031,-510.59362 c 25.67725,30.43567 36.85665,58.34387 38.84375,85.23828 h -39.99023 v 16.01367 h 40.14844 c -1.89541,39.23189 -19.41022,69.63613 -38.78711,92.32812 h 22.72851 c 12.88584,-18.71251 33.82657,-49.28918 35.47266,-92.32812 h 38.67383 c 1.64609,43.03892 22.58682,73.61561 35.47265,92.32812 h 22.72852 c -19.37689,-22.69198 -36.89169,-53.09626 -38.78711,-92.32812 h 37.26562 v -16.01367 h -37.10937 c 1.98708,-26.89444 13.16842,-54.80256 38.8457,-85.23828 H 278.6582 c -25.08395,25.34614 -36.17237,57.72763 -38.41797,85.23828 h -39.33398 c -2.2456,-27.51065 -13.33597,-59.89214 -38.41992,-85.23828 z"
+       id="path823"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

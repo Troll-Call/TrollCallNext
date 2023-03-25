@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virpio.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virpio.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="148.892"
+     inkscape:cy="163.54059"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(150,49.517876)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:15.75894833;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.4723619"
+       d="m -68.650393,13.78291 v 146.96288 h 15 c 6.324696,-21.76255 14.918466,-68.538662 51.628906,-80.552722 v 80.552722 h 15 V 77.445018 c 29.59384,-0.9153 40.48828,19.60775 40.48828,35.994132 0,32.20129 -26.11863,59.91288 -41.77344,73.74219 h 22.32813 c 9.0196,-11.6141 34.62891,-38.21316 34.62891,-73.25 0,-32.882992 -26.85296,-55.318302 -55.41934,-51.034762 L 12.978513,13.78291 h -15 v 50.142578 c -31.62246,8.10482 -47.40877,37.751272 -51.628906,46.966792 V 13.78291 Z"
+       id="rect15143"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsccsccccccc" />
+  </g>
+</svg>

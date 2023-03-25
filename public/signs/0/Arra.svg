@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg2569"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arra.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Arra.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3137">Arra</title>
+  <defs
+     id="defs2563" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="176.22128"
+     inkscape:cy="169.44308"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false" />
+  <metadata
+     id="metadata2566">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arra</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 25.87904,14.378465 c 0,0 -11.43345,-0.07868 -11.428242,8.173661 0.005,7.91102 13.778745,13.948684 23.028052,13.276193 v 3.354832 c -3.830175,0.110111 -14.056631,-1.122884 -14.2875,8.929687 -0.135669,5.907344 5.38594,10.704846 7.653795,12.783717 H 16.435173 l 4.204911,4.100007 h 15.591297 l 1.465027,-3.371369 c -2.754749,-3.60949 -10.097796,-7.994631 -10.205579,-13.229166 -0.2726,-3.441293 2.168445,-4.993756 6.473507,-4.99918 h 4.596101 2.254126 4.596103 c 4.305062,0.0054 6.746105,1.557887 6.473505,4.99918 -0.107783,5.234535 -7.450831,9.619676 -10.205577,13.229166 l 1.464508,3.371369 h 15.591814 l 4.204912,-4.100007 H 48.529336 C 50.797194,58.817684 56.31932,54.020182 56.18365,48.112838 55.952783,38.060267 45.726325,39.293262 41.89615,39.183151 V 35.828319 C 51.145457,36.50081 64.919202,30.463146 64.924203,22.552126 64.929403,14.299781 53.49596,14.378465 53.49596,14.378465 v 4.204911 c 0,0 7.100035,0.184443 7.034196,3.638021 -0.06803,3.568186 -6.704594,7.155848 -9.510014,8.052222 -3.561918,1.138084 -7.33711,1.322393 -10.016442,1.336353 v -0.01344 c -0.9047,0.01601 -1.721289,5.29e-4 -2.632398,0 v 0.01344 c -2.679353,-0.01394 -6.454886,-0.198218 -10.016961,-1.336353 -2.805419,-0.896374 -9.441469,-4.484036 -9.509496,-8.052222 -0.06584,-3.453578 7.034195,-3.638021 7.034195,-3.638021 z"
+       id="path3126"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsccccccccccccccccscccccssccccsscc" />
+  </g>
+</svg>

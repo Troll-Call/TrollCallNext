@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg7304"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemini.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Derse\Gemini.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7883">Gemini</title>
+  <defs
+     id="defs7298" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="95.765196"
+     inkscape:cy="149.44161"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata7301">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gemini</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(13.985119,-68.324402)">
+    <path
+       style="fill:#a1a100;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0.03779774,83.953164 v 4.868437 C 2.4413798,89.579996 6.7365098,90.250652 12.142485,90.685569 v 34.652141 c -5.4059792,0.43492 -9.7011042,1.1061 -12.10468726,1.86449 v 4.86844 c 2.80510506,-0.65569 11.84246526,-2.67839 25.66458326,-2.67839 13.822118,0 22.670489,2.06995 25.664583,2.67839 v -4.86844 c -2.252801,-0.71082 -7.028622,-1.34426 -12.293823,-1.77922 V 90.600303 c 5.265193,-0.43496 10.041025,-1.067884 12.293823,-1.778702 v -4.868437 c -2.994094,0.60844 -11.842467,2.678389 -25.664583,2.678389 -13.822118,0 -22.8594782,-2.022703 -25.66458326,-2.678389 z M 34.726635,90.909328 v 34.205142 c -3.163556,-0.18647 -6.308473,-0.29249 -9.024254,-0.29249 -3.232955,0 -6.328257,0.085 -9.213393,0.23306 V 90.968756 c 2.885136,0.148039 5.980436,0.233062 9.213393,0.233062 2.715781,0 5.860698,-0.10602 9.024254,-0.29249 z"
+       id="path7860"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

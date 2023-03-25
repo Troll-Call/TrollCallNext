@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg8462"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemries.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Derse\Gemries.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title9033">Gemries</title>
+  <defs
+     id="defs8456" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="156.93487"
+     inkscape:cy="137.58779"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata8459">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gemries</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(10.205358,3.4910715)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a1a101;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.92211485;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 3.513443,18.81997 v 14.578439 h 4.7681845 c 0.9869244,-0.98413 3.0679885,-2.660413 5.7081785,-4.38888 -1.011549,2.182407 -1.580265,4.610267 -1.580265,7.168039 0,2.578663 0.577395,5.025326 1.604553,7.221265 -2.651416,-1.733932 -4.7425994,-3.41732 -5.7324665,-4.404385 H 3.513443 V 53.572887 H 7.984488 V 44.10628 c 5.515893,5.5454 13.686129,9.217009 21.476851,9.219705 7.803309,0.0027 16.487801,-4.254394 21.517941,-9.219705 v 9.466607 h 4.471561 V 38.994448 h -4.768186 c -1.001294,0.998461 -3.131918,2.709275 -5.827032,4.464328 1.044728,-2.211205 1.631942,-4.679185 1.631942,-7.281208 0,-2.581137 -0.578644,-5.030211 -1.607656,-7.227983 2.683851,1.749626 4.804394,3.453296 5.802746,4.448824 h 4.768186 V 18.81997 H 50.97928 v 9.466087 C 47.921707,24.463595 37.252895,19.085379 29.448811,19.089721 21.665,19.094021 12.807006,23.525711 7.984488,28.286057 V 18.81997 Z m 25.935368,4.191476 c 7.264313,0 13.117028,5.869082 13.117028,13.166121 0,7.297036 -5.852715,13.164053 -13.117028,13.164053 -7.264315,0 -13.117028,-5.867017 -13.117028,-13.164053 0,-7.297039 5.852713,-13.166121 13.117028,-13.166121 z"
+       id="path9018"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsccccccaccccccsccccccacccsssss" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Pittanius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Prospit\Pittanius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2571">Pittanius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="210.60915"
+     inkscape:cy="130.60915"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pittanius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(78.571426,-13.339266)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#99014e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.76353645;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -37.932755,101.47403 c 6.66482,24.75559 20.599436,46.3149 39.208984,61.86524 -18.609548,15.55034 -32.544164,37.10965 -39.208984,61.86523 h 15.324219 c 6.591638,-21.53218 19.426533,-39.95147 36.169921,-52.89258 16.934308,10.67692 36.709118,16.82032 57.867188,16.82032 21.15807,0 40.932937,-6.14339 57.867187,-16.82032 16.74332,12.94112 29.578,31.36046 36.16992,52.89258 h 15.32422 c -6.66506,-24.75557 -20.59949,-46.31489 -39.20899,-61.86523 18.6095,-15.55035 32.54393,-37.10966 39.20899,-61.86524 h -15.32422 c -6.59195,21.53221 -19.4265,39.95145 -36.16992,52.89258 -4.7e-4,-3e-4 -0.001,3e-4 -0.002,0 -16.93393,-10.67637 -36.707747,-16.82031 -57.865227,-16.82031 -21.15748,0 -40.93124,6.14394 -57.865234,16.82031 -4.12e-4,-3.2e-4 -0.0015,3.2e-4 -0.002,0 C -3.182188,141.4255 -16.016957,123.0063 -22.608622,101.47403 Z m 109.361328,50.83594 c 15.77939,0 30.710727,3.97258 43.974607,11.02734 -13.26408,7.05504 -28.194897,11.03126 -43.974607,11.03126 -15.77946,0 -30.71064,-3.97646 -43.97461,-11.03126 13.26377,-7.05452 28.19547,-11.02734 43.97461,-11.02734 z"
+       id="path2561"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

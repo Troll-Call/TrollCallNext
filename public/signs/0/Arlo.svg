@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg3717"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arlo.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Arlo.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4279">Arlo</title>
+  <defs
+     id="defs3711" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="136.76071"
+     inkscape:cy="131.92554"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer6"
+     showgrid="false" />
+  <metadata
+     id="metadata3714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arlo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 25.189677,14.699346 c -7.290175,-0.105818 -13.568625,5.312269 -13.365076,17.35863 0.225842,13.365744 10.958217,17.172543 17.105416,16.972092 5.878324,-0.191683 8.285281,-1.737363 8.285281,-1.737363 l 0.935345,17.384469 h 3.073715 l 0.935341,-17.384469 c 0,0 2.407476,1.54568 8.2858,1.737363 6.1472,0.200451 16.879057,-3.606348 17.1049,-16.972092 0.203549,-12.046361 -6.074384,-17.464448 -13.364559,-17.35863 -5.672304,0.08233 -11.054289,2.989929 -11.023616,10.142533 0.03059,7.133824 4.363897,9.344095 8.134387,9.513632 6.606746,0.297064 8.116451,-4.021873 7.500834,-8.572087 h -4.142901 c 1.096772,1.154892 0.827347,5.017508 -2.672704,4.938199 -2.573433,-0.05831 -4.969709,-1.250817 -5.0183,-5.768639 -0.05251,-4.882157 2.885136,-6.401993 7.022828,-6.592363 8.396457,-0.38631 9.845048,9.196962 9.88932,12.561506 0.06682,5.078124 -2.275795,14.560481 -13.764535,14.432711 -7.485768,-0.08325 -8.552449,-6.258533 -8.552449,-6.258533 l -1.871205,0.02326 -1.870686,-0.02326 c 0,0 -1.066681,6.175285 -8.55245,6.258533 -11.48874,0.12777 -13.831354,-9.354587 -13.764534,-14.432711 0.04427,-3.364544 1.492347,-12.947816 9.888802,-12.561506 4.137693,0.19037 7.075854,1.710206 7.023345,6.592363 -0.04859,4.517822 -2.445382,5.710331 -5.018815,5.768639 -3.500052,0.07931 -3.769476,-3.783307 -2.672706,-4.938199 h -4.142383 c -0.615617,4.550214 0.894087,8.869151 7.500833,8.572087 3.77049,-0.169537 8.103799,-2.379808 8.134387,-9.513632 0.03067,-7.152604 -5.351311,-10.060203 -11.023615,-10.142533 z"
+       id="path4274"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

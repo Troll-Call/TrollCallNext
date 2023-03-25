@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagiborn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagiborn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3166">Sagiborn</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="82.466616"
+     inkscape:cy="119.62998"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagiborn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(512.85712,-439.05356)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:11.58872795;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5427136"
+       d="m -455.05536,506.42661 -27.82617,50.37695 27.82617,50.37695 13.27929,-7.33398 -19.8496,-35.93946 h 98.76758 98.76952 l -19.8496,35.93946 13.27929,7.33398 27.82617,-50.37695 -27.82617,-50.37695 -13.27929,7.33593 19.70898,35.68164 h -98.6289 -98.62696 l 19.70898,-35.68164 z m 17.98047,108.91015 -34.1875,56.34375 h 17.73242 l 25.32227,-41.73047 25.32031,41.73047 h 15.07422 l 25.21289,-41.55078 25.21094,41.55078 h 15.07226 l 25.06836,-41.31445 25.07032,41.31445 h 17.73242 l -34.1875,-56.34375 h -17.23047 l -23.99024,39.53711 -23.98828,-39.53711 h -17.51757 l -23.99024,39.53906 -23.99023,-39.53906 z"
+       id="rect3118"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

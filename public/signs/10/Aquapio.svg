@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquapio.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Prospit\bitmap.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2584">Aquapio</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="213.79892"
+     inkscape:cy="178.49877"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquapio</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(18.571428,-461.91071)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:12.61816216;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57788942"
+       d="m 61.805527,529.00348 c 0,17.86292 -24.552734,35.51256 -24.552734,61.89453 0,22.48122 14.614109,33.7461 31.888672,33.7461 17.274561,0 31.890625,-11.26489 31.890625,-33.7461 0,-26.38197 -24.552735,-44.03161 -24.552735,-61.89453 z m 124.880863,0 c 0,17.86292 -24.55273,35.51256 -24.55273,61.89453 0,22.48122 14.61606,33.7461 31.89062,33.7461 17.27456,0 31.88867,-11.26489 31.88867,-33.7461 0,-26.38197 -24.55273,-44.03161 -24.55273,-61.89453 z M 69.141465,553.48786 c 11.380702,18.91228 16.714841,25.1187 16.714841,37.74609 0,15.08268 -9.304161,18.2168 -16.714841,18.2168 -7.41068,0 -16.712891,-3.13412 -16.712891,-18.2168 0,-12.62739 5.332189,-18.83381 16.712891,-37.74609 z m 124.882815,0 c 11.3807,18.91228 16.71289,25.1187 16.71289,37.74609 0,15.08268 -9.30221,18.2168 -16.71289,18.2168 -7.41068,0 -16.71484,-3.13412 -16.71484,-18.2168 0,-12.62739 5.33414,-18.83381 16.71484,-37.74609 z M 57.067246,645.44684 10.836777,694.81793 h 19.453125 l 31.083985,-33.19726 30.167969,33.19726 h 9.585944 l 31.08398,-33.19726 30.16406,33.19726 h 9.20703 l 31.08594,-33.19921 30.16797,33.19921 h 19.18359 l -44.86132,-49.37109 h -8.79688 l -31.29297,33.41992 -30.36914,-33.41992 h -8.79687 l -31.486334,33.625 -30.552735,-33.625 z"
+       id="rect2555"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

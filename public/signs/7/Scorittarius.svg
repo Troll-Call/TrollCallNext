@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Scorittarius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\08 Blue\Derse\Scorittarius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7097">Scorittarius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="144.77892"
+     inkscape:cy="186.4466"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Scorittarius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(232.85715,-347.62497)">
+    <path
+       style="fill:#004183;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -157.47434,403.75388 c -25.7714,0 -37.81836,27.66414 -37.81836,58.27344 h 16.47852 c 0,-19.07949 6.19693,-41.58985 21.22656,-41.58985 23.17304,0 26.08024,41.53598 26.11914,64.70899 l 0.17774,106.34961 h 15.84765 c -0.26785,-51.54869 22.070739,-85.27344 32.585939,-85.27344 10.5152,0 32.85379,33.72475 32.58594,85.27344 h 15.84765 l 0.17774,-106.34961 c 0.0389,-23.17301 2.9461,-64.70899 26.1191395,-64.70899 15.02963,0 21.2265605,22.51036 21.2265605,41.58985 h 16.478519 c 0,-30.6093 -12.046959,-58.27344 -37.8183595,-58.27344 -31.0445495,0 -42.3007795,40.42494 -42.3007795,66.41797 v 45.39453 c -7.38572,-12.02195 -17.85338,-25.69531 -32.31641,-25.69531 -14.46303,0 -24.930689,13.67336 -32.316409,25.69531 v -45.39453 c 0,-25.99303 -11.25623,-66.41797 -42.30078,-66.41797 z"
+       id="path7092"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

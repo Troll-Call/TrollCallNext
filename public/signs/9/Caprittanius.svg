@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Caprittanius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Prospit\Caprittanius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1422">Caprittanius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="187.75922"
+     inkscape:cy="170.86657"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Caprittanius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(924.28571,-107.62498)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -886.47321,184.05355 c 33.13895,0 33.31176,13.67754 33.27915,24.83963 l -0.1478,50.57879 c -0.15029,51.43084 25.11388,77.37373 58.36221,77.37373 30.7571,0 77.25644,-33.03253 77.25644,-83.14929 0,-31.10262 -16.20926,-57.85715 -43.74999,-57.85715 -28.02465,0 -45.89287,29.47618 -45.89287,59.64286 0,34.91721 16.63423,55.03399 39.32715,68.97754 20.89738,12.8403 57.21851,11.91532 69.33371,11.91532 l -1.4e-4,14.82143 36.60714,-23.57143 -36.607,-23.57143 v 13.92857 c -43.10487,0 -90.06776,-8.69405 -90.06776,-62.88778 0,-16.12909 8.81861,-39.04587 24.9477,-39.04587 20.17053,0 27.87508,22.31101 27.87508,37.9438 0,30.72836 -31.22278,62.89676 -63.54604,62.89676 -25.92779,0 -35.65301,-32.6826 -35.65301,-64.46583 0,-34.29515 14.46421,-88.36965 -51.32397,-88.36965 z"
+       id="path1420"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssssscccccssssscc" />
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg1450"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Taurgo.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\02 Bronze\Prospit\Taurgo.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <defs
+     id="defs1444" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="64.056316"
+     inkscape:cy="150.53218"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata1447">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(36.663689,-368.4375)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a15203;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.9938941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 3.070319,386.45735 c -7.5915281,0 -13.802775,6.15204 -13.802775,13.70872 0,3.19402 1.1127473,6.13515 2.9672621,8.46925 v 17.21549 h -8.7198821 v 3.94188 h 8.7198821 4.0757183 v -3.94188 -13.74283 c 0.5619036,0.3156 1.1482599,0.5923 1.7549336,0.82837 v 16.83825 h 3.996137 v -15.93805 c 0.3335734,0.0242 0.6691948,0.0403 1.008724,0.0403 0.31673,0 0.6299649,-0.0146 0.9415462,-0.0357 v 15.9334 h 3.9966529 v -16.8119 c 0.5969661,-0.22867 1.1744034,-0.4959 1.7285785,-0.8015 v 13.68962 3.94188 h 4.0757184 8.719883 v -3.94188 h -8.719883 v -17.09664 c 1.911908,-2.35253 3.062346,-5.33997 3.062346,-8.5881 0,-7.55668 -6.213314,-13.70872 -13.804842,-13.70872 z m 0,3.99408 c 5.4503398,0 9.810771,4.33384 9.810771,9.71465 0,5.38081 -4.3604312,9.71672 -9.810771,9.71672 -5.4503399,0 -9.808702,-4.33591 -9.808702,-9.71672 0,-5.38081 4.3583621,-9.71465 9.808702,-9.71465 z"
+       id="path2006"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

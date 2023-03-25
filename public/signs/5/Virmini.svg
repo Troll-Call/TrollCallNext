@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virmini.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Derse\Virmini.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title2535">Virmini</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="149.21305"
+     inkscape:cy="136.17303"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virmini</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(458.57144,138.08931)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -308.57144,-81.649834 c -4.776,2.977918 -29.30859,28.456216 -29.30859,60.355469 0,21.8568295 9.17064,41.85878 19.63281,57.263669 -2.67512,3.28445 -5.27563,6.12872 -7.60938,8.39649 v 20.96093 c 3.69382,-2.56104 10.24375,-8.39641 17.28516,-16.66211 7.04136,8.26562 13.59137,14.10109 17.28516,16.66211 v -20.96093 c -2.33372,-2.26775 -4.93428,-5.11208 -7.60938,-8.39649 10.46217,-15.40489 19.63086,-35.4068395 19.63086,-57.263669 0,-31.899253 -24.53064,-57.377551 -29.30664,-60.355469 z m 0,22.728515 c 3.98333,4.526604 14.0293,22.083694 14.0293,38.511724 0,14.9670195 -6.34328,30.2113095 -14.0293,42.71874 -7.68602,-12.5074305 -14.0293,-27.7517205 -14.0293,-42.71874 0,-16.42803 10.04597,-33.98512 14.0293,-38.511724 z m -110.02148,2.921875 -2.09961,6.136719 c 11.25824,6.504866 18.00195,29.12548 18.00195,60.33594 l 15.06445,-0.002 c 0,-7.8382005 2.46512,-30.90039 12.33008,-30.90039 7.24294,0 9.70901,10.6389495 9.70899,18.7578195 V 51.910674 c -1.1e-4,48.123006 33.77302,53.560536 57.01562,53.560536 23.2426,0 57.01574,-5.43753 57.01563,-53.560536 V -1.6713155 c -2e-5,-8.11887 2.46409,-18.7578195 9.70703,-18.7578195 9.86496,0 12.33203,23.0621895 12.33203,30.90039 l 15.06445,0.002 c 0,-31.21046 6.74371,-53.831074 18.00195,-60.33594 l -2.0996,-6.136719 c -8.88841,3.885301 -22.45683,9.424227 -27.06055,27.460939 -1.45829,-2.552 -9.9236,-7.66992 -16.19336,-7.66992 -17.36631,0 -25.10938,19.50239 -25.10938,32.7519495 V 52.664655 c -1e-5,33.715739 -22.83136,37.61719 -41.6582,37.61719 -18.82684,0 -41.66015,-3.90145 -41.66016,-37.61719 V -3.4564755 c 0,-13.2495595 -7.74111,-32.7519495 -25.10742,-32.7519495 -6.26976,0 -14.73507,5.11792 -16.19336,7.66992 -4.60372,-18.036712 -18.17213,-23.575638 -27.06054,-27.460939 z"
+       id="path2524"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

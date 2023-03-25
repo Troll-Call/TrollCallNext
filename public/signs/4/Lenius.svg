@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Lenius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\05 Olive\Prospit\Lenius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4830">Lenius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="150.62372"
+     inkscape:cy="156.28642"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Lenius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(710,466.66074)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#336601;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15.15769768;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -596.89848,-413.22813 c -24.46673,0 -44.51563,19.87826 -44.51563,44.26172 0,24.38347 20.0489,44.26172 44.51563,44.26172 15.88916,0 29.9061,-8.38871 37.78711,-20.94531 10.95998,9.98541 22.31966,14.08853 52.98242,13.68164 4.46468,0 11.38086,4.87907 11.38086,9.34375 0,3.92957 -8.83789,5.19922 -8.83789,5.19922 h -90.0586 c -11.30958,0 -39.99804,3.85051 -39.99804,30.15625 0,20.98098 21.08469,31.31443 36.70898,31.31445 h 90.44336 c 7.78959,1e-5 12.75195,6.85835 12.75195,12.75391 0,4.59878 -6.27258,8.83788 -10.98437,8.83789 h -82.70703 v 14.26953 h 85.61132 c 12.66801,7e-5 23.26713,-10.6927 23.23243,-23.23438 -0.0362,-13.09519 -9.24737,-27.90636 -30.68164,-27.90625 l -84.63086,0.002 c -13.59306,7e-5 -25.05494,-7.198 -24.71094,-15.96289 0.37271,-9.49639 13.59591,-15.22656 23.09961,-15.22656 h 91.17383 c 17.50451,0 25.07418,-11.10641 24.8457,-20.92969 -0.39752,-17.09097 -17.36863,-23.51757 -27.66797,-23.51757 -10.65475,0 -27.54893,-0.18398 -39.47092,-7.7812 -4.12318,-2.62747 -5.75564,-13.62322 -5.75564,-14.31646 0,-24.38346 -20.04694,-44.26172 -44.51367,-44.26172 z m 0,15.1582 c 16.33091,0 29.35547,12.96828 29.35547,29.10352 0,16.13525 -13.02456,29.10352 -29.35547,29.10352 -16.33092,0 -29.35742,-12.96827 -29.35742,-29.10352 0,-16.13524 13.0265,-29.10352 29.35742,-29.10352 z"
+       id="path4823"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssccscssccsccccsccsssssssssssss" />
+  </g>
+</svg>

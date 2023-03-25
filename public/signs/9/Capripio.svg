@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Capripio.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Prospit\Capripio.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1989">Capripio</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="120.81942"
+     inkscape:cy="140.10152"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Capripio</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.2857141,-73.339264)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:15.65572262;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.51256283"
+       d="m 207.00837,139.25333 c -42.75087,5.43259 -53.49396,26.71809 -60.26172,50.21679 -16.41771,-16.36102 -35.37699,-30.48827 -58.271484,-30.48827 -27.074502,0 -50.59375,31.19627 -50.59375,63.26952 0,32.64682 24.780284,59.07617 55.736328,59.07617 21.156926,0 46.333496,-9.03727 62.023716,-54.64286 27.76531,38.96929 50.99598,46.3748 76.94113,46.81083 v 33.92969 h 18.39257 v -33.82617 l 19.71485,0.10937 v -18.42187 c 0,0 -9.2731,0.0429 -19.71485,0.082 v -33.12109 h -18.39257 v 33.17187 C 198.275,254.4354 186.07468,233.63537 161.5318,205.20837 c 5.88338,-23.11883 18.43423,-46.30152 45.51954,-47.1621 z M 91.166572,178.2045 c 15.444278,0 33.429298,15.07948 49.828128,32.54101 -9.49241,29.57288 -20.37813,52.06055 -49.933597,52.06055 -20.863469,0 -33.717517,-17.68486 -34.017578,-42.66602 -0.219026,-18.23475 12.31556,-41.93554 34.123047,-41.93554 z"
+       id="rect1983"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsssccccccccccccccsccss" />
+  </g>
+</svg>

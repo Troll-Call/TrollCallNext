@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Capririus.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Derse\Capririus.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title10235">Capririus</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="130.36616"
+     inkscape:cy="177.752"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Capririus</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(207.14285,-410.48212)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -138.19558,464.41283 c -4.15266,0.0605 -7.35952,0.38598 -8.87305,0.54687 v 14.33204 c 36.06106,-2.60956 41.38473,5.82354 41.38477,29.5332 v 110.42773 c 4e-5,28.62725 26.2123,37.14459 36.945309,37.3086 V 641.7351 c 0,0 -22.162049,-0.6509 -22.162109,-23.07227 V 508.07494 c -4e-5,-13.93605 14.151679,-26.23828 24.9707,-26.23828 13.84185,0 22.890629,15.23852 22.890629,26.3125 v 89.85351 c 0,27.00908 11.686801,42.30664 31.910151,42.30664 16.1582895,0 28.10531,-11.95686 28.10547,-37.41601 V 578.89135 H 32.782929 V 564.28978 H 16.97629 V 538.69994 H 1.9880095 l 0.03516,25.58984 H -15.14871 v 14.60157 H 2.0426995 l 0.03516,24.86523 c 0.02257,16.38587 -4.96109,21.79683 -13.4472695,21.77148 -14.4061,-0.043 -16.90234,-15.16353 -16.90234,-25.9082 v -86.32422 c 0,-25.09419 -13.48756,-45.97461 -38.224611,-45.97461 -11.162959,0 -20.958539,6.0768 -29.03907,15.1836 -9.238819,-16.0821 -30.202179,-18.27341 -42.660149,-18.0918 z"
+       id="path10230"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

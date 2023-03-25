@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Pirius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Derse\Pirius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1420">Pirius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="166.82217"
+     inkscape:cy="160.11235"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pirius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(32.857143,26.660734)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#99014e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.76916981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 117.14286,43.601957 c -74.906985,0 -109.494597,42.912794 -113.392582,67.804683 H 19.582309 C 29.732684,78.063481 72.852126,58.906645 117.14286,58.906645 c 44.29073,0 87.41018,19.156836 97.56055,52.499995 h 15.83203 C 226.63746,86.514751 192.04984,43.601957 117.14286,43.601957 Z M 75.023716,93.353911 c -16.635414,0 -30.308594,13.599549 -30.308594,30.216799 0,16.61725 13.67318,30.21875 30.308594,30.21875 16.63541,0 30.306644,-13.6015 30.306644,-30.21875 0,-16.61725 -13.671234,-30.216799 -30.306644,-30.216799 z m 83.335944,0 c -16.63542,0 -30.30664,13.599549 -30.30664,30.216799 0,16.61725 13.67122,30.21875 30.30664,30.21875 16.63541,0 30.30859,-13.6015 30.30859,-30.21875 0,-16.61725 -13.67318,-30.216799 -30.30859,-30.216799 z M 75.023716,108.12149 c 8.68465,0 15.53711,6.84503 15.53711,15.44922 0,8.60419 -6.85246,15.44922 -15.53711,15.44921 -8.684652,0 -15.539063,-6.84502 -15.539063,-15.4492 0,-8.60419 6.854411,-15.44922 15.539063,-15.44923 z m 83.335944,0 c 8.68465,0 15.53906,6.84503 15.53906,15.44922 0,8.60419 -6.85441,15.44922 -15.53906,15.44921 -8.68466,0 -15.53711,-6.84502 -15.53711,-15.4492 0,-8.60419 6.85245,-15.44922 15.53711,-15.44923 z M 3.750278,135.27188 c 3.897985,24.89189 38.485597,67.80469 113.392582,67.80469 74.90698,0 109.4946,-42.9128 113.39258,-67.80469 h -15.83203 c -10.15037,33.34316 -53.26982,52.5 -97.56055,52.5 -44.290734,0 -87.410176,-19.15684 -97.560551,-52.5 z"
+       id="path1397"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

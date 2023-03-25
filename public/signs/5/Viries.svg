@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Viries.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Derse\Viries.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3662">Viries</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="116.47531"
+     inkscape:cy="165.62078"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Viries</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(315.71429,226.66074)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -258.83928,-144.07145 c 9.58518,9.70053 34.46449,42.16909 33.92857,89.464284 -0.27492,24.26221 -10.53572,38.214286 -10.53572,38.214286 0,0 -9.64285,-13.981817 -9.64285,-38.21429 0,-65.7427 53.29745,-92.2532 91.07143,-107.14286 1.11475,11.34016 2.12298,23.73184 1.07142,35.53572 -2.72302,30.56629 -3.76369,47.26281 -18.99703,90.080695 -9.00868,25.321631 -19.27088,41.5559905 -31.89583,63.847875 61.44849,-40.955695 104.552177,-77.043121 131.785714,-145.53571 l -14.821427,-0.17886 c -15.794397,38.60955 -44.986577,73.5298 -76.607137,99.286003 26.82832,-66.003455 27.41714,-125.552233 20.71429,-162.321433 -75.70977,24.32197 -116.60715,66.10125 -116.60715,125.71429 0,37.774848 24.10714,63.5714257 24.10714,63.5714257 13.77695,-15.2464067 24.46429,-38.6354277 24.46429,-64.2857197 0,-46.084966 -24.6389,-90.475126 -48.03557,-106.428566 z"
+       id="path3660"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscscascccccscscc" />
+  </g>
+</svg>

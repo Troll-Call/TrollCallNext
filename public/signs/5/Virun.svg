@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virun.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Derse\Virun.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3099">Virun</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="130.09908"
+     inkscape:cy="119.53131"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virun</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(627.14288,169.51788)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -412.76788,-121.25911 c -11.29302,0 -14.21185,14.30528 -15.44531,18.39258 0,0 -4.39611,-2.14258 -7.14454,-2.14258 -16.07927,0 -27.76757,24.642577 -27.76757,24.642577 0,0 -0.66435,-24.822257 -13.21289,-24.822257 -17.24465,0 -28.125,24.197257 -28.125,24.197257 -0.48227,-6.271708 -4.71253,-18.937422 -8.83985,-20.982417 l -15.80469,1.33984 c 7.72213,6.448525 10.46647,19.109378 10.44727,26.249999 l -0.17773,66.337886 c 0,0 -5.84847,-7.67773 -19.19727,-7.67773 -7.74451,0 -16.875,3.50494 -16.875,15.53516 0,9.00274 8.44283,22.97504 11.69727,27.58984 l 38.66015,54.82031 19.10742,0.002 -32.21875,-45.59766 h 14.26368 l 0.008,-90.83203 c 0.002,-15.226593 16.37121,-35.80274 22.23242,-35.80274 2.71731,0 4.37,5.853008 4.375,8.570316 l 0.20898,118.064454 h 15.02735 l 1.28125,-93.24219 c 0.0449,-3.270496 9.25273,-32.142576 19.64258,-32.142576 3.04911,0 5.67584,4.093719 5.71484,7.142578 l 1.51172,118.242188 h 14.09766 l 0.10546,-123.242188 c 0.0193,-6.626122 1.74103,-17.947387 6.07032,-19.107417 4.93793,-1.32312 13.75,8.482415 13.75,8.482415 v -18.214835 c 0,0 -5.65458,-5.80274 -13.39258,-5.80274 z M -534.46319,0.168625 c 5.36215,0 15.05446,10.02489 15.51367,34.63672 l -13.3711,-18.92188 c -2.57236,-3.6405 -9.73186,-15.71484 -2.14257,-15.71484 z"
+       id="path3096"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Capriborn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Derse\Capriborn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title828">Capriborn</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="119.55078"
+     inkscape:cy="120.50784"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Capriborn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(544.28571,1278.0894)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.03766,-1224.5914 c -21.91958,0 -39.77539,17.3715 -39.77539,45.4571 0,53.8588 57.52489,81.286 81.1914,87.0058 v 60.541 h 14.67188 v -60.541 c 23.66651,-5.7199 81.1914,-33.147 81.1914,-87.0058 0,-28.0856 -17.85581,-45.4571 -39.77539,-45.4571 -25.40872,0 -45.26672,20.0025 -48.75195,25.7599 -3.48523,-5.7574 -23.34323,-25.7599 -48.75195,-25.7599 z m 0.18945,15.7208 c 19.98853,0 41.22656,16.63 41.22656,34.5351 v 66.7871 c -10.08186,-2.8725 -65.66015,-22.697 -65.66015,-73.3534 0,-12.6506 6.69944,-27.9688 24.43359,-27.9688 z m 97.125,0 c 17.73415,0 24.43359,15.3182 24.43359,27.9688 0,50.6564 -55.57829,70.4809 -65.66015,73.3534 v -66.7871 c 0,-17.9051 21.23803,-34.5351 41.22656,-34.5351 z"
+       id="path823"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccccsscssscsssscss" />
+  </g>
+</svg>

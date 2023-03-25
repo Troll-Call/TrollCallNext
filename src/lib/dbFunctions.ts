@@ -1,6 +1,6 @@
 import { getDocs, getDoc, where, query, doc, updateDoc, serverTimestamp, collection, WhereFilterOp } from 'firebase/firestore';
 import { database } from "@/lib/firebase";
-import validtypes from '../pages/api/[type]/validtypes';
+import validtypes from '@/lib/validtypes';
 
 export enum requestType {
   POST = "POST",

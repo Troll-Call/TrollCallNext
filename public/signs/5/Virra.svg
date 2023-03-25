@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virra.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virra.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title15724">Virra</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="78.768325"
+     inkscape:cy="151.63847"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virra</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(214.28572,192.37502)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -72.600225,-145.49416 -10.98633,10.98438 0.002,0.002 -43.720695,43.718755 10.98438,10.986324 36.056635,-36.056649 v 44.837855 c -33.626755,1.24356 -57.193945,11.49138 -90.542975,44.60742 29.63189,30.6346897 58.98074,44.10204 90.542975,44.60937 v 42.54883 h 15.53711 v -43.76758 c 23.36892,-3.98433 45.25395,-17.18715026 63.3984302,-32.84961 10.39253,10.2135597 19.4119898,21.1359297 26.4218798,31.1543 h 17.14258 C 36.022075,3.8451347 24.716405,-11.679525 9.9994352,-26.414075 24.715925,-41.148345 36.022215,-56.671585 42.235765,-68.107435 h -17.14258 c -7.00989,10.01837 -16.0293498,20.94074 -26.4218798,31.1543 -18.1444802,-15.66246 -40.0295102,-28.86528 -63.3984302,-32.84961 v -45.847665 l 35.84765,35.847662 10.98438,-10.986327 -43.72071,-43.718755 z m -7.66406,89.759775 V 2.9081847 c -31.546045,-0.24973 -56.331485,-17.6709297 -68.154305,-29.3222597 11.82319,-11.65133 36.60909,-29.07059 68.154305,-29.32031 z m 15.53711,1.60742 c 18.40175,3.91731 36.22883,14.57988 51.83984,27.71289 -15.61124,13.13338 -33.43771,23.7974497 -51.83984,27.7148397 z"
+       id="path15713"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

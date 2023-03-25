@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg22921"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Canrist.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\04 Lime\Prospit\Canrist.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title23491">Canrist</title>
+  <defs
+     id="defs22915" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="79.380583"
+     inkscape:cy="156.7703"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata22918">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Canrist</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.127975,-16.919643)">
+    <path
+       style="fill:#678900;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 69.831101,36.170149 C 68.631601,46.918222 63.179875,50.725865 59.485996,53.4678 v 4.772319 c 5.321972,-1.937364 10.327063,-8.000955 12.32948,-12.236979 2.002416,4.236024 7.007508,10.299615 12.32948,12.236979 V 53.4678 C 80.451076,50.725865 74.99935,46.918222 73.799851,36.170149 Z M 44.175819,54.611401 v 0.03772 h 0.0088 c -0.0028,-0.0127 -0.006,-0.02501 -0.0088,-0.03772 z m 0.0088,0.03772 c 3.788988,17.013243 18.138574,22.395016 27.630872,22.395016 9.492297,0 23.841881,-5.381773 27.630871,-22.395016 l -4.338236,-0.03772 c -3.153568,10.855166 -12.341187,18.086234 -23.29265,18.086234 -10.951464,0 -20.139084,-7.231068 -23.292635,-18.086234 z m 55.261743,0 h 0.0088 v -0.03772 c -0.0028,0.01271 -0.006,0.02503 -0.0088,0.03772 z"
+       id="path23481"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

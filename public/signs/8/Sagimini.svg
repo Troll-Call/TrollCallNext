@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagimini.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagimini.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title11143">Sagimini</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="57.880566"
+     inkscape:cy="173.23774"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagimini</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(252.85715,-419.05356)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -162.15109,472.19223 -36.5,36.49805 10.73632,10.73633 18.37696,-18.37695 v 100.58007 c 6e-5,31.11051 16.78644,64.28516 66.67968,64.28516 49.893245,0 66.681585,-33.17465 66.681645,-64.28516 V 501.04966 l 18.37695,18.37695 10.73633,-10.73633 -36.5,-36.49805 -36.49805,36.49805 10.73633,10.73633 18,-18.00195 v 99.70703 c -7e-5,29.63542 -18.4181,48.70508 -43.84961,48.70508 v -90.60743 l 18.02735,18.02735 10.73632,-10.73633 -36.394525,-36.49805 -0.0527,0.0527 -0.0508,-0.0527 -36.39453,36.49805 10.73632,10.73633 18.02735,-18.02735 v 90.60743 c -25.43151,0 -43.84955,-19.06966 -43.84962,-48.70508 v -99.70703 l 18,18.00195 10.73633,-10.73633 z"
+       id="path11126"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccsccccccccccccccccccccccccc" />
+  </g>
+</svg>

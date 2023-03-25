@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Pira.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Prospit\Pira.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3736">Pira</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="107.96229"
+     inkscape:cy="163.4699"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pira</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(375.71429,100.94645)">
+    <path
+       style="fill:#99014e;fill-opacity:1;stroke:none;stroke-width:15.62883186;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.51256283"
+       d="m -335.49066,-42.635905 c 20.05052,17.116593 27.14258,39.2567101 27.14258,58.39258 0,18.522907 -6.70302,34.98782 -13.72656,50.21289 h 16.58398 54.61133 v -14.43945 c -5.52749,-8.339494 -8.44531,-16.419796 -8.44531,-26.1543 0,-15.51923 12.57389,-25.38356 26.04101,-28.070314 V 140.743 h 14.96094 V -2.676921 c 13.43316,2.712626 25.95117,12.568016 25.95117,28.052736 0,9.711248 -2.26378,17.317629 -8.44531,26.1543 v 14.43945 h 54.87891 16.58398 c -7.4946,-15.467316 -13.58708,-33.822583 -13.72656,-50.21289 -0.16519,-19.4108252 7.09206,-41.275987 27.14258,-58.39258 h -21.25 c -6.92936,7.770841 -21.33985,28.870687 -21.33985,58.21875 0,11.29253 2.95161,24.85513 6.15821,35.1582 h -30.14454 c 1.7679,-4.53986 5.59375,-13.99945 5.59375,-25.96679 0,-22.73271 -19.35752,-40.0365 -41.40234,-43.308598 v -23.980468 h -14.96094 v 23.966797 c -22.0821,3.238278 -41.49218,20.558629 -41.49218,43.322269 0,11.96734 3.82585,21.42693 5.59375,25.96679 h -29.87696 c 3.2066,-10.30307 6.15821,-23.86567 6.15821,-35.1582 0,-29.348063 -14.41049,-50.447909 -21.33985,-58.21875 z"
+       id="rect3703"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccsccccsccccsccsccsccccsccscc" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Prospit\Sagius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6018">Sagius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="138.36838"
+     inkscape:cy="180.9681"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(830,-413.33926)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -670.22265,455.57559 -56,37.3125 8.99023,13.10937 39.28516,-27.03711 v 32.9043 c -19.93556,3.40316 -37.0293,19.5681 -37.0293,42.00391 0,17.41904 5.83069,22.83216 9.97071,35.58789 -4.43473,-2.08853 -9.3779,-3.26367 -14.57813,-3.26367 -18.80164,0 -34.28321,15.28698 -34.28321,34.02929 0,18.7423 15.48157,34.0293 34.28321,34.0293 18.73798,0 34.173,-15.18447 34.27735,-33.83984 h 0.0664 c 0,-44.35001 -14.20508,-44.07142 -14.20508,-66.79688 0,-12.84179 8.58805,-22.63497 21.49805,-25.44336 v 142.93164 h 15.44727 V 528.18106 c 13.59211,3.16238 18.61328,14.9441 18.61328,26.57031 0,25.00955 -13.88867,26.50784 -13.88867,53.28516 0,30.10189 24.52581,43.68945 41.03711,43.68945 4.32667,0 9.49825,-1.73065 10.60546,-2.71485 v -17.10937 c -2.60784,1.92174 -7.59455,4.29297 -11.17382,4.29297 -8.91542,0 -25.44336,-7.66499 -25.44336,-28.66211 0,-17.40011 14.52148,-27.67901 14.52148,-51.39258 0,-24.14286 -14.80119,-40.81745 -34.27148,-44.27344 v -32.90625 l 39.28711,27.03711 8.99023,-13.10937 z m -49.36133,146.11914 c 9.64171,0 18.72198,6.71463 18.72198,18.52778 0,12.92605 -11.5488,18.52495 -18.72198,18.52495 -10.50307,0 -18.7793,-8.24192 -18.7793,-18.52539 0,-10.28347 8.27623,-18.52734 18.7793,-18.52734 z"
+       id="path6001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccscsssccsccccsssccssscccccsssss" />
+  </g>
+</svg>

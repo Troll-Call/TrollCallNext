@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagiries.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagiries.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1398">Sagiries</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="157.24438"
+     inkscape:cy="139.07184"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagiries</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(147.14285,223.80359)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:15.29267502;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.50251255"
+       d="m -4.4660998,-180.50085 v 98.621086 H -85.909456 v 15.15235 h 81.4433562 v 52.3457 L -45.593049,-4.6082739 V 11.174926 L -4.4660998,1.7550061 V 32.893676 H 10.68625 V -1.7156939 l 19.41992,-4.44922 C 49.03053,-10.499644 63.03918,-34.291794 63.08859,-54.106324 l 0.03125,-12.62109 h 28.50391 v -15.15235 h -28.4668 l 0.18359,-73.494136 c -26.33489,4.31215 -42.64431,14.25985 -52.65429,26.23633 v -51.36328 z m 52.5273498,44.06641 -0.08399,54.554676 H 10.68625 v -6.45898 c 0.44987,-11.819896 4.76448,-34.153486 37.375,-48.095696 z m -37.375,69.707026 h 37.26758 l -0.01758,11.86328 c -0.02099,13.556 -9.66669,30.32699 -22.85547,33.46094 l -14.39453,3.41992 z"
+       id="rect1390"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

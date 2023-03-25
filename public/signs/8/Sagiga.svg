@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagiga.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagiga.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title9400">Sagiga</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="162.07251"
+     inkscape:cy="160.92094"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagiga</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(612.85712,-233.33926)">
+    <path
+       style="fill:#0121cc;fill-opacity:1;stroke:none;stroke-width:17.50230026;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.50251255"
+       d="m -412.81611,281.81973 c -21.41785,0 -28.38281,12.89844 -28.38281,12.89844 0,0 -6.09973,-12.5 -27.51758,-12.5 -17.60522,0 -37.32226,12.55637 -37.32226,41.16015 0,23.77121 18.46759,37.5 39.10742,37.5 v -10.08789 c 0,0 -26.42774,-1.83394 -26.42774,-23.83984 0,-14.14274 7.75365,-26.42773 22.85743,-26.42773 14.36262,0 22.30337,9.03062 22.80664,23.77734 v 70.52734 h -80.77139 l 31.78896,-31.5 -10.72851,-10.90625 -50.54101,49.87696 50.08788,49.96484 10.72071,-10.81445 -31.87695,-31.3418 h 81.32031 v 74.75195 h 14.39453 v -74.75195 h 65.5332 v -15.2793 h -65.5332 v -71.15429 c 0.53955,-14.61909 7.98037,-23.64063 22.26953,-23.64063 15.10378,0 23.125,11.74984 23.125,25.89258 0,24.23804 -26.16016,24.46484 -26.16016,24.46484 v 10.08985 c 20.63983,0 39.10742,-10.96093 39.10742,-37.5 0,-28.60378 -20.2522,-41.16016 -37.85742,-41.16016 z"
+       id="rect9383"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scssccsscccccccccccccccccssccss" />
+  </g>
+</svg>

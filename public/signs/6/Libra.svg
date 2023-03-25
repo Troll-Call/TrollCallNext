@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Libra.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\07 Teal\Prospit\Libra.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7648">Libra</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="150.60306"
+     inkscape:cy="158.37588"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Libra</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(490,98.089302)">
+    <path
+       style="fill:#008282;fill-opacity:1;stroke:none;stroke-width:15.74988937;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49748745"
+       d="m -338.75097,-38.144967 c -34.70761,0 -62.96875,28.547145 -62.96875,63.416018 0,13.8175 4.44232,26.63913 11.96094,37.08789 h -55.41993 v 20.53515 h 81.96289 v -20.66015 c -11.7806,-7.93562 -19.51953,-21.46502 -19.51953,-36.96289 0,-24.693056 19.62319,-44.431643 43.98438,-44.431643 24.36118,0 43.98437,19.738585 43.98437,44.431643 0,15.49787 -7.73894,29.02727 -19.51953,36.96289 v 20.66015 h 79.46485 v -20.53515 h -52.94336 c 7.52748,-10.4482 11.98437,-23.26477 11.98437,-37.08789 0,-34.868873 -28.26309,-63.416018 -62.9707,-63.416018 z M -445.17871,121.4312 v 20.53516 h 210.35742 V 121.4312 Z"
+       id="rect7630"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virza.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Derse\Virza.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title7069">Virza</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="185.88149"
+     inkscape:cy="132.50298"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virza</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(447.14285,115.23216)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:16.5772419;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49748745"
+       d="m -389.20144,-62.891339 0.34571,82.816408 c 0.0817,19.65774 10.74177,43.86385 36.91797,64.39453 v 48.107421 h 14.22461 V -37.363995 h -14.22461 v 12.056641 c -13.30165,-16.860507 -28.98855,-30.404134 -37.26368,-37.583985 z m 184.11719,0.177735 c -8.2558,7.163082 -23.88827,20.661163 -37.16992,37.466797 v -12.117188 h -14.22462 V 132.42702 h 14.22462 V 84.421159 c 26.10637,-20.51456 36.7426,-44.68267 36.82422,-64.3164 z m -62.14453,0.179687 c -8.25168,7.15951 -23.87107,20.647456 -37.14844,37.441407 v -12.271485 h -14.22461 V 132.42702 h 14.22461 V 84.585219 c 26.09203,-20.51124 36.72309,-44.67393 36.80469,-64.30273 z m -107.32227,33.97461 c 7.3472,7.442486 14.35591,15.762343 22.61329,28.941406 v 64.18945 c -6.24506,-4.39788 -22.67211,-26.74091 -22.65625,-44.52929 z m 154.81641,0.177734 0.043,48.603512 c 0.0158,17.69713 -16.24618,39.90683 -22.5625,44.46485 V 0.411399 c 8.21615,-13.091189 15.20047,-21.378987 22.51953,-28.792972 z m -62.14258,0.179688 0.043,48.601564 c 0.0158,17.678 -16.21202,39.85999 -22.54297,44.45117 V 0.557879 c 8.20699,-13.071656 15.18722,-21.352132 22.5,-28.759764 z"
+       id="rect7054"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

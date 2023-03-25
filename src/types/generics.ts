@@ -7,23 +7,23 @@ import { User } from "./user";
 export type Color = [number, number, number];
 export const rgb = (r:number, g:number, b:number):Color => ([r,g,b]);
 
-export interface HeightMeasure {
-  value: number;
-  unit: "inches" | "meters";
-}
-export interface TimeMeasure {
-  value: number;
-  unit: "sweeps" | "years";
-}
-export interface Name {
-  first: string;
-  last: string;
-}
 export interface Preference {
   thing: string;
-  opinion: "loves" | "likes" | "neutral" | "dislikes" | "hates";
+  opinion: boolean;
 };
+
+export function isPreference(preference:Preference) {
+  return preference ? [
+    (typeof preference.thing) === "string",
+    (typeof preference.opinion) === "boolean"
+  ].every(x=>x) : false;
+}
+
 export type Policy = "yes" | "ask" | "no";
+
+export function isPolicy(policy:Policy) {
+  return policy == "yes" || policy == "ask" || policy == "no";
+}
 
 export interface Log {
   character: number;
@@ -35,12 +35,23 @@ export interface Log {
   quirk?: string;
 }
 
+export function isLog(log:Log) {
+  return log ? [
+    (typeof log.character) === "number",
+    (typeof log.text) === "string"
+  ].every(x=>x) : false;
+}
+
 export interface CharacterStatus {
   character: (DocumentReference|any) // Reference
   time?: string;
 }
 
+export function isCharacterStatus(characterStatus:CharacterStatus) {
+  return characterStatus ? (characterStatus.character !== undefined) : false;
+}
+
 export interface GenericHolder {
   id: string,
-  data: Troll | Pesterlog | User | Flair
+  data: Troll & Pesterlog & User & Flair
 }

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg16571"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemnius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Prospit\Gemnius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title17141">Gemnius</title>
+  <defs
+     id="defs16565" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="132.82231"
+     inkscape:cy="146.61485"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata16568">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gemnius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(35.151787,-112.9256)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a1a101;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98441505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -21.658037,126.24649 v 4.78782 l 21.35993692,13.8622 c -3.37066462,0.98954 -6.32335372,2.96862 -8.51317552,5.60328 l -12.8467614,-8.35091 v 4.78783 l 10.658781,6.91739 c -1.165352,2.33111 -1.825212,4.9555 -1.825212,7.7308 0,9.58515 7.8268811,17.3948 17.4258109,17.3948 9.5989291,0 17.4278761,-7.80965 17.4278761,-17.3948 0,-2.80125 -0.672206,-5.4486 -1.858285,-7.79591 l 10.558528,-6.85229 v -4.78782 l -12.762013,8.29561 c -2.20518,-2.63029 -5.172839,-4.60038 -8.5576136,-5.57381 L 30.729462,131.03431 v -4.78782 L 4.535713,143.27336 Z m 26.2593799,21.92838 c 3.9881413,0 7.5576121,1.71567 10.0148911,4.4483 l -10.080521,6.55257 -9.9952544,-6.49727 c 2.4581537,-2.76425 6.0463482,-4.5036 10.0608843,-4.5036 z m 12.2147561,7.79177 c 0.787202,1.70782 1.228865,3.6093 1.228865,5.61826 0,7.42714 -5.993369,13.41003 -13.4436211,13.41003 -7.4502538,0 -13.4410406,-5.98289 -13.4410406,-13.41003 0,-1.98295 0.4304993,-3.86091 1.1983757,-5.5516 l 12.177035,7.90288 z"
+       id="path17127"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

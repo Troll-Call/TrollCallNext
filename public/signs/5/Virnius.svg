@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virnius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virnius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title13432">Virnius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="176.53772"
+     inkscape:cy="188.28999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virnius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(467.14285,-416.19641)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:18.36328506;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.4723619"
+       d="M -368.2698,471.24231 V 573.1427 c -4e-5,35.83795 -23.65803,53.14751 -49.39453,55.05273 3.0022,7.72665 13.39382,32.96508 58.20312,32.95508 44.80931,-0.01 53.6113,-26.59611 56.47265,-32.95508 -31.28854,-2.50979 -49.49804,-25.31747 -49.49804,-55.05273 v -92.30273 z m 93.44531,0 c -44.8093,0.01 -53.61129,26.59611 -56.47265,32.95508 31.28854,2.50979 49.49804,25.31747 49.49804,55.05273 v 92.30274 l 15.78321,9.59765 V 559.25012 c 4e-5,-35.83795 23.65803,-53.14751 49.39453,-55.05273 -3.0022,-7.72665 -13.39383,-32.96508 -58.20313,-32.95508 z m 1.46289,14.49414 c 21.39784,0.0994 32.67969,9.28516 32.67969,9.28516 -9.90182,3.31862 -21.33512,10.18034 -33.75,30.35742 -9.56923,-19.5085 -21.32961,-24.15459 -32.52148,-30.35742 0,0 12.19394,-9.38458 33.59179,-9.28516 z m -44.00976,65.80664 c -8.64697,0 -15.6582,6.55741 -15.6582,14.64648 0,8.08908 7.01123,14.64649 15.6582,14.64649 9.78338,0 15.65625,-6.55741 15.65625,-14.64649 0,-8.08907 -5.87287,-14.64648 -15.65625,-14.64648 z m -42.48243,55.4707 c 9.56924,19.5085 21.32961,24.1546 32.52148,30.35743 0,0 -12.19395,9.38457 -33.59179,9.28515 -21.39784,-0.0994 -32.67969,-9.28515 -32.67969,-9.28515 9.90182,-3.31862 21.33512,-10.18035 33.75,-30.35743 z"
+       id="path13421"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

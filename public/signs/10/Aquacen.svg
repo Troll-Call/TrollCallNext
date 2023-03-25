@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquacen.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Derse\Aquacen.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4887">Aquacen</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="108.42425"
+     inkscape:cy="128.46754"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquacen</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1024.2858,-190.48212)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:14.83300018;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57788942"
+       d="m -916.15592,242.35712 c -4.93874,11.41794 -13.57402,33.37769 -35.5332,35.07032 v 16.79296 h 113.48047 c -13.57166,10.03514 -32.45704,35.95599 -32.45704,72.59961 0,37.28601 19.02334,62.502 31.20704,71.78711 h 40.40039 c -25.59676,-2.05356 -54.6875,-29.79821 -54.6875,-71.78711 0,-41.9889 28.76652,-69.38532 56.86328,-72.59961 v -16.79296 h -120.02735 c 6.50136,-6.9497 12.18876,-16.58524 16.73633,-29.98243 z m 29.875,58.02539 -54.54883,32.63672 v 20.60157 l 54.54883,-32.63868 z m 0,36.49219 -54.54883,32.63672 v 20.60156 l 54.54883,-32.64062 z m 0,37.24805 -54.54883,32.63672 v 20.60156 l 54.54883,-32.63867 z"
+       id="rect4861"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

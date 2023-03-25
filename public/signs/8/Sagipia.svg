@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagipia.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagipia.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title8247">Sagipia</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="144.3656"
+     inkscape:cy="141.66049"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagipia</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(152.85715,-187.62498)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#0121cc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16.79236412;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 6.269806,243.4531 -2.27344,16.91992 46.06054,9.47851 -18.20312,18.87891 c -9.89937,-7.6208 -22.17449,-12.15625 -35.49023,-12.15625 -32.90196,0 -59.470707,27.66887 -59.470708,61.23828 0,13.79775 4.494528,26.5926 12.066408,36.88477 l -17.001954,17.63281 a 19.683105,20.308105 0 0 0 -6.458985,-1.15039 19.683105,20.308105 0 0 0 -19.683593,20.30859 19.683105,20.308105 0 0 0 19.683593,20.3086 19.683105,20.308105 0 0 0 19.681639,-20.3086 19.683105,20.308105 0 0 0 -1.05664,-6.49023 l 17.16211,-17.79883 c 9.8281,7.43213 21.94496,11.84961 35.07813,11.84961 32.90196,0 59.46875,-27.66692 59.46875,-61.23633 0,-13.61284 -4.36959,-26.25393 -11.75782,-36.47461 l 18.5,-19.18555 10.11328,48.17383 15.78321,-2.27343 -15.27735,-69.44922 z m -9.90625,49.91406 c 8.79824,0 16.98659,2.7516 23.79101,7.49414 l -59.37305,61.57617 c -4.47853,-7.02146 -7.0957,-15.47024 -7.0957,-24.625 0,-24.79775 19.16516,-44.44531 42.67774,-44.44531 z m 35.85546,20.26562 c 4.30815,6.93294 6.82227,15.21636 6.82227,24.17969 0,24.79775 -19.16516,44.44531 -42.67773,44.44531 -8.6157,0 -16.64214,-2.64609 -23.36133,-7.20898 z"
+       id="path8234"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg7891"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemun.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Derse\Gemun.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <defs
+     id="defs7885" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="146.68384"
+     inkscape:cy="151.67518"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true" />
+  <metadata
+     id="metadata7888">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(68.413689,-243.70535)">
+    <path
+       style="fill:#a1a101;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -52.511558,264.34285 c 3.335746,7.00725 5.42156,12.48407 5.416723,19.10271 -0.0048,6.5847 -1.587175,12.84212 -5.416723,18.99729 h 6.561873 c 1.96978,-2.86585 3.273487,-7.76832 3.855062,-12.66642 h 26.73687 c 0.581575,4.8981 1.88528,9.80057 3.855061,12.66642 h 6.5618723 c -3.8295473,-6.15517 -5.4114063,-12.41259 -5.4162053,-18.99729 -0.0048,-6.61864 2.0804604,-12.09546 5.4162053,-19.10271 h -5.9004143 c -2.048428,4.42179 -3.401465,8.24493 -4.149616,12.11037 h -27.470676 c -0.748154,-3.86544 -2.10119,-7.68858 -4.149617,-12.11037 z m 10.5854,15.88998 h 26.399939 c -0.09699,1.04994 -0.157326,2.11575 -0.174667,3.21273 -0.01303,0.82393 1.96e-4,1.67879 0.03721,2.55126 h -26.124503 c 0.03701,-0.87247 0.04971,-1.72733 0.03669,-2.55126 -0.01734,-1.09698 -0.07767,-2.16279 -0.174667,-3.21273 z"
+       id="path8447"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Scories.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\08 Blue\Derse\Scories.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4796">Scories</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="137.96229"
+     inkscape:cy="182.4763"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Scories</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(741.42859,-321.91071)">
+    <path
+       style="fill:#004183;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -622.01453,367.39703 c -27.15263,0 -40.09203,31.55559 -40.15039,53.05079 l -0.26367,97.44532 h 17.83789 l -0.17969,-95.51172 c -0.0287,-15.37112 8.65071,-37.69946 22.84571,-37.76563 12.95856,-0.0604 21.49609,18.96618 21.49609,36.53516 v 110.15624 h -17.48633 l 26.48633,45.1172 26.48633,-45.1172 h -17.48633 V 421.15094 c 0,-17.56898 8.53753,-36.59556 21.49609,-36.53516 14.195,0.0662 22.87441,22.39451 22.84571,37.76563 l -0.17969,95.51172 h 17.83789 l -0.26367,-97.44531 c -0.0584,-21.4952 -12.99776,-53.05079 -40.15039,-53.05079 -17.2489,0 -25.58238,11.3128 -30.58594,18.95508 -5.00356,-7.64228 -13.33704,-18.95508 -30.58594,-18.95508 z"
+       id="path4791"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

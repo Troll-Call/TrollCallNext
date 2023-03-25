@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Libittanius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\07 Teal\Prospit\Libittanius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title14518">Libittanius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="128.96602"
+     inkscape:cy="149.99999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Libittanius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(310,349.51788)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008282;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15.12926197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -159.50391,-291.41534 c -41.87287,0 -77.26074,28.36508 -88.12695,66.93164 h -30.09179 v 15.22266 h 27.16797 15.24609 c 4.75183,-37.87283 36.80458,-67.02539 75.80468,-67.02539 39.0001,0 71.052864,29.15256 75.804694,67.02539 h 15.24609 26.17578 v -15.22266 h -29.09961 c -10.8662,-38.56656 -46.254074,-66.93163 -88.126954,-66.93164 z m 0,36.75782 c -30.2762,0 -54.95312,24.79314 -54.95312,55.14062 0,30.34749 24.67692,55.13867 54.95312,55.13867 30.27621,0 54.95313,-24.79118 54.95313,-55.13867 0,-30.34748 -24.67692,-55.14062 -54.95313,-55.14062 z m 0,15.1289 c 22.06739,0 39.82422,17.80847 39.82422,40.01172 0,22.20326 -17.75683,40.00977 -39.82422,40.00977 -22.06738,0 -39.82422,-17.80651 -39.82422,-40.00977 0,-22.20325 17.75684,-40.01172 39.82422,-40.01172 z m -118.21874,48.12891 v 15.2207 h 29.65039 c 10.31763,39.39336 46.10837,68.55859 88.56835,68.55859 42.45999,0 78.250734,-29.16523 88.568364,-68.55859 h 28.6582 v -15.2207 h -26.02343 -15.19336 c -4.02143,38.66468 -36.450884,68.65039 -76.009774,68.65039 -39.55889,0 -71.98833,-29.98571 -76.00976,-68.65039 h -15.19336 z"
+       id="path14491"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

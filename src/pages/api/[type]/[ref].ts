@@ -1,6 +1,6 @@
-import { requestType, findOne, findUpdate } from '../../../lib/dbFunctions';
+import { requestType, findOne, findUpdate } from '@/lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import validtypes from './validtypes';
+import validtypes from '@/lib/validtypes';
 import { setDoc, doc } from 'firebase/firestore';
 import { database } from "@/lib/firebase";
 
@@ -25,7 +25,7 @@ async function handler(
     }
     case requestType.POST: {
       if (req.query.verify != process.env.AUTH_KEY) {
-        res.status(401).send({ error: "Password incorrect" });
+        res.status(401).send("Password incorrect");
         return;
       }
       const user = doc(database, rqt, rqr).withConverter(validtypes[rqt]);
@@ -34,13 +34,13 @@ async function handler(
           res.redirect(301, "/api/" + rqt + "/" + user.id);
         })
         .catch(function (err:Error) {
-          res.status(500).send({ error: err.message });
+          res.status(500).send(err.message);
         });
       break;
     }
     case requestType.PATCH: {
       if (req.query.verify != process.env.AUTH_KEY) {
-        res.status(401).send({ error: "Password incorrect" });
+        res.status(401).send("Password incorrect");
         return;
       }
       res.status(200).json(await findUpdate(rqt, rqr, req.body));

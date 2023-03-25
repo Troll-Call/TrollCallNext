@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg29259"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Camini.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\04 Lime\Derse\Camini.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title29825">Camini</title>
+  <defs
+     id="defs29253" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="174.03912"
+     inkscape:cy="109.72279"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata29256">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Camini</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(139.47322,-164.33035)">
+    <path
+       style="fill:#678900;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -101.92823,175.53535 c 0.12415,7.90051 -5.65206,12.83061 -9.33638,20.90518 -2.19237,-2.35241 -4.46466,-5.15739 -6.86056,-6.88226 h -7.78402 c 2.29284,5.62652 -0.86868,12.10103 -0.86868,20.42976 0,5.49766 3.13006,11.68543 8.2796,15.64762 6.2149,4.78192 14.90566,4.2419 16.46618,6.39392 0.0725,0.15589 0.14672,0.31057 0.21497,0.47078 h 4.062799 c 0.06825,-0.16021 0.142476,-0.31489 0.214974,-0.47078 1.56052,-2.15201 10.251279,-1.612 16.46618,-6.39392 5.14954,-3.96219 8.279598,-10.14996 8.279598,-15.64762 0,-8.32873 -3.161522,-14.80324 -0.86868,-20.42976 h -7.784023 c -2.3959,1.72487 -4.668192,4.52985 -6.860561,6.88226 -3.684321,-8.07457 -9.460532,-13.00467 -9.336381,-20.90518 z m 2.14251,9.60458 c 1.802151,5.48071 10.096068,11.4933 10.063469,25.53798 -0.01894,8.16951 -7.690239,11.93796 -10.063469,15.82746 -2.37323,-3.88949 -10.04453,-7.65795 -10.06347,-15.82746 -0.0326,-14.04468 8.26132,-20.05727 10.06347,-25.53798 z m -21.07882,7.70961 c 2.8104,2.4476 4.88187,4.72562 7.75354,8.67906 -0.68789,2.54452 -1.11685,5.39672 -1.13224,8.67647 -0.0368,7.84186 3.95551,11.54536 7.64501,15.5267 -3.0776,-0.49911 -6.44332,-1.55178 -9.23251,-3.52795 -3.8045,-2.69554 -6.60424,-7.32604 -6.60424,-12.51603 0,-3.97118 1.89798,-12.69027 1.57044,-16.83825 z m 42.157637,0 c -0.327541,4.14798 1.570447,12.86707 1.570447,16.83825 0,5.18999 -2.799749,9.82049 -6.604249,12.51603 -2.789179,1.97617 -6.154901,3.02884 -9.23251,3.52795 3.689498,-3.98134 7.681809,-7.68484 7.645011,-15.5267 -0.01537,-3.27975 -0.444352,-6.13196 -1.132232,-8.67647 2.871671,-3.95345 4.943131,-6.23146 7.753533,-8.67906 z"
+       id="path29815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsscccccsccccccccccccccssccsccccc" />
+  </g>
+</svg>

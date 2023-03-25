@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arrius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Derse\Arrius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4591">Arrius</title>
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 39.6875 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="79.375 : 39.6875 : 1"
+       inkscape:persp3d-origin="39.6875 : 26.458333 : 1"
+       id="perspective2114" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="137.03972"
+     inkscape:cy="116.72727"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1257"
+     inkscape:window-height="1008"
+     inkscape:window-x="654"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arrius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.060745,-70.262047)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a20000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.0270834;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 41.150488,85.071028 c -8.750992,0.03126 -13.127375,5.668879 -12.781649,16.730762 l 4.737695,-0.015 c -0.242866,-7.732125 2.197264,-11.631855 7.878072,-11.862321 3.290447,-0.133491 7.816473,2.230939 7.518922,7.171142 -0.210182,3.489579 -1.302967,4.087259 -5.575887,6.965459 -3.101637,2.08923 -7.01166,5.8883 -7.0497,10.64948 -0.03942,4.93417 1.816854,7.80289 5.385201,9.79113 4.794171,2.67129 10.725306,0.39146 12.268502,1.90842 0.532952,0.52389 0.703701,1.15192 0.752408,3.56102 l -0.04289,4.85707 2.506824,-0.0129 2.50734,0.0129 -0.04289,-4.85707 c 0.04871,-2.4091 0.219459,-3.03713 0.752409,-3.56102 1.543198,-1.51696 7.474331,0.76287 12.268504,-1.90842 3.568345,-1.98824 5.42462,-4.85696 5.385199,-9.79113 -0.03804,-4.76118 -3.94858,-8.56025 -7.050214,-10.64948 -4.272923,-2.8782 -5.365189,-3.47588 -5.575371,-6.965459 -0.297554,-4.940203 4.228472,-7.304633 7.518921,-7.171142 5.680808,0.230466 8.120938,4.130196 7.878072,11.862321 l 4.737695,0.015 C 85.473374,90.739907 81.096991,85.10229 72.346,85.071028 c -8.573188,-0.03063 -12.474874,5.671734 -12.226644,12.364103 0.124542,3.357739 1.763503,7.265389 5.969145,9.928589 5.62728,3.56346 6.469229,4.78606 6.606831,7.45484 0.323591,6.27606 -5.175041,6.11462 -9.720855,6.00274 -1.349862,-0.0332 -5.268113,0.11442 -6.076114,1.73219 l -0.150378,0.28474 -0.149863,-0.28474 c -0.808,-1.61777 -4.726249,-1.76539 -6.076114,-1.73219 -4.545811,0.11188 -10.044445,0.27332 -9.720853,-6.00274 0.137602,-2.66878 0.97955,-3.89138 6.606832,-7.45484 4.205642,-2.6632 5.844601,-6.57085 5.969145,-9.928589 0.24823,-6.692369 -3.653459,-12.394733 -12.226644,-12.364103 z"
+       id="path4673"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

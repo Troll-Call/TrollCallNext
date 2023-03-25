@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Viro.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Derse\Viro.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1397">Viro</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="155.49015"
+     inkscape:cy="144.35809"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Viro</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(232.85715,-190.48212)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -167.768,247.44683 -1.5e-4,123.39243 c -6e-5,49.11665 54.43181,59.46428 70.535861,60.53571 l -1e-5,-22.5 c 12.570514,9.62969 25.473292,19.41015 55.536153,22.14286 l -4.33e-4,-94.82143 c 9.55193,2.98861 20.911928,3.60004 27.142854,-0.53571 v 97.85714 H 2.0538542 l -4.357e-4,-186.071 H -14.732292 l 1.46e-4,58.92814 c 3.3e-5,13.26011 -5.082667,14.82143 -13.571579,14.82143 -8.488911,0 -13.214448,-3.51506 -13.214421,-14.46428 l 1.43e-4,-59.28529 h -16.785719 l 0.357143,162.85671 c -17.5482,-2.61319 -37.857619,-18.01087 -37.857567,-33.57142 l 4.3e-4,-129.28529 -18.035714,-4.3e-4 2.8e-4,163.92858 c -23.98311,-8.57474 -37.14298,-20.86484 -37.143,-38.57144 l -1.4e-4,-125.35671 z"
+       id="path1395"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccccccszscccscccscc" />
+  </g>
+</svg>

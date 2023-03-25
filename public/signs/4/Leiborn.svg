@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg4294"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Leiborn.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\05 Olive\Derse\Leiborn.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4862">Leiborn</title>
+  <defs
+     id="defs4288" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="95.548566"
+     inkscape:cy="125.54573"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata4291">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Leiborn</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.8125,-106.87798)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#336601;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.03912926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 63.495868,119.79838 c -7.375102,0 -13.39815,6.02305 -13.39815,13.39815 0,6.70238 4.974965,12.28529 11.417908,13.24828 v 12.78682 c 0,7.73181 -6.119699,10.03815 -9.921875,10.03815 -5.969832,0 -11.433897,-3.13889 -11.433928,-11.62307 v -21.63899 h -3.96875 v 23.43423 c 0,6.79752 5.733438,13.89063 14.930354,13.89063 9.076997,0 12.378574,-6.33088 12.378574,-6.33088 0,0 3.301576,6.33088 12.378573,6.33088 9.196917,0 14.930353,-7.09311 14.930353,-13.89063 v -23.43423 h -3.96875 v 21.63899 c -2.9e-5,8.48418 -5.464096,11.62307 -11.433927,11.62307 -3.802176,0 -9.921874,-2.30634 -9.921874,-10.03815 V 146.4443 c 6.438918,-0.96629 11.408089,-6.54805 11.408089,-13.24777 0,-7.3751 -6.021498,-13.39815 -13.396597,-13.39815 z m 0,4.03903 c 5.192191,0 9.357566,4.16693 9.357566,9.35912 0,5.19219 -4.165375,9.35756 -9.357566,9.35756 -5.192194,0 -9.35912,-4.16537 -9.35912,-9.35756 0,-5.19219 4.166926,-9.35912 9.35912,-9.35912 z"
+       id="path4850"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

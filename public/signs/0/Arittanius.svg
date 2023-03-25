@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg1394"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arittanius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Arittanius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1956">Arittanius</title>
+  <defs
+     id="defs1388" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="138.02159"
+     inkscape:cy="137.72095"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false" />
+  <metadata
+     id="metadata1391">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arittanius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31.220834,14.52836 16.479615,33.521515 C 16.275849,30.819071 14.787198,22.91293 17.707963,15.236844 h -4.39353 c 0,0 -4.9136899,14.174107 1.984375,27.119791 l 15.780431,-20.41064 c 0,0 7.064357,11.266513 6.472473,21.969718 -0.566965,10.252602 -4.017587,16.146981 -9.449035,16.300297 -6.520419,0.184055 -7.937425,-6.236462 -7.842931,-8.079095 0.09545,-1.861267 0.992451,-8.038332 5.197098,-7.98504 4.677677,0.05929 5.873702,8.249526 1.451075,7.748881 v 4.582666 c 0,0 6.72266,0.519789 6.817153,-7.181475 0.08483,-6.913705 -4.749151,-9.648764 -8.126634,-9.78028 -3.172895,-0.123553 -9.685566,3.307215 -9.496578,12.803867 0.19084,9.589715 6.641107,12.477747 11.811682,12.520684 7.781824,0.06462 11.100176,-7.326053 11.773958,-9.481592 0.673783,2.155539 3.992134,9.546214 11.773958,9.481592 5.170575,-0.04294 11.620842,-2.930969 11.811683,-12.520684 0.188986,-9.496652 -6.323685,-12.92742 -9.496579,-12.803867 -3.377482,0.131516 -8.211465,2.866575 -8.126634,9.78028 0.09449,7.701264 6.816637,7.181475 6.816637,7.181475 v -4.582666 c -4.422626,0.500645 -3.226085,-7.689593 1.451592,-7.748881 4.204647,-0.05329 5.101648,6.123773 5.197096,7.98504 0.0945,1.842633 -1.322511,8.26315 -7.842929,8.079095 C 45.840875,60.062694 42.389735,54.168315 41.82277,43.915713 41.230886,33.212508 48.295761,21.945995 48.295761,21.945995 l 15.78043,20.41064 c 6.898066,-12.945684 1.984375,-27.119791 1.984375,-27.119791 h -4.394047 c 2.920768,7.676086 1.432632,15.582227 1.228866,18.284671 L 48.154167,14.52836 C 45.062376,17.750546 41.303504,25.521301 39.6875,29.87626 38.071497,25.521301 34.312625,17.750546 31.220834,14.52836 Z"
+       id="path1951"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

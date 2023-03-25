@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virmino.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virmino.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title9953">Virmino</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="147.56484"
+     inkscape:cy="152.76988"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virmino</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(678.57141,246.66074)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -560.26575,-193.00449 c -33.36198,0 -44.95117,32.55026 -44.95117,48.99218 0,31.68681 29.11571,56.509514 30.05274,87.378914 0.11156,3.67532 -3.53516,11.36328 -3.53516,11.36328 h 15.9082 c 0,0 1.51563,-6.65858 1.51563,-12.8789 0,-33.23541 -29.04102,-60.960304 -29.04102,-86.115244 0,-15.84452 11.16879,-34.09375 31.31445,-34.09375 30.02593,0 40.1939,26.91166 40.40626,47.47852 l 0.50585,48.992184 c 0.21469,20.793017 -25.2539,32.54309 -25.2539,57.07422 0,15.1564099 11.4851,24.08995992 18.93945,24.49609992 l -0.25195,-15.40624992 c 0,0 -4.36888,-4.6653 -4.04102,-9.34375 0.56937,-8.12494 7.55327,-19.18519 11.32813,-25.23242 2.78533,3.07832 10.35419,9.9539 20.49218,12.35351 5.20286,1.23149 19.69141,0.0961 22.22266,-1.51562 l 0.75781,-16.03516 c -4.14597,4.50698 -31.82031,6.0244 -31.82031,-5.93555 0,-10.88228 21.56831,-16.71858 31.18945,-21.71875 12.63416,-6.56606 22.60157,-12.33335 22.60157,-30.050784 0,-11.70548 -7.97947,-22.60351 -26.76953,-22.60351 -15.1647,0 -22.53896,8.08758 -24.50977,10.6582 -0.1504,-3.18168 -0.30699,-6.37229 -0.49023,-9.77344 -1.37705,-25.55844 -16.8229,-58.08398 -56.57032,-58.08398 z m 82.58008,70.20508 c 8.02681,0 11.70269,5.72886 10.60742,10.60742 -4.29524,19.131927 -23.78624,17.889684 -35.62109,27.005864 -1.7171,-15.664414 8.80392,-37.613284 25.01367,-37.613284 z"
+       id="path9948"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssccssssssccscsccssssccssscs" />
+  </g>
+</svg>

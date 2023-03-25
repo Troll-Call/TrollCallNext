@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Sagisces.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\09 Indigo\Derse\Sagisces.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title1977">Sagisces</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="83.009696"
+     inkscape:cy="129.07906"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sagisces</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(214.28572,192.37502)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#0121cc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15.56743622;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 22.82268,-139.88772 -39.343749,39.34375 c -9.367991,-7.12943 -21.03368,-11.375 -33.66016,-11.375 -27.393631,0 -50.270361,19.963777 -54.916011,46.085948 l -46.04102,-46.041018 -10.78906,10.78906 57.33984,57.339847 3.42383,3.42578 11.04883,-11.04882 c -0.17804,-1.53765 -0.29102,-3.09593 -0.29102,-4.6836 0,-22.35543 17.92298,-40.300779 40.22461,-40.300779 8.38438,0 16.15088,2.537024 22.57813,6.89063 l -105.65625,105.656249 10.53125,10.5332 105.68945,-105.689449 c 4.46774,6.4944 7.0839805,14.37913 7.0839805,22.91015 0,22.35543 -17.9249305,40.29883 -40.2265595,40.29883 -1.887051,0.0156 -3.777001,-0.1595 -5.32031,-0.48633 l -10.79102,10.7910195 3.89063,3.89062 L -5.7066195,55.137678 5.0844005,44.346668 -40.34138,-1.0771625 c 26.06092,-4.68135 45.9531205,-27.5799895 45.9531205,-54.9746095 0,-12.76684 -4.32791,-24.55317 -11.57812,-33.98242 L 33.35588,-129.35647 Z"
+       id="path1959"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccccccssccccscccccccsccc" />
+  </g>
+</svg>

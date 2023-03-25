@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Pius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\12 Fuchsia\Prospit\Pius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6655">Pius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="123.40761"
+     inkscape:cy="199.99997"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1044.2858,520.94647)">
+    <path
+       style="fill:#99014e;fill-opacity:1;stroke:none;stroke-width:16.81178665;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55276382"
+       d="m -903.33459,-461.73651 v 68.49219 c -52.39085,-2.77363 -80.37909,-29.25307 -95.60742,-45.48438 v 28.48243 c 17.22075,15.40237 39.71802,25.74156 63.28515,31.26757 v 78.57032 h -63.11328 v 20.25195 h 208.97851 v -20.25195 h -64.00585 v -78.36914 c 23.88739,-5.47326 46.73247,-15.87431 64.16796,-31.46875 v -28.48243 c -15.2445,16.24855 -43.27698,42.76609 -95.77539,45.49219 v -68.5 z m -14.39063,86.01758 c 4.80854,0.62815 9.61552,1.06196 14.39063,1.30469 v 74.00586 h -14.39063 z m 45.99805,0.11133 v 75.19922 h -13.67774 v -73.99805 c 4.53834,-0.22649 9.10693,-0.62655 13.67774,-1.20117 z"
+       id="rect6640"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

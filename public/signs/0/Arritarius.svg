@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Arritarius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Derse\Arritarius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title4591">Arritarius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="135.09579"
+     inkscape:cy="140.08416"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1259"
+     inkscape:window-height="1008"
+     inkscape:window-x="652"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arritarius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-49.801259,-75.206536)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#a20000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.57187486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 64.199865,89.963596 c -4.350768,0.04497 -4.517121,1.215874 -4.644161,3.265434 -0.07483,1.2072 0.645489,2.181464 1.599386,2.561082 5.970636,2.37612 12.405454,8.437508 12.406994,14.400158 0.0014,5.57442 -9.455442,10.05832 -13.645161,10.47636 v 5.31027 c 7.984747,-0.52689 18.007985,-7.11246 18.134811,-14.88488 0.08297,-5.0846 -2.451412,-10.40035 -8.464601,-15.444017 4.798952,1.097819 7.413237,1.145849 10.90476,5.224487 7.66214,8.95057 7.776033,21.18709 5.77691,34.56016 h -2.047938 v 4.39405 h 10.441741 v -4.39405 h -1.953887 c -1.999126,-13.37307 -1.885233,-25.60959 5.776907,-34.56016 3.491514,-4.078638 6.105814,-4.126668 10.904764,-5.224487 -6.01319,5.043667 -8.5476,10.359417 -8.4646,15.444017 0.12682,7.77242 10.15006,14.35799 18.13481,14.88488 v -5.31027 c -4.18972,-0.41804 -13.64616,-4.90194 -13.64516,-10.47636 0.002,-5.96265 6.43635,-12.024038 12.40699,-14.400158 0.9539,-0.379618 1.67419,-1.353882 1.59939,-2.561082 -0.12704,-2.04956 -0.29339,-3.220464 -4.64416,-3.265434 C 103.02062,89.842086 93.992681,94.68446 89.488761,108.35885 84.984838,94.68446 75.956906,89.842086 64.199865,89.963596 Z"
+       id="path2813"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

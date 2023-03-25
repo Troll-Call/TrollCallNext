@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg3145"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Argo.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\01 Rust\Prospit\Argo.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title3709">Argo</title>
+  <defs
+     id="defs3139" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="160.71752"
+     inkscape:cy="200.40179"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     units="px" />
+  <metadata
+     id="metadata3142">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Argo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#a20000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.856773,13.907678 0.03876,4.426087 c 5.132757,1.61522 6.28487,4.567007 6.496243,8.227404 v 2.034502 c -12.24646,-0.167124 -25.26608,3.064926 -25.349875,11.921236 -0.03695,3.905568 2.842527,6.49265 8.531262,8.836668 5.939998,2.447552 6.571622,3.384944 6.525182,5.04517 -0.05432,1.941963 -3.484291,2.938862 -5.654951,2.920236 -1.863417,-0.01599 -5.838895,-0.514231 -7.224365,-5.325772 l -2.48822,0.114205 c 0,0 1.027685,9.285539 9.818522,9.3462 6.043645,0.214807 9.972215,-2.842342 10.031429,-7.136516 0.06922,-5.020178 -4.702359,-7.19999 -7.208862,-8.167976 -3.681946,-1.421932 -7.850241,-3.262249 -7.700305,-5.751071 0.117441,-1.949413 1.62587,-5.345641 20.720182,-5.101497 v 29.893781 c 0,0.15358 0.123404,0.276987 0.276987,0.276987 h 3.934126 c 0.15358,0 0.277501,-0.123407 0.277501,-0.276987 V 35.330143 c 19.12912,-0.249013 20.705502,3.117249 20.82302,5.067908 0.149934,2.488822 -4.018359,4.329139 -7.700306,5.751071 -2.506501,0.967986 -7.278082,3.147798 -7.208862,8.167976 0.05921,4.294174 3.987784,7.351323 10.031429,7.136516 8.790836,-0.06066 9.81852,-9.3462 9.81852,-9.3462 l -2.488218,-0.114205 c -1.385472,4.811541 -5.360948,5.309783 -7.224366,5.325772 -2.17066,0.01863 -5.60115,-0.978273 -5.655469,-2.920236 -0.04644,-1.660226 0.585703,-2.597618 6.5257,-5.04517 5.688734,-2.344018 8.568213,-4.9311 8.531262,-8.836668 -0.08389,-8.866883 -13.134592,-12.096681 -25.393798,-11.921236 -0.03544,-4.595463 0.485055,-8.356596 6.539653,-10.261906 l 0.03927,-4.426087 c -4.391665,0.486615 -7.869026,3.552369 -8.830985,5.14904 -0.962152,-1.596735 -4.439012,-4.662448 -8.830468,-5.14904 z"
+       id="path3702"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

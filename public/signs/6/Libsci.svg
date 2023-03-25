@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Libsci.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\07 Teal\Prospit\Libsci.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title11687">Libsci</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="148.19083"
+     inkscape:cy="167.31015"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Libsci</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(470,-467.62497)">
+    <path
+       style="fill:#008282;fill-opacity:1;stroke:none;stroke-width:15.50865746;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.53768843"
+       d="m -380.16016,517.17771 v 75.02147 3.53907 h 16.25391 c 6.20329,-12.61671 17.68457,-21.94976 31.47656,-25.01172 v 93.05665 c -13.9221,-3.0906 -25.49164,-12.56948 -31.65234,-25.3672 h -16.07813 v 3.89648 75.75977 h 15.65821 v -53.41991 c 8.79046,8.11576 19.8414,13.73069 32.07226,15.72461 v 37.6953 h 15.65625 v -37.16991 c 31.92564,-2.97914 56.9336,-30.50053 56.9336,-63.64649 0,-33.14594 -25.00796,-60.6691 -56.9336,-63.64843 v -36.42969 h -15.65625 v 36.95508 c -12.23087,1.99408 -23.2818,7.61036 -32.07226,15.72656 v -52.68164 z m 63.38672,52.83202 c 22.89236,2.88463 40.62305,22.76594 40.62305,47.24609 0,24.48016 -17.73069,44.35977 -40.62305,47.24414 z"
+       id="rect11669"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

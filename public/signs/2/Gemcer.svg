@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg20627"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Gemcer.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\03 Gold\Prospit\Gemcer.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title21188">Gemcer</title>
+  <defs
+     id="defs20621" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="131.56217"
+     inkscape:cy="132.68985"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata20624">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gemcer</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(59.33181,-110.44789)">
+    <path
+       style="fill:#a1a101;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -29.943938,125.77487 c -8.149205,0 -13.89091,7.3806 -16.442408,10.67789 l 3.213241,2.45669 c 3.422193,-4.68734 7.797025,-9.26041 14.079244,-9.26041 5.129692,0 7.484298,5.49027 7.484298,9.92188 0,13.60831 -18.36868,25.37856 -26.005132,34.925 H -19.64431 8.3260749 c -7.63645165,-9.54643 -26.0051309,-21.31668 -26.0051309,-34.925 0,-4.43161 2.354606,-9.92188 7.484298,-9.92188 6.2822188,0 10.65705126,4.57307 14.0792434,9.26041 l 3.213243,-2.45669 c -2.5514988,-3.29729 -8.2932031,-10.67789 -16.4424094,-10.67789 -4.785834,0 -8.693235,2.64532 -10.299629,6.15208 -1.606393,-3.50676 -5.513794,-6.15208 -10.299628,-6.15208 z m 10.299628,22.58414 c 4.936739,9.75844 12.6338202,16.23967 19.18229197,22.56503 H -38.826601 c 6.548472,-6.32536 14.245553,-12.80659 19.182291,-22.56503 z"
+       id="path21183"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsscccssccscscccc" />
+  </g>
+</svg>

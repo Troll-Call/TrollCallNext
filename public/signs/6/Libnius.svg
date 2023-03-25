@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Libnius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\07 Teal\Prospit\Libnius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title12259">Libnius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="56.251616"
+     inkscape:cy="136.76845"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Libnius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(275.71429,32.375019)">
+    <path
+       style="fill:#008282;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -207.42522,41.611308 c -19.75851,0 -39.5293,18.040104 -39.5293,44.773437 0,23.702615 14.95113,36.574215 30.43945,36.574215 21.09869,0 28.60938,-23.661395 28.60938,-32.164055 h -15.47852 c 0,4.65768 -4.73324,14.572265 -12.71289,14.572265 -10.66583,0 -16.11748,-11.106245 -15.79297,-19.265625 0.49981,-12.566645 10.35618,-27.138674 25.61133,-27.138674 18.15664,0 35.78673,21.867624 35.79883,39.488284 l 0.0312,44.679675 h -46.06641 l 9.84766,17.42579 h 38.37304 c 4.58851,17.65586 17.0639,33.08203 42.58008,33.08203 25.51618,0 37.989622,-15.42617 42.578132,-33.08203 h 38.09375 l 9.84961,-17.42579 h -45.78711 l 0.03125,-44.679675 c 0.0121,-17.62066 17.64218,-39.488284 35.79882,-39.488284 15.25515,0 25.10957,14.572029 25.60938,27.138674 0.32451,8.15938 -5.12519,19.265625 -15.79102,19.265625 -7.97965,0 -12.71484,-9.914585 -12.71484,-14.572265 h -15.47852 c 0,8.50266 7.51264,32.164055 28.61133,32.164055 15.48832,0 30.43945,-12.8716 30.43945,-36.574215 0,-26.733333 -19.77274,-44.773437 -39.53124,-44.773437 -32.26966,0 -51.90235,34.160506 -52.02344,54.068357 l -0.28321,46.554685 c -0.0019,0.30537 -0.01384,0.596 -0.01953,0.89648 h -58.767582 c -0.006,-0.30048 -0.0177,-0.59111 -0.0195,-0.89648 l -0.2832,-46.554685 C -155.5229,75.771814 -175.1556,41.611308 -207.42524,41.611308 Z m 55.67187,118.945312 h 52.078122 c -4.964712,11.30646 -14.879942,15.6074 -26.039062,15.98437 -11.15911,-0.37697 -21.07435,-4.67791 -26.03906,-15.98437 z"
+       id="path12248"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

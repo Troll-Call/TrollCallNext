@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Caprittarius.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\10 Purple\Derse\Caprittarius.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title5088">Caprittarius</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="156.96147"
+     inkscape:cy="165.29712"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Caprittarius</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1101.4286,-481.91071)">
+    <path
+       style="fill:#450a80;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1022.9266,542.9859 c -26.5988,0 -44.9454,21.72704 -44.9454,53.97656 0,29.70068 16.7554,43.94753 36.25,61.19922 4.1045,3.63212 11.1866,8.36001 18.0879,12.66016 -10.4922,20.3617 -18.2422,31.43198 -41.9941,34.86133 v 15.15234 c 29.0291,-2.16993 42.6981,-19.18083 55.3457,-42.03711 0.1807,0.10334 0.40397,0.23479 0.57816,0.33398 11.06746,6.30231 27.8491,14.9961 48.17578,14.9961 20.32668,0 37.10832,-8.69379 48.17578,-14.9961 0.17419,-0.0992 0.39737,-0.23064 0.57813,-0.33398 12.64763,22.85628 26.31658,39.86718 55.3457,42.03711 v -15.15234 c -23.75194,-3.42935 -31.50193,-14.49963 -41.99414,-34.86133 6.90132,-4.30015 13.98355,-9.02804 18.08789,-12.66016 19.49462,-17.25169 36.25,-31.49854 36.25,-61.19922 0,-32.24954 -18.34656,-53.97656 -44.94531,-53.97656 -24.16991,0 -49.15469,14.27243 -71.49805,35.93359 -22.34335,-21.66116 -47.3282,-35.93359 -71.49804,-35.93359 z m 0.1582,15.31445 c 22.2101,0 43.36891,13.8231 61.03711,31.32618 -10.20561,11.34221 -19.69324,24.10815 -28.07618,37.58007 -7.17963,11.53815 -12.52603,21.6354 -17.04103,30.48047 -26.7121,-16.82809 -45.8706,-39.04021 -46.166,-60.82226 -0.2164,-15.95808 8.5747,-38.56446 30.2461,-38.56446 z m 142.67968,0 c 21.6713,0 30.2461,19.89409 30.2461,38.56447 0,23.87636 -20.73982,40.74514 -46.16602,60.82227 -4.51503,-8.84507 -9.86138,-18.94232 -17.04101,-30.48047 -8.38294,-13.47194 -17.87057,-26.23788 -28.07618,-37.58008 17.66821,-17.50307 38.82689,-31.32617 61.03711,-31.32619 z m -71.33984,42.35547 c 9.56111,11.00224 17.73218,22.57066 23.98438,32.61133 7.00624,11.25165 12.65243,22.40075 18.0332,32.81445 -13.94612,7.5256 -30.0154,12.95899 -42.01758,12.95899 -12.00218,0 -28.07146,-5.43339 -42.01758,-12.95899 5.38077,-10.4137 11.02696,-21.5628 18.0332,-32.81445 6.2522,-10.04067 14.42326,-21.60909 23.98438,-32.61133 z"
+       id="path5079"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccccccscccccssscsscscsssscscscccsccc" />
+  </g>
+</svg>

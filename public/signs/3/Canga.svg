@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg34423"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Canga.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\04 Lime\Derse\Canga.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title34988">Canga</title>
+  <defs
+     id="defs34417" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="47.199626"
+     inkscape:cy="138.54122"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata34420">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Canga</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(32.88393,-60.00893)">
+    <path
+       style="fill:#678900;fill-opacity:1;stroke:none;stroke-width:4.05931234;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73366831"
+       d="m 5.1028998,80.405361 c 0,4.698536 -3.6909057,13.12478 -10.257774,13.12478 -7.8352658,0 -11.1919618,-4.667991 -14.0317008,-12.357386 h -3.006534 c 0,0 -0.802019,3.982464 -0.802019,6.410979 0,17.677996 13.2888358,31.403766 29.798698,31.403766 16.509862,0 29.798698,-13.72577 29.798698,-31.403766 0,-2.428515 -0.802019,-6.410979 -0.802019,-6.410979 h -3.006534 c -2.839739,7.689395 -6.196436,12.357386 -14.031701,12.357386 -6.566868,0 -10.2577738,-8.426244 -10.2577738,-13.12478 z m -24.7571458,7.91321 c 2.566776,3.719494 5.855502,8.485749 14.43271,8.485788 5.26019444,2.4e-5 7.8939601,-2.842469 10.3244358,-5.745903 v 24.605214 c -8.0916594,-0.48157 -12.6972381,-4.36397 -16.2796278,-7.59695 -4.689254,-4.23187 -8.477518,-11.136543 -8.477518,-19.748149 z m 52.915633,0 c 0,8.611606 -3.788264,15.516279 -8.47752,19.748149 -3.582389,3.23298 -8.187967,7.11538 -16.2796268,7.59695 V 91.058456 c 2.4304758,2.903434 5.0642418,5.745927 10.3244358,5.745903 8.577207,-3.9e-5 11.865935,-4.766294 14.432711,-8.485788 z"
+       id="rect34981"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsssccscccsccccccccsc" />
+  </g>
+</svg>

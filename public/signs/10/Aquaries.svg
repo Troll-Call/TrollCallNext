@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Aquaries.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\11 Violet\Derse\Aquaries.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title6659">Aquaries</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="141.36243"
+     inkscape:cy="184.85583"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aquaries</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(658.57141,-596.19641)">
+    <path
+       style="fill:#6a016a;fill-opacity:1;stroke:none;stroke-width:14.83300018;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57788942"
+       d="m -568.65697,644.1268 c 0,21.97064 -8.52863,40.98509 -21.63552,48.5703 l 3.6e-4,17.94699 c 12.77629,-5.68592 28.63841,-17.41087 35.19766,-47.20284 l 36.16992,36.16796 -69.24219,69.24219 80.10156,79.41462 80.09961,-79.41462 -69.24023,-69.24219 36.16797,-36.16796 c 6.55925,29.79198 22.83978,40.17764 34.1875,46.8457 V 692.6971 c -14.44618,-11.96021 -20.625,-26.59966 -20.625,-48.5703 h -15.9668 -0.19336 c 0.004,0.0613 0.01,0.11855 0.0137,0.17969 l -44.44339,44.44336 -44.44531,-44.44336 c 0.004,-0.0611 0.01,-0.11839 0.0137,-0.17969 h -0.19336 z m 60.59179,66.3418 58.38086,58.3828 -58.38086,57.57925 -58.38281,-57.57925 z"
+       id="rect6640"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Scorsci.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\08 Blue\Prospit\Scorsci.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title5356">Scorsci</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="129.13343"
+     inkscape:cy="124.62999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Scorsci</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(630,-547.625)">
+    <path
+       style="fill:#004183;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -565.68359,605.22364 c 19.05429,32.82929 29.77775,69.0071 35.35351,108.28906 l -40.60742,0.0957 v -22.85547 l -37.91992,30.97266 37.91992,31.53125 v -22.98242 l 42.66602,0.0273 c 2.00323,19.21487 2.93515,39.12821 3.1289,59.72461 h 16.16406 c -0.66219,-19.02439 -0.37654,-37.888 -2.36523,-59.71289 l 32.89453,0.0215 c 2.22699,20.05067 3.09659,40.12476 3.01367,59.6914 h 15.98438 c -0.0308,-17.7197 -0.95408,-38.27876 -3.24414,-59.68164 l 30.95312,0.0215 c 2.0259,18.96755 2.56158,37.79014 3.16016,59.66016 h 17.58789 l 59.85156,-62.15039 -6.06055,-14.77344 -60.51953,0.14258 c -5.28565,-39.58787 -14.5607,-77.70974 -32.91992,-107.84375 z m 27.41015,16.71289 h 30.55664 c 13.7922,28.65965 22.26135,59.84406 27.04688,91.45898 l -32.62696,0.0762 c -3.53345,-25.00761 -10.55218,-54.24924 -24.97656,-91.53515 z m 48.99219,0.25195 h 28.78906 c 14.82786,37.41899 22.41072,65.23636 26.49609,91.0957 l -30.79296,0.0723 c -4.45238,-31.76319 -12.10892,-64.22508 -24.49219,-91.16797 z m 73.58398,108.1875 38.92188,0.0254 -35.73438,37.12305 c -0.84326,-12.30472 -1.86761,-24.75023 -3.1875,-37.14844 z"
+       id="path5353"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

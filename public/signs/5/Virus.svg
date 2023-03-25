@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Virus.svg"
+   inkscape:export-filename="C:\Users\irock\Desktop\Stuff\Images\Homestuck\ezodiac\06 Jade\Prospit\Virus.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320">
+  <title
+     id="title10521">Virus</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="154.87031"
+     inkscape:cy="159.02706"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Virus</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(361.42856,-39.053551)">
+    <path
+       style="fill:#088446;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -211.42856,91.910973 c -7.84961,0 -17.1761,6.540939 -23.41992,14.621097 -6.65136,8.60755 -9.97266,19.2268 -9.97266,34.48632 0,33.60368 23.39258,61.78516 23.39258,61.78516 l -8.39258,7.67774 c -26.32845,-18.14235 -40.45702,-54.79892 -55.71484,-85.89258 h -8.92774 c -3.38542,8.79018 -14.46484,38.34564 -14.46484,68.03515 0,50.00919 10.93377,80.87524 16.07227,93.57227 h 7.5 c -17.11289,-60.55699 -13.9792,-104.64211 -7.85743,-122.14258 5.81516,58.93937 21.08489,83.00402 33.92774,104.64258 h 8.03515 c -15.52296,-32.42964 -27.38189,-61.28615 -28.75,-105 13.19079,36.54432 31.43315,51.03706 51.96485,65.71484 l 16.60742,-14.89648 16.60742,14.89648 c 20.5317,-14.67778 38.77406,-29.17052 51.96485,-65.71484 -1.36811,43.71385 -13.22704,72.57036 -28.75,105 h 8.03515 c 12.84285,-21.63856 28.11258,-45.70321 33.92774,-104.64258 6.12177,17.50047 9.25546,61.58559 -7.85743,122.14258 h 7.5 c 5.1385,-12.69703 16.07227,-43.56308 16.07227,-93.57227 0,-29.68951 -11.07942,-59.24497 -14.46484,-68.03515 h -8.92774 c -15.25782,31.09366 -29.38639,67.75023 -55.71484,85.89258 l -8.39258,-7.67774 c 0,0 23.39258,-28.18148 23.39258,-61.78516 0,-15.25952 -3.3213,-25.87877 -9.97266,-34.48632 -6.24382,-8.080158 -15.57031,-14.621097 -23.41992,-14.621097 z m 0,16.785157 c 15.46796,2.08911 18.83398,18.20209 18.83398,31.0293 0,28.22912 -15.90356,46.61844 -18.83398,50.04297 -2.93042,-3.42453 -18.83398,-21.81385 -18.83398,-50.04297 0,-12.82721 3.36602,-28.94019 18.83398,-31.0293 z"
+       id="path10514"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
