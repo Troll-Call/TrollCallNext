@@ -13,7 +13,7 @@ export default function TrollCard({ troll, simple }: { troll: GenericHolder, sim
   };
   const svgHexagon = troll.data.sign.fakeColor !== undefined ? (<></>) : (
     <svg width="70" height="61" style={{filter: `drop-shadow(${hexColor} 0px 0px 4px)`}} viewBox="0 0 80 70" xmlns="http://www.w3.org/2000/svg">
-      <path stroke={toHex(lightness(hexColor, 90, true))} stroke-width="2" fill={styleBlah.color} d="M-1.74846e-06 35L20 0.358977L60 0.358976L80 35L60 69.641L20 69.641L-1.74846e-06 35Z"/>
+      <path stroke={toHex(lightness(hexColor, 90, true))} strokeWidth="2" fill={styleBlah.color} d="M-1.74846e-06 35L20 0.358977L60 0.358976L80 35L60 69.641L20 69.641L-1.74846e-06 35Z"/>
       <image x="12" y="10" width="56" height="56" href={`/signs/${troll.data.sign.color}/${troll.data.sign.extended}.svg`} />
       <rect width="100%" height="100%" fill="transparent">
         <title>{troll.data.sign.extended}</title>

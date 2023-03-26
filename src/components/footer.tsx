@@ -23,10 +23,10 @@ export default function Footer() {
         <p>Made on Next.js {publicRuntimeConfig.dependencies.next} (React {publicRuntimeConfig.dependencies.react} and Typescript {publicRuntimeConfig.dependencies.typescript})</p>
         <details open><summary>Extensions</summary>
           <ul>
-          {Object.entries(publicRuntimeConfig.devDependencies).map(x => <li>{x[0] + " " + x[1]}</li>)}
+          {Object.entries(publicRuntimeConfig.devDependencies).map((x, i) => <li key={i}>{x[0] + " " + x[1]}</li>)}
           </ul>
           <ul>
-          {Object.entries(publicRuntimeConfig.dependencies).filter(x => x[0].includes("@types/")).map(x => <li>{x[0] + " " + x[1]}</li>)}
+          {Object.entries(publicRuntimeConfig.dependencies).filter(x => x[0].includes("@types/")).map((x, i) => <li key={i}>{x[0] + " " + x[1]}</li>)}
           </ul>
         </details>
       </details>
