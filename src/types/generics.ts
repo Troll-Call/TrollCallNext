@@ -1,57 +1,22 @@
-import { DocumentReference } from "firebase/firestore";
-import { Flair } from "./flair";
-import { Pesterlog } from "./pester";
-import { Troll } from "./troll";
-import { User } from "./user";
+import * as yup from 'yup';
+import { TrollSchema } from './troll';
 
 export type Color = [number, number, number];
 export const rgb = (r:number, g:number, b:number):Color => ([r,g,b]);
 
-export interface Preference {
-  thing: string;
-  opinion: boolean;
-};
+export const PolicySchema = yup.string().oneOf(["yes", "ask", "no"]);
 
-export function isPreference(preference:Preference) {
-  return preference ? [
-    (typeof preference.thing) === "string",
-    (typeof preference.opinion) === "boolean"
-  ].every(x=>x) : false;
-}
+export const PreferenceSchema = yup.object({
+  thing: yup.string().required("Preference thing?"),
+  opinion: yup.boolean().required("Preference opinion?")
+});
 
-export type Policy = "yes" | "ask" | "no";
-
-export function isPolicy(policy:Policy) {
-  return policy == "yes" || policy == "ask" || policy == "no";
-}
-
-export interface Log {
-  character: number;
-  text: string;
-  action?: {
-    text?: string;
-    time?: string; 
-  };
-  quirk?: string;
-}
-
-export function isLog(log:Log) {
-  return log ? [
-    (typeof log.character) === "number",
-    (typeof log.text) === "string"
-  ].every(x=>x) : false;
-}
-
-export interface CharacterStatus {
-  character: (DocumentReference|any) // Reference
-  time?: string;
-}
-
-export function isCharacterStatus(characterStatus:CharacterStatus) {
-  return characterStatus ? (characterStatus.character !== undefined) : false;
-}
+export const QuirkSchema = yup.object({
+  function: yup.string().required("Function?"),
+  arguments: yup.array().of(yup.mixed())
+})
 
 export interface GenericHolder {
   id: string,
-  data: Troll & Pesterlog & User & Flair
+  data: any
 }

@@ -1,7 +1,7 @@
-import { requestType, findOne, findUpdate } from '@/lib/dbFunctions';
+import { requestType, findOne } from '@/lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import validtypes from '@/lib/validtypes';
-import { setDoc, doc } from 'firebase/firestore';
+import validyum from '@/lib/validyum';
+import { setDoc, doc, updateDoc } from 'firebase/firestore';
 import { database } from "@/lib/firebase";
 
 async function handler(
@@ -10,7 +10,7 @@ async function handler(
 ) {
   let rqt:string = req.query.type as string;
   let rqr:string = req.query.ref as string;
-  if (!validtypes.hasOwnProperty(rqt)) {
+  if (!validyum.hasOwnProperty(rqt)) {
     res.status(404).send(`Endpoint "${rqt}" Not Found`); 
     return;
   }
@@ -20,7 +20,7 @@ async function handler(
       if (rp)
         res.status(200).json(rp)
       else
-        res.status(404).send(`${validtypes[rqt].name} "${rqr}" Not Found`);
+        res.status(404).send(`${validyum[rqt].name} "${rqr}" Not Found`);
       break;
     }
     case requestType.POST: {
@@ -28,13 +28,19 @@ async function handler(
         res.status(401).send("Password incorrect");
         return;
       }
-      const user = doc(database, rqt, rqr).withConverter(validtypes[rqt]);
-      setDoc(user, req.body)
-        .then(function () {
-          res.redirect(301, "/api/" + rqt + "/" + user.id);
+      const user = doc(database, rqt, rqr);
+      let validate = validyum[rqt].policy.validate(req.body)
+        .then(function (out) {
+          setDoc(user, out)
+            .then(function () {
+              res.redirect(303, "/api/" + rqt + "/" + user.id);
+            })
+            .catch(function (err:Error) {
+              res.status(500).send(err.message);
+            });
         })
         .catch(function (err:Error) {
-          res.status(500).send(err.message);
+          res.status(400).send(err.message);
         });
       break;
     }
@@ -43,7 +49,20 @@ async function handler(
         res.status(401).send("Password incorrect");
         return;
       }
-      res.status(200).json(await findUpdate(rqt, rqr, req.body));
+      const user = doc(database, rqt, rqr);
+      let validate = validyum[rqt].policy.validate(req.body)
+        .then(function (out) {
+          updateDoc(user, out)
+            .then(function () {
+              res.redirect(303, "/api/" + rqt + "/" + user.id);
+            })
+            .catch(function (err:Error) {
+              res.status(500).send(err.message);
+            });
+        })
+        .catch(function (err:Error) {
+          res.status(400).send(err.message);
+        });
       break;
     }
   }

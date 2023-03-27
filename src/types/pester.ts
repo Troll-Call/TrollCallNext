@@ -1,30 +1,35 @@
-import { DocumentReference } from "firebase/firestore";
-import { CharacterStatus, isCharacterStatus, isLog, Log } from "./generics";
-import { User } from "./user";
+import * as yup from 'yup';
+import { TrollSchema } from './troll';
+import { UserSchema } from './user';
 
+const LogSchema = yup.object({
+  character: yup.number().positive().required("Character?"),
+  text: yup.string().required("Text?"),
+  action: yup.object({
+    text: yup.string(),
+    time: yup.string()
+  }).optional(),
+  quirk: yup.string().default("default")
+});
 
-export interface Pesterlog {
-  reference: string;
-  owners: string[]; // Reference
-  name: string;
-  description: string;
-  date: number;
-  characters: CharacterStatus[];
-  log: Log[];
-}
+export const PesterlogSchema = yup.object({
+  owners: yup.array().of(UserSchema),
+  name: yup.string().required("Name?"),
+  description: yup.string().min(3, "Description too short").max(10000, "Description is too long!").required(),
+  date: yup.number().positive().required("Date?"),
+  characters: yup.array().of(yup.object({
+    character: TrollSchema.required("Character?"),
+    time: yup.string().uppercase()
+  })).required("Characters?")
+}).required();
 
-export interface ServerPesterlog extends Omit<Pesterlog, "owners"> {
-  owners: string[] & DocumentReference[]
-}
+export const ClientPesterlogSchema = PesterlogSchema.shape({
+  owners: yup.array().of(yup.string()),
+  characters: yup.array().of(yup.object({
+    character: yup.string().required("Character?"),
+    time: yup.string().uppercase()
+  })).required("Characters?")
+});
 
-export function isPesterlog(pesterlog:Pesterlog) {
-  return pesterlog ? [
-    (typeof pesterlog.reference) === "string",
-    pesterlog.owners ? pesterlog.owners.every(x => (typeof x) === "string") : false,
-    (typeof pesterlog.name) === "string",
-    (typeof pesterlog.description) === "string",
-    (typeof pesterlog.date) === "number",
-    pesterlog.characters ? pesterlog.characters.every(isCharacterStatus) : false,
-    pesterlog.log ? pesterlog.log.every(isLog) : false,
-  ].every(x=>x) : false;
-}
+export interface Pesterlog extends yup.InferType<typeof PesterlogSchema> {}
+export interface ClientPesterlog extends yup.InferType<typeof ClientPesterlogSchema> {}

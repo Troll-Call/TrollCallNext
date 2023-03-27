@@ -10,6 +10,31 @@
   src: url(/assets/trollcall-display/trollcall-display-regular.woff) format("woff");
 }
 
+:root {
+  --pos-0: rgb(0, 0, 0);
+  --pos-100: rgb(38, 38, 38);
+  --pos-200: rgb(77, 77, 77);
+  --pos-300: rgb(115, 115, 115);
+  --pos-400: rgb(154, 154, 154);
+  --pos-500: rgb(192, 192, 192);
+  --pos-600: rgb(205, 205, 205);
+  --pos-700: rgb(217, 217, 217);
+  --pos-800: rgb(230, 230, 230);
+  --pos-900: rgb(242, 242, 242);
+  --pos-1000: rgb(255, 255, 255);
+  --neg-0: rgb(0, 0, 0);
+  --neg-100: rgb(0, 26, 0);
+  --neg-200: rgb(0, 51, 0);
+  --neg-300: rgb(0, 77, 0);
+  --neg-400: rgb(0, 102, 0);
+  --neg-500: rgb(0, 128, 0);
+  --neg-600: rgb(51, 153, 51);
+  --neg-700: rgb(102, 179, 102);
+  --neg-800: rgb(153, 204, 153);
+  --neg-900: rgb(204, 230, 204);
+  --neg-1000: rgb(255, 255, 255);
+}
+
 body {
   @apply
     flex

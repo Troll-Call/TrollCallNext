@@ -7,10 +7,10 @@ import thejson from '@/../sites.json';
 import { lightness, toHex } from "@/types/assist/colors";
 
 export default function Footer() {
-  var map = thejson.map(x => {
+  var map = thejson.map((x, i) => {
     const darkenedHex = toHex(lightness(x.color, 60, false));
     const lightenedHex = toHex(lightness(x.color, 60, true));
-    return <Link className="no-underline" href={"http://" + x.name + ".trollcall.xyz"}><Box style={{backgroundColor:darkenedHex,color:lightenedHex,borderColor:lightenedHex}} title={x.title} subtitle className="my-2">{x.description}</Box></Link>
+    return <Link key={i} className="no-underline" href={"http://" + x.name + ".trollcall.xyz"}><Box style={{backgroundColor:darkenedHex,color:lightenedHex,borderColor:lightenedHex}} title={x.title} subtitle className="my-2">{x.description}</Box></Link>
   });
   return (
     <Box className="negative" title={name + domain} subtitle>

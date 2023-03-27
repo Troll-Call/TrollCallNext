@@ -39,7 +39,7 @@ export function lightness(col:any, amt:number, lighter:boolean) {
 
 export function negate(col:any) {
   const colorArray = convertColor(col);
-  return colorArray.map((x:number) => 255 - x).join(", ");
+  return colorArray.map((x:number) => 255 - x);
 }
 
 //theming

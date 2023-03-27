@@ -1,96 +1,47 @@
-import { DocumentReference } from "firebase/firestore";
-import { Policy, Preference, Color, isPolicy, isPreference } from "./generics";
-import { User } from "./user";
+import * as yup from 'yup';
+import { PolicySchema, PreferenceSchema, QuirkSchema } from './generics';
+import { UserSchema } from './user';
 
-export interface Troll {
-  owners: string[]; // Reference
-  name: Name; // Joltif Zoxxit
-  pronunciation: Name; // joel-teef zox-sit
-  username: string; // technologicalConnectivity
+export const TrollSchema = yup.object({
+  owners: yup.array().of(UserSchema),
+  name: yup.object({
+    first: yup.string().required("First name?").length(6, "First name has to be exactly 6 characters long"),
+    last: yup.string().required("Last name?").length(6, "Last name has to be exactly 6 characters long")
+  }).required("Name?"),
+  pronunciation: yup.object({
+    first: yup.string().required("First pronunciation?").lowercase(),
+    last: yup.string().required("Last pronunciation?").lowercase()
+  }).required("Pronunciation?"),
+  username: yup.string().required("Username?").matches(/((?<letter1>^[a-z])[a-z]*)((?<letter2>[A-Z])[a-z]*)/, "Username is incorrect"),
+  description: yup.string().min(100, "Description too short").max(10000, "Description is too long!").notRequired(),
+  age: yup.number().required().positive(),
+  sign: yup.object({
+    extended: yup.string().required("Extended Zodiac index?"),
+    color: yup.number().min(0, "Number must not be lower than Aries (0)").max(11, "Number must not be higher than Pisces (11)").required("Sign index?"),
+    fakeColor: yup.number().min(0, "Number must not be lower than Aries (0)").max(11, "Number must not be higher than Pisces (11)").notRequired()
+  }).required("Sign?"),
+  species: yup.string().default("Troll"),
+  pronouns: yup.array().of(yup.string().matches(/\w*\/\w*/, "Pronoun is incorrectly formatted (correct: [1]/[2], e.x. she/her)")).required("Pronouns?"),
+  gender: yup.string().required("Gender?"),
+  height: yup.number().required("Height?").positive(),
+  colors: yup.array().of(yup.number().positive().max(16777215, "Color is over hex maximum")).required("Colors?"),
+  policies: yup.object({
+    fanart: PolicySchema.required("Fanart policy? (yes|ask|no)"),
+    fanartOthers: PolicySchema.required("Fanart others policy? (yes|ask|no)"),
+    kinning: PolicySchema.required("Kinning policy? (yes|ask|no)"),
+    shipping: PolicySchema.required("Shipping policy? (yes|ask|no)"),
+    fanfiction: PolicySchema.required("Fan-fiction policy? (yes|ask|no)")
+  }).required("Policies?"),
+  preferences: yup.array().of(PreferenceSchema).required().min(6, "Too little preferences (need at or above 3)").max(24, "Too much preferences (need at or under 24)"),
+  facts: yup.array().of(yup.string()).min(3, "Too little facts (need at or above 3)").max(5, "Too many facts (need at or under 5)"),
+  quirks: yup.object().shape({
+    default: QuirkSchema
+  })
+}).required();
 
-  description: string; // Joltif is a goldblood nerd-o who's not ashamed...
+export const ClientTrollSchema = TrollSchema.shape({
+  owners: yup.array().of(yup.string())
+});
 
-  age: number;
-  sign: {
-    extended: string;
-    color: number;
-    fakeColor?: number;
-  };
-  species: string;
-  pronouns: string[];
-  gender: string;
-  height: number;
-
-  colors: number[];
-
-  policies: {
-    fanart: Policy;
-    fanartOthers: Policy;
-    kinning: Policy;
-    shipping: Policy;
-    fanfiction: Policy;
-  };
-  preferences: Preference[];
-  facts: string[];
-
-  quirks: {[quirk: string]: QuirkFunction[]};
-}
-
-export interface ServerTroll extends Omit<Troll, "owners"> {
-  owners: string[] & DocumentReference[];
-}
-
-export function isTroll(troll:Troll) {
-  return troll ? [
-    troll.owners ? troll.owners.every(x => (typeof x) === "string") : false,
-    isName(troll.name),
-    isName(troll.pronunciation),
-    (typeof troll.username) === "string",
-    (typeof troll.description) === "string",
-    (typeof troll.age) === "number",
-    // {
-    troll.sign ? ([
-      (typeof troll.sign.extended) === "string",
-      (typeof troll.sign.color) === "number"
-    ].every(x=>x)) : false,
-    // }
-    (typeof troll.species) === "string",
-    troll.pronouns ? troll.pronouns.every(x => (typeof x) === "string") : false,
-    (typeof troll.gender) === "string",
-    (typeof troll.height) === "number",
-    troll.colors ? troll.colors.every(x => (typeof x) === "number") : false,
-    // {
-    troll.policies ? ([
-      isPolicy(troll.policies.fanart),
-      isPolicy(troll.policies.fanartOthers),
-      isPolicy(troll.policies.kinning),
-      isPolicy(troll.policies.shipping),
-      isPolicy(troll.policies.fanfiction)
-    ].every(x=>x)) : false,
-    // }
-    troll.preferences ? troll.preferences.every(isPreference) : false,
-    troll.facts ? troll.facts.every(x => (typeof x) === "string") : false,
-    troll.quirks ? Object.values(troll.quirks).every(x => x ? x.every(isQuirkFunction) : false) : false,
-  ].every(x=>x) : false;
-}
-
-interface QuirkFunction {
-  function: string,
-  arguments?: any[]
-};
-
-export function isQuirkFunction(quirkFunction:QuirkFunction) {
-  return quirkFunction ? (typeof quirkFunction.function) == "string" : false;
-}
-
-export interface Name {
-  first: string;
-  last: string;
-}
-
-export function isName(name:Name) {
-  return name ? [
-    (typeof name.first) == "string",
-    (typeof name.last) == "string"
-  ].every(x=>x) : false;
-}
+export interface Troll extends yup.InferType<typeof TrollSchema> {}
+export interface ClientTroll extends yup.InferType<typeof ClientTrollSchema> {}

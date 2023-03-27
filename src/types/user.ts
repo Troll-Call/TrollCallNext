@@ -1,20 +1,15 @@
-import { DocumentReference } from "firebase/firestore";
-import { Flair } from "./flair";
+import * as yup from 'yup';
+import { FlairSchema } from './flair';
 
-export interface User {
-  username: string;
-  url: string;
-  flairs: string[]; // Reference
-}
+export const UserSchema = yup.object({
+  username: yup.string().required("Username?"),
+  url: yup.string().url().required("URL?"),
+  flairs: yup.array().of(FlairSchema).optional()
+}).required();
 
-export interface ServerUser extends Omit<User, "flairs"> {
-  flairs: DocumentReference[] & string[];
-}
+export const ClientUserSchema = UserSchema.shape({
+  flairs: yup.array().of(yup.string()).optional()
+});
 
-export function isUser(user:User) {
-  return user ? [
-    (typeof user.username) === "string",
-    (typeof user.url) === "string",
-    user.flairs ? user.flairs.every(x => (typeof x) === "string") : false,
-  ].every(x=>x) : false;
-}
+export interface User extends yup.InferType<typeof UserSchema> {}
+export interface ClientUser extends yup.InferType<typeof ClientUserSchema> {}

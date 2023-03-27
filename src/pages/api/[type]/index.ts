@@ -1,15 +1,13 @@
-import { requestType, findAll, findUpdate } from '@/lib/dbFunctions';
+import { requestType, findAll } from '@/lib/dbFunctions';
+import validyum from '@/lib/validyum';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import validtypes from '@/lib/validtypes';
-import { setDoc, doc } from 'firebase/firestore';
-import { database } from "@/lib/firebase";
 
 async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   let rqt:string = req.query.type as string;
-  if (!validtypes.hasOwnProperty(rqt)) {
+  if (!validyum.hasOwnProperty(rqt)) {
     res.status(404).send(`Endpoint "${rqt}" Not Found`); 
     return;
   }
