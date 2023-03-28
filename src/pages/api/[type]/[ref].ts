@@ -3,6 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import validyum from '@/lib/validyum';
 import { setDoc, doc, updateDoc } from 'firebase/firestore';
 import { database } from "@/lib/firebase";
+import validtypes from '@/lib/validtypes';
 
 async function handler(
   req: NextApiRequest,
@@ -29,9 +30,9 @@ async function handler(
         return;
       }
       const user = doc(database, rqt, rqr);
-      let validate = validyum[rqt].policy.validate(req.body)
+      let validate = validyum[rqt].clientPolicy.validate(req.body)
         .then(function (out) {
-          setDoc(user, out)
+          setDoc(user, validtypes[rqt].toFirestore(req.body))
             .then(function () {
               res.redirect(303, "/api/" + rqt + "/" + user.id);
             })
@@ -50,11 +51,11 @@ async function handler(
         return;
       }
       const user = doc(database, rqt, rqr);
-      let validate = validyum[rqt].policy.validate(req.body)
+      let validate = validyum[rqt].clientPolicy.validate(req.body, {context:{isEdit:true}})
         .then(function (out) {
-          updateDoc(user, out)
+          updateDoc(user, validtypes[rqt].toFirestore(req.body))
             .then(function () {
-              res.redirect(303, "/api/" + rqt + "/" + user.id);
+              res.status(200).send();
             })
             .catch(function (err:Error) {
               res.status(500).send(err.message);

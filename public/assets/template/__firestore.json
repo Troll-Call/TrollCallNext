@@ -1,0 +1,48 @@
+{
+	"description": "[Description. Newlines allowed - raw text only.]",
+	"species": "Troll[species quirk (Troll-human, etc...)",
+	"preferences": [
+		{ // Preferences. minimum of 3 for flush/pitch each. Duplicate to your liking.
+			"opinion": /* Boolean. true = flush, false = pitch. */,
+			"thing": "[The thing they like/dislike.]"
+		}
+	],
+	"colors": [/* Array of colors in decimal format. Simply take your hex codes and convert from base 16 to base 10. */],
+	"height": /* Height in inches. */,
+	"facts": [/* Array of strings. Minimum of 3. */],
+	"age": /* Age in sweeps. Allows decimal numbers. */,
+	"pronunciation": {
+		"first": "[All lowercase, please! Separate syllables with dashes.]",
+		"last": "[All lowercase, please! Separate syllables with dashes.]"
+	},
+	"policies": {
+		"shipping": "[yes | ask | no]",
+		"fanartOthers": "[yes | ask | no]",
+		"kinning": "[yes | ask | no]",
+		"fanfiction": "[yes | ask | no]",
+		"fanart": "[yes | ask | no]"
+	},
+	"pronouns": [
+		"[Pronoun in default format (e.x. she/her).]" // Repeat for as many as you want.
+	],
+	"username": "[Pesterchum handle format.]",
+	"gender": "[Gender]",
+	"sign": {
+		"fakeColor": /* Optional. Tells the app if the character is "cloaking" as another blood color. */,
+		"extended": "[Extended Zodiac sign.]",
+		"color": /* Zodiac index, from Aries (0) to Pisces (11). */
+	},
+	"name": {
+		"first": "[name]",
+		"last": "[name]"
+	},
+	"owners": [/* Array of strings for usernames given in the users.json array. */],
+	"quirks": { // List of typing quirk modes.
+		"default": [ // "default" is simply a "quirk mode" - you can also set other quirk modes by duplicating this object.
+      {
+        "function": "[TrollCall string function, (e.x. replace, lowercase, uppercase, blah blah idk ask me)]",
+        "arguments": [/* Array of function arguments. Any type. */]
+      }
+    ]
+	}
+}

@@ -150,4 +150,7 @@ svg ul {
       flex-col
       gap-2;
   }
+  .flair {
+    @apply rounded-lg p-0.5 mx-1 my-0.5 px-1 select-none inline-block;
+  }
 }

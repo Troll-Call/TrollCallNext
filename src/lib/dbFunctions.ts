@@ -12,7 +12,6 @@ export enum requestType {
 
 export async function findOne(collection: string, documen:string) {
   const object = await validtypes[collection].fromFirestore(await getDoc(doc(database, collection, documen)));
-  console.log(object);
   return object;
 }
 
@@ -23,5 +22,5 @@ export async function findAll(collectionName: string) {
 
 export async function findQuery(collectionName: string, a:string, b:WhereFilterOp, c:unknown) {
   const object = await getDocs(query(collection(database, collectionName), where(a,b,c)));
-  return object.docs.map(x => ({id: x.id, data: x.data()}));
+  return await Promise.all(object.docs.map(async x => await validtypes[collectionName].fromFirestore(x)));
 }

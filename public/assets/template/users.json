@@ -1,0 +1,6 @@
+{
+  "_id": "[A user ID, like maybe your username. Could be anything, though. Has to be lowercase.]",
+  "username": "[Your username]",
+  "url": "[A link to social media]",
+  "flairs": [/* Do not touch. */]
+}
