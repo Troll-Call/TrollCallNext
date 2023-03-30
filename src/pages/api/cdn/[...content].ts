@@ -1,4 +1,4 @@
-import { requestType, findAll, findUpdate } from '../../../lib/dbFunctions';
+import { requestType } from '../../../lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { ref, getDownloadURL } from "firebase/storage";
 import { storage } from "@/lib/firebase";

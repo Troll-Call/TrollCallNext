@@ -30,9 +30,9 @@ async function handler(
         return;
       }
       const user = doc(database, rqt, rqr);
-      let validate = validyum[rqt].clientPolicy.validate(req.body)
+      validyum[rqt].clientPolicy.validate(req.body)
         .then(function (out) {
-          setDoc(user, validtypes[rqt].toFirestore(req.body))
+          setDoc(user, validtypes[rqt].toFirestore(out))
             .then(function () {
               res.redirect(303, "/api/" + rqt + "/" + user.id);
             })
@@ -51,18 +51,12 @@ async function handler(
         return;
       }
       const user = doc(database, rqt, rqr);
-      let validate = validyum[rqt].clientPolicy.validate(req.body, {context:{isEdit:true}})
-        .then(function (out) {
-          updateDoc(user, validtypes[rqt].toFirestore(req.body))
-            .then(function () {
-              res.status(200).send();
-            })
-            .catch(function (err:Error) {
-              res.status(500).send(err.message);
-            });
+      updateDoc(user, validtypes[rqt].toFirestore(req.body))
+        .then(function () {
+          res.status(200).send();
         })
         .catch(function (err:Error) {
-          res.status(400).send(err.message);
+          res.status(500).send(err.message);
         });
       break;
     }

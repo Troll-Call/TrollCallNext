@@ -1,11 +1,12 @@
 import * as yup from 'yup';
 import { FlairSchema } from './flair';
+import { requiredish } from './generics';
 
 export const UserSchema = yup.object({
-  username: yup.string().when('$isEdit', (isEdit, fieldSchema) => isEdit ? fieldSchema : fieldSchema.required("Username?")),
-  url: yup.string().url().when('$isEdit', (isEdit, fieldSchema) => isEdit ? fieldSchema : fieldSchema.required("URL?")),
+  username: yup.string().required("Username?"),
+  url: yup.string().url().required("URL?"),
   flairs: yup.array().of(FlairSchema).optional()
-}).when('$isEdit', (isEdit, fieldSchema) => isEdit ? fieldSchema : fieldSchema.required());
+}).required();
 
 export const ClientUserSchema = UserSchema.shape({
   flairs: yup.array().of(yup.string()).optional()

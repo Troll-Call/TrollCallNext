@@ -1,8 +1,7 @@
-import { name, domain } from "@/types/assist/branding"
+import { name } from "@/types/assist/branding"
 import Box from "@/components/box";
 import Head from "next/head";
 import Footer from "@/components/footer";
-import Navbar from "@/components/nav";
 
 export default function Home() {
   return (

@@ -1,21 +1,17 @@
-import { negate, themeColor, toHex } from "@/types/assist/colors";
+import { themeColor, toHex } from "@/types/assist/colors";
 import Box from "@/components/box";
 import Navbar from "@/components/nav";
-import Head from "next/head";
-import * as fuck from "@/lib/dbFunctions";
+import * as dbFunctions from "@/lib/dbFunctions";
 import { GetStaticPropsContext } from "next/types";
 import { Pesterlog as pesterType } from "@/types/pester";
-import Flair from "@/components/flair";
 import Footer from "@/components/footer";
 import TrollCard from "@/components/trollcard";
-import { GenericHolder } from "@/types/generics";
-import React, { useState, useEffect } from 'react';
 import PesterBox from "@/components/pester";
 import UsernameRenderer from "@/components/name";
 import { User as userType } from "@/types/user";
 
 export default function Trolllog({ pester }:{pester:pesterType}) {
-  let theme = {};
+  let theme:{[key:string]:string} = {};
   themeColor("#FF0000").forEach((x, i) => theme["--pos-" + (i * 100)] = toHex(x));
   return (
     <div>
@@ -26,7 +22,7 @@ export default function Trolllog({ pester }:{pester:pesterType}) {
         <span>by {pester.owners.map((user:userType, i) => (<>{i > 0 ? " and " : ""}<UsernameRenderer key={i} name={true} user={user} /></>))}</span>
         </p>
         <Box className="negative noborder font-mono whitespace-pre-line">
-          {pester.description?.replace(/\\n/gm, "\n")}
+          {pester.description.replace(/\\n/gm, "\n")}
         </Box>
       </Box>
       <Box style={theme} title={"Trolllog"} subtitle>
@@ -42,7 +38,7 @@ export default function Trolllog({ pester }:{pester:pesterType}) {
   )
 }
 export async function getStaticPaths() {
-  const findAll = (await fuck.default).findAll; // WHY IS FUCK ASYNCHRONOUSLY IMPORTED
+  const findAll = (await dbFunctions.default).findAll; // WHY IS FUCK ASYNCHRONOUSLY IMPORTED
   const bruh = await findAll("pesters");
   const paths = bruh.map((x:string) => ({params: {id: x}}));
   return {
@@ -52,8 +48,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context:GetStaticPropsContext) {
-  const findOne = (await fuck.default).findOne; // WHY IS FUCK ASYNCHRONOUSLY IMPORTED
-  let cpi:(string|undefined) = context.params?.id as string;
+  const findOne = (await dbFunctions.default).findOne; // WHY IS FUCK ASYNCHRONOUSLY IMPORTED
+  let cpi:(string|undefined) = context.params.id as string;
   if (!cpi) return {
     notFound: true
   }

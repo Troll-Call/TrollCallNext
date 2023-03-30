@@ -1,3 +1,4 @@
+import { CharacterReference } from "@/types/pester";
 import { User } from "@/types/user";
 import Link from "next/link";
 import Flair from "./flair";
@@ -10,3 +11,16 @@ export default function UsernameRenderer({user, name, full}:{user:User, name?:bo
   )
 }
 
+export function TrollNameRenderer(character:CharacterReference, displayName?:boolean|number, shortName?:boolean|number, link?:boolean|number) {
+  let sn = (
+    (character.time ? character.time[0] : "") +
+    (character.character.username.split(/(?=[A-Z])/).map(x => x[0]).join("").toUpperCase())
+  )
+  var box = (
+    (character.time ? character.time + " " : "") +
+    (displayName ? character.character.username + (shortName ? " " : "") : "") +
+    (shortName ? (displayName ? `[${sn}]` : sn) : "")
+  );
+  if (link) return <Link href={"/trolls/" + character.character.id}>{box}</Link>;
+  return box;
+}

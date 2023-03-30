@@ -1,40 +1,12 @@
 import { toHex } from "@/types/assist/colors";
 import { Bloods } from "@/types/assist/signs";
 import { Log, Pesterlog } from "@/types/pester";
-import { Troll } from "@/types/troll";
-import Link from "next/link";
-import { ReactNode } from "react";
+import { CSSProperties } from "react";
 import reactStringReplace from 'react-string-replace';
+import { transformToQuirks } from "./functions/text";
+import { TrollNameRenderer } from "./name";
 
-const quirkFunctions:{[key:string]:(str:string, args:any) => string} = {
-  replace (str:string, args:[string, string]) {
-    return str.replace(new RegExp(args[0], "gm"), args[1]);
-  },
-  lowercase (str:string, args:[boolean, number, number]) {
-    if (!args[0]) {
-      str = str.substring(0, args[1]).toLowerCase() + str.substring(args[1]);
-      str = str.substring(0, args[2]) + str.substring(args[2]).toLowerCase();
-      return str;
-    } else return str.toLowerCase();
-  },
-  uppercase (str:string, args:[boolean, number, number]) {
-    if (!args[0]) {
-      str = str.substring(0, args[1]).toUpperCase() + str.substring(args[1]);
-      str = str.substring(0, args[2]) + str.substring(args[2]).toUpperCase();
-      return str;
-    } else return str.toUpperCase();
-  }
-}
-
-function transformToQuirks(text:string, character:Troll, quirkIndex:string):string {
-  let newText = text;
-  character.quirks[quirkIndex ?? "default"].forEach((quirkFunc) => {
-    newText = quirkFunctions[quirkFunc.function](newText, quirkFunc.arguments);
-  })
-  return newText;
-}
-
-function dialogCompiler(dialog:Pesterlog) {
+export function dialogCompiler(dialog:Pesterlog, jsx:boolean) {
   let newDialogLog = [...dialog.log];
   let characterColors = dialog.characters.map((char) => 
     toHex(Bloods[char.character.sign.fakeColor ?? char.character.sign.color].colormap.map(x => x * 0xa1))
@@ -47,7 +19,7 @@ function dialogCompiler(dialog:Pesterlog) {
   // }
   if (dialog.config?.memo) {
     newDialogLog.unshift({
-      text: `[C${dialog.config.memoCreator}] ${dialog.config.memoCreationTime} opened memo on board ${dialog.config.memoName}.`
+      text: `[C${dialog.config.memoCreator}] ${dialog.config.memoCreationTime} opened memo on board ${transformToQuirks(dialog.config.memoName, dialog.characters[dialog.config.memoCreator].character, "default")}.`
     }, {
       text: ` `,
       noDash: true
@@ -56,8 +28,7 @@ function dialogCompiler(dialog:Pesterlog) {
       text: ` `,
       noDash: true
     }, {
-      text: `[C${dialog.config.memoCreator}S] closed memo.`,
-      noDash: true
+      text: `[C${dialog.config.memoCreator}S] closed memo.`
     }, {
       text: ` `,
       noDash: true
@@ -72,36 +43,37 @@ function dialogCompiler(dialog:Pesterlog) {
   }
 
   return newDialogLog.map((logitem:Log, index) => {
-    let style = {};
-    var jsx:any = logitem.text;
+    let style:CSSProperties = {};
+    var output:any = logitem.text;
+    if (logitem.character === undefined && jsx) {
+      output = reactStringReplace(output, /\[C([0-9][US]?)\]/gm, function (m:string) {
+        let match = +m.replace(/[US]/g, "");
+        return <span style={{color:characterColors[match]}}>{TrollNameRenderer(dialog.characters[match],!m.includes("S"),!m.includes("U"),1)}</span>
+      });
+    } else {
+      output = output.replace(/\[C([0-9])([US])?\]/gm, function (m:string, p1:string, p2:string, _:any, __:any) {
+        return TrollNameRenderer(dialog.characters[+p1],p2!=="S",p2!=="U",0)
+      });
+    }
     if (logitem.character !== undefined) {
       let character = dialog.characters[logitem.character];
-      let shortName = (character.time ? character.time[0] : "") + character.character.username.split(/(?=[A-Z])/).map(x => x[0]).join("").toUpperCase();
       style.color = characterColors[logitem.character];
-      jsx = transformToQuirks(jsx.toString(), character.character, logitem.quirk);
-      jsx = (<>{shortName}: {jsx}</>);
+      output = `${TrollNameRenderer(character,0,1,0)}: ${transformToQuirks(output, character.character, logitem.quirk)}`;
     } else {
-      jsx = reactStringReplace(jsx, /\[C([0-9][US]?)\]/gm, function (m:string) {
-        let match = +m.replace(/[US]/g, "");
-        let dcm = dialog.characters[match];
-        let character = (dcm.time ? dcm.time + " " : "") + dcm.character.username;
-        let shortName = (dcm.time ? dcm.time[0] : "") + dcm.character.username.split(/(?=[A-Z])/).map(x => x[0]).join("").toUpperCase();
-        return <span style={{color:characterColors[match]}}><Link href={"/trolls/" + dcm.character.id}>{!m.includes("S") ? character : ""}{!m.includes("U") ? (m.includes("S") ? `${shortName}` : ` [${shortName}]`) : ""}</Link></span>
-      });
       if (!logitem.noDash) {
-        jsx = (<>-- {jsx} --</>);
+        output = jsx ? (<>-- {output} --</>) : `-- ${output} --`;
       }
     }
-    return (<p key={index} className={"p-0 leading-tight"} style={style}>
-      {jsx}
-    </p>);
+    return jsx ? (<p key={index} className={"p-0 leading-tight"} style={style}>
+      {output}
+    </p>) : output;
   });
 }
 
 export default function PesterBox({pesterJSON}:{pesterJSON:Pesterlog}) {
   return (
     <div className="p-2 bg-[white] border-2 border-[black] text-[black] my-1 font-mono flex flex-col whitespace-pre-wrap">
-      {dialogCompiler(pesterJSON)}
+      {dialogCompiler(pesterJSON, true)}
     </div>
   )
 }

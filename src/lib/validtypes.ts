@@ -2,13 +2,14 @@ import { Troll } from '@/types/troll';
 import { User } from '@/types/user';
 import { Flair } from '@/types/flair';
 import { ClientPesterlog, Pesterlog } from '@/types/pester';
-import { DocumentSnapshot, doc, getDoc } from 'firebase/firestore';
+import { DocumentSnapshot, doc, getDoc, Timestamp } from 'firebase/firestore';
 import { database } from '@/lib/firebase';
 
 interface FirestoreConverter {
   name: string,
   fromFirestore: (input:DocumentSnapshot) => any,
-  toFirestore: (input:any) => any
+  toFirestore: (input:any) => any,
+  toFormat?: (input: any) => any
 }
 
 const validtypes:{[key:string]:FirestoreConverter} = {
@@ -56,6 +57,12 @@ const validtypes:{[key:string]:FirestoreConverter} = {
       pester.id = input.id;
       pester.characters = await Promise.all(pester.characters.map(async (x:any) => {x.character = await validtypes.trolls.fromFirestore(await getDoc(x.character));return x}));
       pester.owners = await Promise.all(pester.owners.map(async (x:any) => await validtypes.users.fromFirestore(await getDoc(doc(database, "users", x)))));
+      pester.date = (pester.date as Timestamp).toDate().toISOString();
+      return pester;
+    },
+    async toFormat (input):Promise<Pesterlog> {
+      let pester = input;
+      pester.characters = await Promise.all(pester.characters.map(async (x:any) => {x.character = await validtypes.trolls.fromFirestore(await getDoc(doc(database, x.character)));return x}));
       return pester;
     },
     toFirestore (input):Pesterlog {
