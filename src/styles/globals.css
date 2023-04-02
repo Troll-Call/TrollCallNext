@@ -6,8 +6,7 @@
 	font-family: TrollCall Display;
 	font-style: normal;
 	font-weight: 400;
-	src: url(/assets/trollcall-display/trollcall-display-regular.woff2) format("woff2");
-  src: url(/assets/trollcall-display/trollcall-display-regular.woff) format("woff");
+	src: local("TrollCall Display Regular"), local("TrollCall Display Regular"), url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2) format("woff2"), url(/assets/trollcall-display/TrollCallDisplay-Regular.woff) format("woff");
 }
 
 :root {
@@ -105,7 +104,7 @@ svg ul {
       font-title
       uppercase
       p-0;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 28px;
   }
   .subtitle {
@@ -114,7 +113,7 @@ svg ul {
       text-xl
       uppercase
       p-0;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
   }
   .monospace {

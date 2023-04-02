@@ -1,7 +1,0 @@
-/* trollcall-display-regular */
-@font-face {
-	font-family: TrollCall Display;
-	font-style: normal;
-	font-weight: 400;
-	src: local("TrollCall Display Regular"), local("TrollCallDisplayRegular"), url(/assets/trollcall-display/trollcall-display-regular.woff2) format("woff2"), url(/assets/trollcall-display/trollcall-display-regular.woff) format("woff");
-}
