@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-      <div>
+      <div className="base">
         <Head>
           <title>{module.exports.default.name + " | " + name}</title>
         </Head>

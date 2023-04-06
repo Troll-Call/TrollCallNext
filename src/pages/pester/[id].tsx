@@ -14,7 +14,7 @@ export default function Trolllog({ pester }:{pester:pesterType}) {
   let theme:{[key:string]:string} = {};
   themeColor("#FF0000").forEach((x, i) => theme["--pos-" + (i * 100)] = toHex(x));
   return (
-    <div>
+    <div className="base">
       <Navbar title={pester.name} type={module.exports.default.name} />
       <Box title={pester.name}>
         <p className="py-1">

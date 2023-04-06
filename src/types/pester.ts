@@ -4,11 +4,11 @@ import { UserSchema } from './user';
 import { requiredish, ensureish } from './generics';
 
 const LogSchema = yup.object({
-  character: yup.number().integer().optional(),
+  character: yup.number().integer().min(0).optional(),
   text: yup.string().required("Text?"),
   time: yup.string(),
   noDash: yup.boolean(),
-  quirk: yup.string().when('$isEdit', (isEdit, fieldSchema) => isEdit ? fieldSchema : fieldSchema.default("default"))
+  quirk: yup.string().default("default")
 });
 
 export interface Log extends yup.InferType<typeof LogSchema> {}
@@ -21,17 +21,17 @@ export const CharacterReferenceSchema = yup.object({
 export interface CharacterReference extends yup.InferType<typeof CharacterReferenceSchema> {}
 
 export const PesterlogSchema = yup.object({
-  owners: yup.array().of(UserSchema),
+  owners: yup.array().of(UserSchema).required(),
   name: yup.string().required("Name?"),
-  description: yup.string().min(3, "Description too short").max(10000, "Description is too long!").required(),
+  description: yup.string().required("Pootis 'cription here!").min(3, "Description too short").max(10000, "Description is too long!"),
   date: yup.date().required("Date?"),
   characters: yup.array().of(CharacterReferenceSchema).required("Characters?"),
   config: yup.object({
-    memo: yup.boolean().notRequired(),
-    memoName: yup.string().notRequired(),
-    memoCreator: yup.number().integer().required("Memo Opener?"),
+    memo: yup.boolean().default(false),
+    memoName: yup.string().required("Memo Name?"),
+    memoCreator: yup.number().integer().min(0).required("Memo Opener?"),
     memoCreationTime: yup.string().ensure()
-  }).notRequired(),
+  }).optional(),
   log: yup.array().of(LogSchema).required("Log?")
 }).required();
 
@@ -39,7 +39,8 @@ export const ClientPesterlogSchema = PesterlogSchema.shape({
   owners: yup.array().of(yup.string()),
   characters: yup.array().of(yup.object({
     character: yup.string().required("Character?"),
-  }))
+    time: yup.string().ensure()
+  })).required("Characters?")
 });
 
 export interface Pesterlog extends yup.InferType<typeof PesterlogSchema> {}

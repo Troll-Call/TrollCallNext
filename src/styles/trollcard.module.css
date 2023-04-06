@@ -1,6 +1,7 @@
 .cardBox {
   border-width: 3px;
-  border-radius: 16px;
+  /* border-radius: 16px; */
+  box-shadow: none;
   width: max-content;
   height: 400px;
   position: relative;

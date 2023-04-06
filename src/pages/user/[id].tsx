@@ -11,26 +11,32 @@ import { Pesterlog as pesterType } from "@/types/pester";
 import { Themer } from "@/components/themer";
 import PesterCard from "@/components/pestercard";
 
-export default function User({ user, trolls, pesters }:{user:userType, trolls:trollType[], pesters:pesterType[]}) {
+export default function User({ user, trolls, pesters, test }:{user:userType, trolls:trollType[], pesters:pesterType[], test?:boolean}) {
+  if (user === undefined) return (<></>);
   return (
-    <div>
-      <Themer pos={"#" + user.flairs[0].color.toString(16).padStart(6,"0")} />
-      <Navbar title={user.username} type={module.exports.default.name} />
+    <div className="base">
+        <Themer color={user.color} />
+      {test ? <></> : <>
+        <Navbar title={user.username} type={module.exports.default.name} />
+      </>}
       <Box title={user.username}>
-        <p className="pt-0">at <a href={user.url} target="_blank">{user.url}</a></p>
+        {user.url ? <p className="pt-0">at <a href={user.url} target="_blank">{user.url}</a></p> : <></>}
         <UsernameRenderer name={false} full={true} user={user} />
+        {user.description ? <div className="negative noborder no-underline my-1 font-mono whitespace-pre-line">
+          {user.description.replace(/\\n/gm, "\n")}
+        </div> : <></>}
       </Box>
       <Box subtitle={true} title={user.username + "'S TROLLS"}>
         <div className="noshow flex-row flex-wrap justify-around">
-          {trolls.map((x, i) => <TrollCard troll={x} key={i} simple={true} />)}
+          {trolls.length <= 0 ? "No critters in sight..." : trolls.map((x, i) => <TrollCard troll={x} key={i} simple={true} />)}
         </div>
       </Box>
       <Box subtitle={true} title={user.username + "'S PESTERS"}>
         <div className="noshow flex-row flex-wrap justify-around">
-          {pesters.map((x, i) => <PesterCard pester={x} key={i} />)}
+          {pesters.length <= 0 ? "No blabbing in earshot..." : pesters.map((x, i) => <PesterCard pester={x} key={i} />)}
         </div>
       </Box>
-      <Footer />
+      {test ? <></> : <Footer />}
     </div>
   )
 }

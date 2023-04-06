@@ -1,0 +1,112 @@
+input:not([type=submit]):not([type=reset]):not([type=button]), select, textarea {
+  @apply
+    placeholder-neg-600
+    text-neg-800
+    bg-neg-200
+    font-body;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+  border-width: 1px;
+  box-shadow: 4px 4px 0 var(--neg-800);
+  transition: all 0.05s;
+  @apply
+    text-neg-800
+    bg-neg-200
+    font-body
+    p-2 m-1 mr-2 mb-2;
+}
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover {
+  @apply
+    text-neg-900
+    bg-neg-300;
+}
+input[type=submit]:active,
+input[type=reset]:active,
+input[type=button]:active {
+  box-shadow: 0 0 0 transparent;
+  @apply
+    text-neg-700
+    bg-neg-100 ml-2 mr-1 mb-1 mt-2;
+}
+input[type=submit]:disabled,
+input[type=reset]:disabled,
+input[type=button]:disabled {
+  box-shadow: 0 0 0 transparent;
+  @apply
+    text-neg-300
+    bg-neg-100 ml-2 mr-1 mb-1 mt-2;
+}
+
+span:not(.input) input:not([type=submit]):not([type=reset]):not([type=button]), select, textarea {
+  border-width: 1px;
+  @apply
+    border-neg-800
+    p-2 m-0;
+}
+
+form span {
+  display: inline-block;
+}
+
+span.input {
+  border-width: 1px;
+  width: max-content;
+  @apply 
+    placeholder-neg-600
+    text-neg-800
+    border-neg-800
+    bg-neg-200
+    font-body
+    p-2;
+}
+
+span.input input:not([type=submit]):not([type=reset]):not([type=button]) {
+  @apply 
+    p-0 m-0;
+}
+
+form > div {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+span input:not([type=submit]):not([type=reset]):not([type=button]) {
+  @apply 
+    p-1 mx-1;
+}
+
+div.label {
+  font-size: 14px;
+  margin-bottom: -8px;
+}
+
+div.help {
+  font-size: 14px;
+  padding: 0 8px;
+  @apply 
+    text-pos-600;
+}
+
+div.warning {
+  color: yellow;
+  @apply
+    before:content-["⚠️_"]
+}
+
+span.error {
+  color: red;
+  font-weight: bold;
+}
+
+span.submitRight {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}

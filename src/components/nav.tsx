@@ -8,7 +8,7 @@ export default function Navbar({title, type}:{title:string, type:string}) {
       <Head>
         <title>{type + ": " + title + " | " + name}</title>
       </Head>
-      <div className="box negative noborder flex flex-row flex-wrap overflow-hidden">
+      <div className="box negative noborder items-center flex flex-row overflow-hidden rounded-lg">
         <Link href="/" className="monospace text-left flex-none">
           &lt;== Back
         </Link>

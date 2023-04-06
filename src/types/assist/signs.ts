@@ -2,24 +2,26 @@ import { rgb, Color } from "../generics";
 
 export interface BloodDescription {
   colormap: Color,
+  colormapNeg?: Color,
   name: string,
   sign: string
 }
 
-export enum PossibleBloods {
-  Aries,
-  Taurus,
-  Gemini,
-  Cancer,
-  Leo,
-  Virgo,
-  Libra,
-  Scorpio,
-  Sagittarius,
-  Capricorn,
-  Aquarius,
-  Pisces
-}
+export const PossibleBloods = {
+  Aries: 0,
+  Taurus: 1,
+  Gemini: 2,
+  Cancer: 3,
+  Leo: 4,
+  Virgo: 5,
+  Libra: 6,
+  Scorpio: 7,
+  Sagittarius: 8,
+  Capricorn: 9,
+  Aquarius: 10,
+  Pisces: 11,
+  Default: 12,
+};
 
 export const Bloods:BloodDescription[] = [
   {
@@ -81,6 +83,12 @@ export const Bloods:BloodDescription[] = [
     colormap: [1, 0, 0.5],
     sign: "Pisces",
     name: "Fuchsia"
+  },
+  {
+    colormap: [0.75, 0.75, 0.75],
+    colormapNeg: [1, 0, 0],
+    sign: "Default",
+    name: "Grey"
   }
 ];
 

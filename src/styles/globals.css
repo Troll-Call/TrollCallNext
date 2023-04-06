@@ -6,7 +6,8 @@
 	font-family: TrollCall Display;
 	font-style: normal;
 	font-weight: 400;
-	src: local("TrollCall Display Regular"), local("TrollCall Display Regular"), url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2) format("woff2"), url(/assets/trollcall-display/TrollCallDisplay-Regular.woff) format("woff");
+	src: url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2) format("woff2"), 
+  url(/assets/trollcall-display/TrollCallDisplay-Regular.woff) format("woff");
 }
 
 :root {
@@ -21,17 +22,17 @@
   --pos-800: rgb(230, 230, 230);
   --pos-900: rgb(242, 242, 242);
   --pos-1000: rgb(255, 255, 255);
-  --neg-0: rgb(0, 0, 0);
-  --neg-100: rgb(0, 26, 0);
-  --neg-200: rgb(0, 51, 0);
-  --neg-300: rgb(0, 77, 0);
-  --neg-400: rgb(0, 102, 0);
-  --neg-500: rgb(0, 128, 0);
-  --neg-600: rgb(51, 153, 51);
-  --neg-700: rgb(102, 179, 102);
-  --neg-800: rgb(153, 204, 153);
-  --neg-900: rgb(204, 230, 204);
-  --neg-1000: rgb(255, 255, 255);
+  --neg-0: #000;
+  --neg-100: #1F0000;
+  --neg-200: #570000;
+  --neg-300: #8F0000;
+  --neg-400: #c70000;
+  --neg-500: #F00;
+  --neg-600: #FF2929;
+  --neg-700: #FF5252;
+  --neg-800: #FF7A7A;
+  --neg-900: #FFA3A3;
+  --neg-1000: #FFF;
 }
 
 body {
@@ -58,14 +59,20 @@ body > div {
     min-h-full
     w-full;
 }
-body > div > div {
+div.base {
   @apply
     flex
     flex-col
-    gap-2
+    flex-1
+    gap-4
     min-h-full
+    min-w-[420px]
     w-full
     max-w-screen-lg;
+}
+div.base.wide {
+  @apply
+    max-w-screen-2xl;
 }
 p, details, ul {
   display:inline-block;
@@ -77,7 +84,6 @@ p, details, ul {
 details {
   border-width: 1px;
   @apply
-    rounded-lg
     border-neg-800;
   border-right-width: 0;
   border-top-width: 0;
@@ -124,8 +130,8 @@ svg ul {
   }
   .box {
     border-width: 1px;
+    box-shadow: 0.25rem 0.25rem 0 0 var(--pos-800);
     @apply
-      rounded-lg
       border-pos-800
       text-pos-800
       bg-pos-200
@@ -133,8 +139,8 @@ svg ul {
   }
   .negative {
     border-width: 1px;
+    box-shadow: 0.25rem 0.25rem 0 0 var(--neg-800);
     @apply
-      rounded-lg
       border-neg-800
       text-neg-800
       bg-neg-200
@@ -142,14 +148,15 @@ svg ul {
   }
   .noborder {
     border-width: 0;
+    box-shadow: none;
   }
   .noshow {
     @apply p-2
       flex
       flex-col
-      gap-2;
+      gap-4;
   }
   .flair {
-    @apply rounded-lg p-0.5 mx-1 my-0.5 px-1 select-none inline-block;
+    @apply p-0.5 mx-1 my-0.5 px-1 select-none inline-block;
   }
 }

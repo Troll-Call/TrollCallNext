@@ -8,7 +8,7 @@ export const ensureish = () => ((isEdit:any[], fieldSchema:any):yup.AnySchema =>
 export const PolicySchema = yup.string().oneOf(["yes", "ask", "no"]);
 
 export const PreferenceSchema = yup.object({
-  thing: yup.string().required("Preference thing?"),
+  thing: yup.string().required("Preference thing?").min(3, "Preference too short.").max(140, "Preference too long!"),
   opinion: yup.boolean().required("Preference opinion?")
 });
 
