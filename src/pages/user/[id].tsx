@@ -22,7 +22,7 @@ export default function User({ user, trolls, pesters, test }:{user:userType, tro
       <Box title={user.username}>
         {user.url ? <p className="pt-0">at <a href={user.url} target="_blank">{user.url}</a></p> : <></>}
         <UsernameRenderer name={false} full={true} user={user} />
-        {user.description ? <div className="negative noborder no-underline my-1 font-mono whitespace-pre-line">
+        {user.description ? <div className="negative noborder no-underline my-1 font-mono whitespace-pre-line break-words">
           {user.description.replace(/\\n/gm, "\n")}
         </div> : <></>}
       </Box>

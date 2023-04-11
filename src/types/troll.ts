@@ -37,7 +37,8 @@ export const TrollSchema = yup.object({
   facts: yup.array().of(yup.string().min(5, "Fact is too short.").max(140, "Fact is too long!")).required("Facts?").min(3, "Too little facts (need at or above 3)").max(5, "Too many facts (need at or under 5)"),
   quirks: yup.object().shape({
     default: yup.array().of(QuirkSchema).required("Default quirk required (leave empty \"[]\" if none)")
-  }).required("Quirks? (put {default:[]} if none)")
+  }).required("Quirks? (put {default:[]} if none)"),
+  id: yup.string().required("Need ID here").lowercase().matches(/[^a-zA-Z0-9-_]/g).min(3, "ID too short.").max(50, "ID too long!")
 }).required();
 
 export const ClientTrollSchema = TrollSchema.shape({

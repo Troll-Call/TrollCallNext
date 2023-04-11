@@ -1,4 +1,8 @@
 input:not([type=submit]):not([type=reset]):not([type=button]), select, textarea {
+  box-shadow: 1px 1px var(--neg-800),
+              2px 2px var(--neg-800),
+              3px 3px var(--neg-800),
+              4px 4px var(--neg-800);
   @apply
     placeholder-neg-600
     text-neg-800
@@ -10,7 +14,10 @@ input[type=submit],
 input[type=reset],
 input[type=button] {
   border-width: 1px;
-  box-shadow: 4px 4px 0 var(--neg-800);
+  box-shadow: 1px 1px var(--neg-800),
+              2px 2px var(--neg-800),
+              3px 3px var(--neg-800),
+              4px 4px var(--neg-800);
   transition: all 0.05s;
   @apply
     text-neg-800
@@ -28,7 +35,7 @@ input[type=button]:hover {
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active {
-  box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 transparent;
   @apply
     text-neg-700
     bg-neg-100 ml-2 mr-1 mb-1 mt-2;
@@ -36,7 +43,7 @@ input[type=button]:active {
 input[type=submit]:disabled,
 input[type=reset]:disabled,
 input[type=button]:disabled {
-  box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 transparent;
   @apply
     text-neg-300
     bg-neg-100 ml-2 mr-1 mb-1 mt-2;
@@ -54,6 +61,10 @@ form span {
 }
 
 span.input {
+  box-shadow: 1px 1px var(--neg-800),
+              2px 2px var(--neg-800),
+              3px 3px var(--neg-800),
+              4px 4px var(--neg-800);
   border-width: 1px;
   width: max-content;
   @apply 
@@ -66,6 +77,7 @@ span.input {
 }
 
 span.input input:not([type=submit]):not([type=reset]):not([type=button]) {
+  box-shadow: none;
   @apply 
     p-0 m-0;
 }
@@ -109,4 +121,8 @@ span.submitRight {
   text-align: right;
   display: flex;
   justify-content: right;
+}
+
+textarea {
+  @apply font-mono;
 }

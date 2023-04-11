@@ -8,7 +8,8 @@ const LogSchema = yup.object({
   text: yup.string().required("Text?"),
   time: yup.string(),
   noDash: yup.boolean(),
-  quirk: yup.string().default("default")
+  quirk: yup.string().default("default"),
+  id: yup.string().required("Need ID here").lowercase().matches(/[^a-zA-Z0-9-_]/g).min(3, "ID too short.").max(50, "ID too long!")
 });
 
 export interface Log extends yup.InferType<typeof LogSchema> {}

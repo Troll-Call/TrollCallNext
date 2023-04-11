@@ -130,7 +130,10 @@ svg ul {
   }
   .box {
     border-width: 1px;
-    box-shadow: 0.25rem 0.25rem 0 0 var(--pos-800);
+    box-shadow: 1px 1px var(--pos-800),
+                2px 2px var(--pos-800),
+                3px 3px var(--pos-800),
+                4px 4px var(--pos-800);
     @apply
       border-pos-800
       text-pos-800
@@ -139,7 +142,10 @@ svg ul {
   }
   .negative {
     border-width: 1px;
-    box-shadow: 0.25rem 0.25rem 0 0 var(--neg-800);
+    box-shadow: 1px 1px var(--neg-800), 
+                2px 2px var(--neg-800), 
+                3px 3px var(--neg-800), 
+                4px 4px var(--neg-800);
     @apply
       border-neg-800
       text-neg-800

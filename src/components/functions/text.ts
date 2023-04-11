@@ -61,7 +61,7 @@ const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
 
 export function transformToQuirks(text: string, character: Troll, quirkIndex: string): string {
   let newText = text;
-  character.quirks[quirkIndex ?? "default"].forEach((quirkFunc: any) => {
+  character.quirks[quirkIndex ?? "default"]?.forEach((quirkFunc: any) => {
     newText = quirkFunctions[quirkFunc.function](newText, quirkFunc.arguments);
   })
   return newText;
