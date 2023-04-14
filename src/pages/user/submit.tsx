@@ -4,23 +4,25 @@ import { brandUrl } from "@/types/assist/branding";
 import { negate, themeColor, toHex } from "@/types/assist/colors";
 import { Bloods, PossibleBloods } from "@/types/assist/signs";
 import { ClientUser, ClientUserSchema } from "@/types/user";
+import { User as userType } from "@/types/user";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import { FormEvent, useState } from "react";
 import UserRenderer from "@/pages/user/[id]";
 import Footer from "@/components/footer";
+import { findAll } from "@/lib/dbFunctions";
 
-const error = ((message:string) => <>-- <span className="error">{message}</span></>);
+const error = ((message:string) => {return <>-- <span className="error">{message}</span></>});
 
 export default function User({}:{}) {
-  const [testVals, setTestVals] = useState({});
+  const [testVals, setTestVals] = useState({} as userType);
   const [textLength, setTextLength] = useState(0);
   return (
     <div className="wide base">
       <Navbar title={module.exports.default.name} type="Submit" />
       <div className="flex flex-row gap-4 justify-center flex-wrap">
-        <Box title="Submit a user" className="flex-1">
+        <Box title={"Submit a " + module.exports.default.name} className="flex-1">
           <Formik
-            initialValues={{}}
+            initialValues={{} as userType}
             validationSchema={ClientUserSchema}
             onSubmit={(values, { setSubmitting }) => {
               setTimeout(() => {
@@ -30,6 +32,9 @@ export default function User({}:{}) {
             }}
           >{({ isSubmitting, setFieldValue, handleChange, handleBlur, values }) => (
             <Form>
+              <div>
+                <div>Submit an owner user to hold your trolls and pesters. Currently, you cannot &quot;sign in&quot; into these user accounts like you would on a normal website - these are simple placeholders for actual user accounts.</div>
+              </div>
               <div>
                 <div className="label">Username <ErrorMessage name="username">{error}</ErrorMessage></div>
                 <span>
@@ -43,7 +48,7 @@ export default function User({}:{}) {
               <div>
                 <div className="label">User ID <ErrorMessage name="id">{error}</ErrorMessage></div>
                 <span className="input">
-                  {brandUrl}user/<Field type="text" name="id" placeholder="johnny.doefor" onBlur={(event: FormEvent) => {
+                  {brandUrl}user/<Field type="text" name="id" placeholder="johnny_doefor" onBlur={(event: FormEvent) => {
                       handleBlur(event);
                       setFieldValue('id',event.target.value.replace(/[^a-zA-Z0-9-_]/g, "_").toLowerCase());
                   }} />

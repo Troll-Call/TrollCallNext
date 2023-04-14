@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 import { TrollSchema } from './troll';
 import { UserSchema } from './user';
-import { requiredish, ensureish } from './generics';
+import { requiredish, ensureish, IDSchema } from './generics';
 
 const LogSchema = yup.object({
   character: yup.number().integer().min(0).optional(),
@@ -9,7 +9,7 @@ const LogSchema = yup.object({
   time: yup.string(),
   noDash: yup.boolean(),
   quirk: yup.string().default("default"),
-  id: yup.string().required("Need ID here").lowercase().matches(/[^a-zA-Z0-9-_]/g).min(3, "ID too short.").max(50, "ID too long!")
+  id: IDSchema
 });
 
 export interface Log extends yup.InferType<typeof LogSchema> {}
@@ -24,7 +24,7 @@ export interface CharacterReference extends yup.InferType<typeof CharacterRefere
 export const PesterlogSchema = yup.object({
   owners: yup.array().of(UserSchema).required(),
   name: yup.string().required("Name?"),
-  description: yup.string().required("Pootis 'cription here!").min(3, "Description too short").max(10000, "Description is too long!"),
+  description: yup.string().required("Pootis 'cription here!").min(3, "Description too short").max(1000, "Description is too long!"),
   date: yup.date().required("Date?"),
   characters: yup.array().of(CharacterReferenceSchema).required("Characters?"),
   config: yup.object({

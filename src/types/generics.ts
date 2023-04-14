@@ -1,4 +1,5 @@
 import * as yup from 'yup';
+import { toInt } from './assist/colors';
 
 export type Color = [number, number, number];
 export const rgb = (r:number, g:number, b:number):Color => ([r,g,b]);
@@ -16,6 +17,13 @@ export const QuirkSchema = yup.object({
   function: yup.string().required("Function?"),
   arguments: yup.array().of(yup.mixed())
 })
+
+export const ColorSchema = yup.number()
+  .transform((v, ov) => toInt(ov))
+  .min(0).max(16777215, "Color is over hex maximum")
+  .default(0);
+
+export const IDSchema = yup.string().required("Need ID here").lowercase().matches(/[a-zA-Z0-9-_]/g).min(3, "ID too short.").max(50, "ID too long!");
 
 export interface GenericHolder {
   id: string,

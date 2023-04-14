@@ -1,5 +1,5 @@
 import { toHex } from "@/types/assist/colors";
-import { Bloods } from "@/types/assist/signs";
+import { Bloods, PossibleBloods } from "@/types/assist/signs";
 import { Log, Pesterlog } from "@/types/pester";
 import { CSSProperties } from "react";
 import reactStringReplace from 'react-string-replace';
@@ -9,7 +9,7 @@ import { TrollNameRenderer } from "./name";
 export function dialogCompiler(dialog:Pesterlog, jsx:boolean) {
   let newDialogLog = [...dialog.log];
   let characterColors = dialog.characters.map((char) => 
-    toHex(Bloods[char.character.sign.fakeColor ?? char.character.sign.color].colormap.map(x => x * 0xa1))
+    toHex(Bloods[char.character.sign.fakeColor || char.character.sign.color || 0].colormap.map(x => Math.round(x * 0xa1)))
   );
   // dialog.config = {
   //   memo: true,

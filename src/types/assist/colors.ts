@@ -3,9 +3,10 @@ import { Color } from "../generics";
 const clamp = (n:number, mi:number, ma:number) => Math.max(mi, Math.min(n, ma));
 
 export function convertColor (color:any):Color {
-  if (Array.isArray(color)) return color as Color;
-  else if (color.startsWith("rgb(")) return color.replace(/rgb\(|\)/gm, "").split(", ").map((x:string) => parseInt(x));
-  else if (color.startsWith("#")) return [parseInt(color.slice(1, 3), 16), parseInt(color.slice(3, 5), 16), parseInt(color.slice(5, 7), 16)];
+  if (typeof color === "number") return [(color >> 16) & 255, (color >> 8) & 255, color & 255]
+  else if (Array.isArray(color)) return color as Color;
+  else if (typeof color === "string" && color.startsWith("rgb(")) return color.replace(/rgb\(|\)/gm, "").split(", ").map((x:string) => parseInt(x));
+  else if (typeof color === "string" && color.startsWith("#")) return [parseInt(color.slice(1, 3), 16), parseInt(color.slice(3, 5), 16), parseInt(color.slice(5, 7), 16)];
   else throw new Error("Color invalid");
 }
 
@@ -15,6 +16,11 @@ export function toHex (color:any) {
 
 export function toRGB (color:any) {
   return `rgb(${convertColor(color).join(", ")})`;
+}
+
+export function toInt (color:any) {
+  var newColor = convertColor(color);
+  return (newColor[0] << 16) + (newColor[1] << 8) + newColor[2];
 }
 
 //adjustment

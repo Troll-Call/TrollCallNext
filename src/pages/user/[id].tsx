@@ -8,14 +8,18 @@ import TrollCard from "@/components/trollcard";
 import UsernameRenderer from "@/components/name";
 import { Troll as trollType } from "@/types/troll";
 import { Pesterlog as pesterType } from "@/types/pester";
+import { Bloods, PossibleBloods } from "@/types/assist/signs";
 import { Themer } from "@/components/themer";
 import PesterCard from "@/components/pestercard";
+import { negate } from "@/types/assist/colors";
 
 export default function User({ user, trolls, pesters, test }:{user:userType, trolls:trollType[], pesters:pesterType[], test?:boolean}) {
   if (user === undefined) return (<></>);
+  var bloodColor = Bloods[PossibleBloods[user.color]] ?? Bloods[12];
   return (
     <div className="base">
-        <Themer color={user.color} />
+        <Themer color={bloodColor.colormap.map(x => x * 255)} label="pos" />
+        <Themer color={bloodColor.colormapNeg ? bloodColor.colormapNeg?.map(x => x * 255) : negate(bloodColor.colormap.map(x => x * 255))} label="neg" />
       {test ? <></> : <>
         <Navbar title={user.username} type={module.exports.default.name} />
       </>}

@@ -3,10 +3,11 @@ import { User } from "@/types/user";
 import Link from "next/link";
 import Flair from "./flair";
 
-export default function UsernameRenderer({user, name, full}:{user:User, name?:boolean, full?:boolean}) {
+export default function UsernameRenderer({user, name, link, full}:{user:User, name?:boolean, link?:boolean, full?:boolean}) {
+  var theLink = link ? (<Link href={"/user/" + user.id}>{name ? user.username : ""}</Link>) : (name ? user.username : "");
   return (
     <span className="inline">
-      <Link href={"/user/" + user.id}>{name ? user.username : ""}</Link>{user.flairs && user.flairs[0] ? (full ? user.flairs.map((x,i) => <Flair flair={x} key={i} />) : <Flair flair={user.flairs[0]} />) : <></>}
+      {theLink}{user.flairs && user.flairs[0] ? (full ? user.flairs.map((x,i) => <Flair flair={x} key={i} />) : <Flair flair={user.flairs[0]} />) : <></>}
     </span>
   )
 }
@@ -14,7 +15,7 @@ export default function UsernameRenderer({user, name, full}:{user:User, name?:bo
 export function TrollNameRenderer(character:CharacterReference, displayName?:boolean|number, shortName?:boolean|number, link?:boolean|number) {
   let sn = (
     (character.time ? character.time[0] : "") +
-    (character.character.username.split(/(?=[A-Z])/).map(x => x[0]).join("").toUpperCase())
+    (character.character.username.replace(/^(([a-z])[a-z]+)(([A-Z])[a-z]+)$/, "$2$4").toUpperCase())
   )
   var box = (
     (character.time ? character.time + " " : "") +

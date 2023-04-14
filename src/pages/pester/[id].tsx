@@ -19,7 +19,7 @@ export default function Trolllog({ pester }:{pester:pesterType}) {
       <Box title={pester.name}>
         <p className="py-1">
         <span>Created {new Date(pester.date).toLocaleString()}</span><br />
-        <span>by {pester.owners.map((user:userType, i) => (<>{i > 0 ? " and " : ""}<UsernameRenderer key={i} name={true} user={user} /></>))}</span>
+        <span>by {pester.owners.map((user:userType, i) => (<>{i > 0 ? " and " : ""}<UsernameRenderer link key={i} name user={user} /></>))}</span>
         </p>
         <Box className="negative noborder font-mono whitespace-pre-line">
           {pester.description.replace(/\\n/gm, "\n")}

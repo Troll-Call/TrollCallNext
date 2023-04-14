@@ -25,6 +25,7 @@ input[type=button] {
     font-body
     p-2 m-1 mr-2 mb-2;
 }
+
 input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover {
@@ -49,7 +50,7 @@ input[type=button]:disabled {
     bg-neg-100 ml-2 mr-1 mb-1 mt-2;
 }
 
-span:not(.input) input:not([type=submit]):not([type=reset]):not([type=button]), select, textarea {
+span:not(.input) input:not([type=submit]):not([type=reset]):not([type=button]), span:not(.input) select, span:not(.input) textarea {
   border-width: 1px;
   @apply
     border-neg-800
@@ -76,10 +77,10 @@ span.input {
     p-2;
 }
 
-span.input input:not([type=submit]):not([type=reset]):not([type=button]) {
+span.input input:not([type=submit]):not([type=reset]):not([type=button]), span.input select, span.input textarea {
   box-shadow: none;
   @apply 
-    p-0 m-0;
+    p-0 m-0 w-32;
 }
 
 form > div {
@@ -89,14 +90,30 @@ form > div {
   gap: 8px;
 }
 
-span input:not([type=submit]):not([type=reset]):not([type=button]) {
+span input:not([type=submit]):not([type=reset]):not([type=button]), span select, span textarea {
   @apply 
     p-1 mx-1;
 }
 
-div.label {
+div.tinyLabel {
   font-size: 14px;
   margin-bottom: -8px;
+}
+
+div.label {
+  font-size: 16px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.label::after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: var(--pos-800);
 }
 
 div.help {
@@ -125,4 +142,48 @@ span.submitRight {
 
 textarea {
   @apply font-mono;
+}
+
+button[type=button] {
+  border-width: 1px;
+  @apply
+    text-neg-800
+    bg-neg-200
+    font-body
+    p-2 mr-1;
+}
+
+/* span.ownerIndex > button[type=button] {
+  @apply ml-2 mt-0;
+} */
+
+button[type=button]:hover {
+  @apply
+    text-neg-900
+    bg-neg-300;
+}
+
+button[type=button]:active {
+  @apply
+    text-neg-700
+    bg-neg-100;
+}
+
+button[type=button]:disabled {
+  @apply
+    text-neg-300
+    bg-neg-100;
+}
+
+button[type=button].inline {
+  border-width: 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  /* @apply text-neg-600; */
+}
+
+span.inline {
+  @apply bg-neg-100;
+  width: 100%;
 }

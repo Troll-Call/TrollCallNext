@@ -7,7 +7,7 @@ export interface BloodDescription {
   sign: string
 }
 
-export const PossibleBloods = {
+export const PossibleBloods:{[key:string]:number} = {
   Aries: 0,
   Taurus: 1,
   Gemini: 2,
@@ -22,6 +22,15 @@ export const PossibleBloods = {
   Pisces: 11,
   Default: 12,
 };
+
+export const PronounsList = [
+  "he/him",
+  "she/her",
+  "they/them",
+  "it/its",
+  "xe/xem",
+  "xe/xir"
+]
 
 export const Bloods:BloodDescription[] = [
   {
@@ -99,4 +108,25 @@ export const TrollColors:Color[] = [
   rgb(255, 144, 32),
   rgb(255, 72, 32),
   rgb(255, 255, 255) // Teeth
-]; 
+];
+
+export const nameParallels:{[key:string]:string} = {
+  GT: "John (ghostyTrickster) and Jake (golgothasTerror)",
+  TT: "Rose (tentacleTherapist) and Dirk (timaeusTestified)",
+  TG: "Dave (turntechGodhead) and Roxy (tipsyGnostalgic)",
+  GG: "Jade (gardenGnostic) and Jane (gutsyGumshoe)",
+  EB: "John (ectoBiologist)",
+  CG: "Karkat (carcinoGeneticist)",
+  AA: "Aradia (apocalypseArisen)",
+  AT: "Tavros (adiosToreador)",
+  TA: "Sollux (twinArmageddons)",
+  AC: "Nepeta (arsenicCatnip)",
+  GA: "Kanaya (grimAuxiliatrix)",
+  GC: "Terezi (gallowsCalibrator)",
+  AG: "Vriska (arachnidsGrip)",
+  CT: "Equius (centaursTesticle)",
+  TC: "Gamzee (terminallyCapricious)",
+  CA: "Eridan (caligulasAquarium)",
+  CC: "Feferi (cuttlefishCuller)",
+  UU: "Calliope (uranianUmbra) and Caliborn (undyingUmbrage)"
+}

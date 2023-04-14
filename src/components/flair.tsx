@@ -1,13 +1,27 @@
 import { lightness, toHex } from "@/types/assist/colors";
 import { Flair as flairType } from "@/types/flair";
+import Link from "next/link";
+import { CSSProperties } from "react";
 
-export default function Flair({flair}:{flair:flairType, color:number}) {
-  const hexColor = "#" + flair.color.toString(16).padStart(6,"0");
+export default function Flair({flair}:{flair:flairType}) {
+  if (flair === undefined) return (<></>);
+  const hexColor = toHex(flair.color ?? 0);
+  const darkenederHex = toHex(lightness(hexColor, 70, false));
   const darkenedHex = toHex(lightness(hexColor, 60, false));
   const lightenedHex = toHex(lightness(hexColor, 60, true));
-  return (
-    <span title={flair.id} className={`flair`} style={{backgroundColor:darkenedHex,color:lightenedHex}}>
-      {flair.name}
-    </span>
-  )
+  let style:CSSProperties = {
+    backgroundColor:darkenedHex,
+    color:lightenedHex
+  };
+  if (flair.url) style.boxShadow = `1px 1px ${darkenederHex}, 
+  2px 2px ${darkenederHex}, 
+  3px 3px ${darkenederHex}, 
+  4px 4px ${darkenederHex}`;
+  var out = (<span title={flair.id} className={`flair`} style={style}>
+    {flair.name}
+  </span>);
+  if (flair.url) return (<Link href={flair.url}>
+    {out}
+  </Link>);
+  return out;
 }
