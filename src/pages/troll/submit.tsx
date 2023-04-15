@@ -14,6 +14,8 @@ import { TrollNameRenderer } from "@/components/name";
 import { CharacterReference } from "@/types/pester";
 import PesterBox from "@/components/pester";
 import { ExtendedZodiacIndexes } from "@/types/assist/extendedZodiac";
+import { quirkFunctionsDescriptions } from "@/components/functions/text";
+import TrollCard from "@/components/trollcard";
 
 const error = ((message:string) => <>-- <span className="error">{message}</span></>);
 
@@ -28,7 +30,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
       <div className="flex flex-row gap-4 justify-center flex-wrap">
         <Box title={"Submit a " + module.exports.default.name} className="flex-1">
           <Formik
-            initialValues={{} as trollType}
+            initialValues={{quirks:[["default",[]]]}}
             validationSchema={ClientTrollSchema}
             onSubmit={(values, { setSubmitting }) => {
               setTimeout(() => {
@@ -42,11 +44,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                 <div>Submit a cool character to the TrollCall site!</div>
               </div>
               <div>
-                <div className="label">Owners <ErrorMessage name="owners">{error}</ErrorMessage></div>
                 <FieldArray name="owners">
-                  {({insert, remove, push}) => (<>
+                  {({insert, form, remove, push}) => (<>
+                    <div className="label">Owners {form.errors.owners && typeof form.errors.owners === "string" && (<ErrorMessage name="owners">{error}</ErrorMessage>)}</div>
                     {values.owners?.map((owner, index) => (<>
-                      <div className="tinyLabel">Owner {index} <ErrorMessage name={`owners[${index}]`}>{error}</ErrorMessage></div>
+                      <div className="tinyLabel">Owner {index} {form.errors.owners && typeof form.errors.owners !== "string" && (<ErrorMessage name={`owners[${index}]`}>{error}</ErrorMessage>)}</div>
                       <span key={index}>
                         <Field onFocus={() => setSelectedElement(index)} type="text" name={`owners[${index}]`} placeholder="Johnny Doefor" />
                         <button type="button" className="ml-2" onClick={() => remove(index)}>Remove User</button>
@@ -77,7 +79,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   })()}
                   </div>
                 </div>
-                <div className="help">A list of people who own or have contributed to your troll. First index is always the owner.</div>
+                <div className="help">A list of people who own or have contributed to your character. First index is always the owner.</div>
               </div>
               <div>
                 <div className="label">Name <ErrorMessage name="name.first">{error}</ErrorMessage> <ErrorMessage name="name.last">{error}</ErrorMessage></div>
@@ -88,7 +90,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   }} />
                   <Field type="text" name="name.last" placeholder="Doefor" />
                 </span>
-                <div className="help">The name that displays on your user page and owned trolls.</div>
+                <div className="help">The name that displays on your character&apos;s casting card.</div>
               </div>
               <div>
                 <div className="label">Pronunciation <ErrorMessage name="pronunciation.first">{error}</ErrorMessage> <ErrorMessage name="pronunciation.last">{error}</ErrorMessage></div>
@@ -96,7 +98,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   <Field type="text" name="pronunciation.first" placeholder="john-knee" />
                   <Field type="text" name="pronunciation.last" placeholder="doe-fur" />
                 </span>
-                <div className="help">A piece of text that helps people pronounce your troll's name.</div>
+                <div className="help">A piece of text that helps people pronounce your character&apos;s name.</div>
               </div>
               <div>
                 <div className="label">User ID <ErrorMessage name="id">{error}</ErrorMessage></div>
@@ -124,7 +126,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                 <PesterBox pesterJSON={{
                   characters: [
                     // @ts-ignore
-                    {character:{username:values.username ?? "genericExamples", sign:values.sign ?? {color:0}, quirks:values.quirks ?? {default:[]}}},
+                    {character:{username:values.username ?? "genericExamples", sign:values.sign ?? {color:0}, quirks:Object.fromEntries(values.quirks) ?? {default:[]}}},
                     // @ts-ignore
                     {character:{username:"pesterlogTester", sign:{color:6}, quirks:{default:[]}}}
                   ],
@@ -157,7 +159,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     }}
                     onBlur={handleBlur} />
                 </span>
-                <div className="help">Tell us about your troll. Minimum 100 characters.</div>
+                <div className="help">Tell us about your character. Minimum 100 characters.</div>
               </div>
               <div>
                 <div className="label">Age <ErrorMessage name="age">{error}</ErrorMessage></div>
@@ -193,7 +195,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   </select>
                 </span>
                 <div className="help">
-                  The True Sign your troll was given.
+                  The True Sign your character was given.
                   {values.sign?.fakeColor ? <></> : <div className="warning">This page changes color based on this value!</div>}
                 </div>
               </div>
@@ -210,7 +212,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   </select>
                 </span>
                 <div className="help">
-                  The sign class that your troll masks as.
+                  The sign class that your character masks as.
                   {values.sign?.fakeColor ? <div className="warning">This page changes color based on this value!</div> : <></>}
                 </div>
               </div>
@@ -315,7 +317,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" label="No" />
+                    <option value="no" selected label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -331,7 +333,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" label="No" />
+                    <option value="no" selected label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -347,7 +349,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" label="No" />
+                    <option value="no" selected label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -363,7 +365,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" label="No" />
+                    <option value="no" selected label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -379,7 +381,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" label="No" />
+                    <option value="no" selected label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -387,11 +389,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                 </div>
               </div>
               <div>
-                <div className="label">Preferences</div>
                 <FieldArray name="preferences">
-                  {({insert, remove, push}) => (<>
+                  {({insert, form, remove, push}) => (<>
+                    <div className="label">Preferences {form.errors.preferences && typeof form.errors.preferences !== "object" && (<ErrorMessage name={`preferences`}>{error}</ErrorMessage>)}</div>
                     {values.preferences?.map((preference, index) => (<>
-                      <div className="tinyLabel">Preference {index} <ErrorMessage name={`preferences[${index}].thing`}>{error}</ErrorMessage> <ErrorMessage name={`preferences[${index}].opinion`}>{error}</ErrorMessage></div>
+                      <div className="tinyLabel">Preference {index} {form.errors.preferences && typeof form.errors.preferences === "object" && (<><ErrorMessage name={`preferences[${index}].thing`}>{error}</ErrorMessage> <ErrorMessage name={`preferences[${index}].opinion`}>{error}</ErrorMessage></>)}</div>
                       <span key={index}>
                         <Field type="text" name={`preferences[${index}].thing`} />
                         <select 
@@ -415,14 +417,14 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     </span>
                   </>)}
                 </FieldArray>
-                <div className="help">A list of things your troll loves/hates.</div>
+                <div className="help">A list of things your character loves/hates.</div>
               </div>
               <div>
-                <div className="label">Facts <ErrorMessage name={`facts`}>{error}</ErrorMessage></div>
                 <FieldArray name="facts">
-                  {({insert, remove, push}) => (<>
+                  {({insert, form, remove, push}) => (<>
+                    <div className="label">Facts {form.errors.facts && typeof form.errors.facts === "string" && (<ErrorMessage name={`facts`}>{error}</ErrorMessage>)}</div>
                     {values.facts?.map((fact, index) => (<>
-                      <div className="tinyLabel">Fact {index} <ErrorMessage name={`facts[${index}]`}>{error}</ErrorMessage></div>
+                      <div className="tinyLabel">Fact {index} {form.errors.facts && typeof form.errors.facts !== "string" && (<ErrorMessage name={`facts[${index}]`}>{error}</ErrorMessage>)}</div>
                       <span key={index}>
                         <Field type="text" name={`facts[${index}]`} />
                       </span>
@@ -437,9 +439,76 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     </span>
                   </>)}
                 </FieldArray>
-                <div className="help">A list of blurbs about your troll.</div>
+                <div className="help">A list of blurbs describing your character.</div>
               </div>
-
+              <div>
+                <FieldArray name="quirks">
+                  {({form, remove, push}) => (<>
+                    <div className="label">Quirk Modes {form.errors.quirks && typeof form.errors.quirks === "string" && (<ErrorMessage name={`quirks`}>{error}</ErrorMessage>)}</div>
+                    {values.quirks?.map((quirk, index) => (<>
+                      <span key={index} className="ml-2">
+                        <div className="label">Quirk: {quirk[0]}</div>
+                        <Field type="text" name={`quirks[${index}][0]`} />
+                        <FieldArray name={`quirks[${index}][1]`}>
+                          {({remove, push, insert}) => (<>
+                            <div className="ml-2 my-2">
+                              {values.quirks[index][1]?.map((func, qm_index) => (<>
+                                <div className="tinyLabel">Quirk Function {qm_index}</div>
+                                <span>
+                                  <Field type="text" name={`quirks[${index}][1][${qm_index}].function`} />
+                                </span>
+                                <div className="help whitespace-pre-line mt-2">{quirkFunctionsDescriptions[func.function] ?? ""}</div>
+                                <div className="tinyLabel">Arguments</div>
+                                <div key={qm_index} className="ml-2 my-2">
+                                  <FieldArray name={`quirks[${index}][1][${qm_index}].arguments`}>
+                                    {({remove, push, insert}) => (<>
+                                      <div className="ml-2 mb-2">
+                                        {values.quirks[index][1][qm_index].arguments?.map((arg, arg_qm_index) => (<>
+                                          <div className="tinyLabel">Argument {arg_qm_index}</div>
+                                          <span>
+                                            <Field type="text" name={`quirks[${index}][1][${qm_index}].arguments[${arg_qm_index}]`} />
+                                          </span>
+                                          <span>
+                                            <button type="button" className="ml-2" onClick={() => remove(arg_qm_index)}>Remove Argument</button>
+                                            {arg_qm_index > 0 ? <button type="button" onClick={() => {remove(arg_qm_index);insert(arg_qm_index - 1, arg)}}>Up</button> : <></>}
+                                            {arg_qm_index < values.quirks[index][1][qm_index].arguments.length - 1 ? <button type="button" onClick={() => {remove(arg_qm_index);insert(arg_qm_index + 1, arg)}}>Down</button> : <></>}
+                                          </span>
+                                        </>))}
+                                      </div>
+                                      <span>
+                                        <button type="button" className="mt-1" onClick={() => push("")}>Add Argument</button>
+                                      </span>
+                                    </>)}
+                                  </FieldArray>
+                                </div>
+                                <span>
+                                  <button type="button" className="ml-2" onClick={() => remove(qm_index)}>Remove Quirk Function</button>
+                                  {qm_index > 0 ? <button type="button" onClick={() => {remove(qm_index);insert(qm_index - 1, func)}}>Up</button> : <></>}
+                                  {qm_index < values.quirks[index][1].length - 1 ? <button type="button" onClick={() => {remove(qm_index);insert(qm_index + 1, func)}}>Down</button> : <></>}
+                                </span>
+                              </>))}
+                            </div>
+                            <span>
+                              <button type="button" className="mt-1" onClick={() => push({function:"",arguments:[]})}>Add Quirk Function</button>
+                            </span>
+                          </>)}
+                        </FieldArray>
+                      </span>
+                      <span>
+                        <button type="button" className="ml-2" onClick={() => remove(index)}>Remove Quirk Mode</button>
+                      </span>
+                    </>))}
+                    <span>
+                      <button type="button" className="mt-1" onClick={() => push(["", []])}>Add Quirk Mode</button>
+                    </span>
+                  </>)}
+                </FieldArray>
+                <div className="help">A list of text replacements for your character&apos;s quirk. <b>default</b> quirk is required.</div>
+              </div>
+              <div>
+                <div className="label">Preview</div>
+                <TrollCard troll={testVals} simple={false} />
+              </div>
               <div>
                 <span className="submitRight">
                   <Field type="button" value="Preview" disabled={isSubmitting} onClick={() => {

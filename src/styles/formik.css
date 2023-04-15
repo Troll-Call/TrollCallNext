@@ -100,9 +100,23 @@ div.tinyLabel {
   margin-bottom: -8px;
 }
 
+span div.tinyLabel {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
 div.label {
   font-size: 16px;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+span div.label {
+  font-size: 16px;
+  margin-bottom: 4px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -183,7 +197,7 @@ button[type=button].inline {
   /* @apply text-neg-600; */
 }
 
-span.inline {
+/* span.inline {
   @apply bg-neg-100;
   width: 100%;
-}
+} */

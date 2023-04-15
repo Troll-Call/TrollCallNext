@@ -1,18 +1,50 @@
 import { Troll } from "@/types/troll";
 
+export const quirkFunctionsDescriptions:{[key: string]:string } = {
+  replace: `Replace any regex match with another string. 
+  Argument 0: Unformatted RegExp (gm), 
+  Argument 1: Replacement string`,
+  lowercase: `Change the case of the given text.
+  Argument 0: Ignore next arguments and affect everything? (true/false),
+  Argument 1: Starting letter amount (given "COOL", 1 would be "cOOL")
+  Argument 2: Seperation between affected letters (given "COOL", it would be the difference between "coOL" and "cOoL"),
+  Argument 3: Ending letter amount (given "COOL", 1 would be "COOl")`,
+  uppercase: `Change the case of the given text.
+  Argument 0: Ignore next arguments and affect everything? (true/false),
+  Argument 1: Starting letter amount (given "cool", 1 would be "Cool")
+  Argument 2: Seperation between affected letters (given "cool", it would be the difference between "COol" and "CoOl"),
+  Argument 3: Ending letter amount (given "cool", 1 would be "cooL")`,
+  lowercaseWords: `Change the case of the given text by words.
+  Argument 0: Ignore next arguments and affect everything? (true/false),
+  Argument 1: Starting letter amount (given "COOL", 1 would be "cOOL")
+  Argument 2: Seperation between affected letters (given "COOL", it would be the difference between "coOL" and "cOoL"),
+  Argument 3: Ending letter amount (given "COOL", 1 would be "COOl")`,
+  uppercaseWords: `Change the case of the given text by words.
+  Argument 0: Ignore next arguments and affect everything? (true/false),
+  Argument 1: Starting letter amount (given "cool", 1 would be "Cool")
+  Argument 2: Seperation between affected letters (given "cool", it would be the difference between "COol" and "CoOl"),
+  Argument 3: Ending letter amount (given "cool", 1 would be "cooL")`
+}
+
 const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
   replace(str: string, args: [string, string]) {
-    return str.replace(new RegExp(args[0], "gm"), args[1]);
+    let regex = args[0] ?? "";
+    let replacement = args[1] ?? "";
+    return str.replace(new RegExp(regex, "gm"), replacement);
   },
   lowercase(str: string, args: [boolean, number, number, number]) {
-    if (!args[0]) {
+    let affectAll = args[0] ?? true;
+    let start = args[1] ?? 0;
+    let sepsplit = args[2] ?? 0;
+    let end = args[3] ?? 0;
+    if (!affectAll) {
       let newStr = str.split("");
-      let sep = args[2] + 1;
-      if (args[1] > 0) for (let i = 0; i < args[1]; i += sep) {
+      let sep = sepsplit + 1;
+      if (start > 0) for (let i = 0; i < start; i += sep) {
         if (i >= newStr.length) break;
         newStr[i] = newStr[i].toLowerCase();
       }
-      if (args[3] > 0) for (let i = newStr.length; i >= newStr.length - args[3]; i -= sep) {
+      if (end > 0) for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
         if (i < 0) break;
         newStr[i] = newStr[i].toLowerCase();
       }
@@ -20,17 +52,21 @@ const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
     } else return str.toLowerCase();
   },
   uppercase(str: string, args: [boolean, number, number, number]) {
-    if (!args[0]) {
+    let affectAll = args[0] ?? true;
+    let start = args[1] ?? 0;
+    let sepsplit = args[2] ?? 0;
+    let end = args[3] ?? 0;
+    if (!affectAll) {
       let newStr = str.split("");
-      let sep = args[2] + 1;
-      if (args[1] > 0) for (let i = 0; i < args[1]; i += sep) {
+      let sep = sepsplit + 1;
+      if (start > 0) for (let i = 0; i < start; i += sep) {
         if (i >= newStr.length) break;
         newStr[i] = newStr[i].toUpperCase();
       }
-      // if (args[3] > 0) for (let i = newStr.length; i >= newStr.length - args[3]; i -= sep) {
-      //   if (i < 0) break;
-      //   newStr[i] = newStr[i].toUpperCase();
-      // }
+      if (end > 0) for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
+        if (i < 0) break;
+        newStr[i] = newStr[i].toUpperCase();
+      }
       return newStr.join("");
     } else return str.toUpperCase();
   },
@@ -62,6 +98,7 @@ const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
 export function transformToQuirks(text: string, character: Troll, quirkIndex: string): string {
   let newText = text;
   character.quirks[quirkIndex ?? "default"]?.forEach((quirkFunc: any) => {
+    if (quirkFunctions[quirkFunc.function] === undefined) return;
     newText = quirkFunctions[quirkFunc.function](newText, quirkFunc.arguments);
   })
   return newText;
