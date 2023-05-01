@@ -205,6 +205,7 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                   <select 
                     title="sign fake color"
                     name="sign.fakeColor"
+                    onChange={handleChange}
                     onBlur={handleBlur}
                   >
                     <option value={undefined} label="None" />

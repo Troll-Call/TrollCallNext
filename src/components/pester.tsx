@@ -8,8 +8,10 @@ import { TrollNameRenderer } from "./name";
 
 export function dialogCompiler(dialog:Pesterlog, jsx:boolean) {
   let newDialogLog = [...dialog.log];
+  console.log(JSON.stringify(dialog.characters));
   let characterColors = dialog.characters.map((char) => 
-    toHex(Bloods[char.character.sign.fakeColor || char.character.sign.color || 0].colormap.map(x => Math.round(x * 0xa1)))
+    // @ts-ignore
+    toHex(Bloods[isNaN(parseInt(char.character.sign.fakeColor)) ? (char.character.sign?.color ?? 0) : char.character.sign.fakeColor].colormap.map(x => Math.round(x * 0xa1)))
   );
   // dialog.config = {
   //   memo: true,
