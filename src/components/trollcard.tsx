@@ -2,10 +2,10 @@ import { lightness, toHex } from "@/types/assist/colors";
 import { Bloods } from "@/types/assist/signs";
 import Link from "next/link";
 import styles from '@/styles/trollcard.module.css';
-import { Troll } from "@/types/troll";
+import { Troll, TrollSchema } from "@/types/troll";
 
 export default function TrollCard({ troll, simple }: { troll: Troll, simple: boolean }) {
-  if (troll === undefined) return (<></>);
+  if (!(troll && TrollSchema.isValidSync(troll))) return (<></>);
   const hexColor = toHex(Bloods[troll.sign?.fakeColor ?? troll.sign?.color ?? 0].colormap.map(x => x * 0xff));
   const styleBlah = {
     backgroundColor: toHex(lightness(hexColor, 60, false)),

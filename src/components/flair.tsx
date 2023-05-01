@@ -1,10 +1,10 @@
 import { lightness, toHex } from "@/types/assist/colors";
-import { Flair as flairType } from "@/types/flair";
+import { FlairSchema, Flair as flairType } from "@/types/flair";
 import Link from "next/link";
 import { CSSProperties } from "react";
 
 export default function Flair({flair}:{flair:flairType}) {
-  if (flair === undefined) return (<></>);
+  if (!(flair && FlairSchema.isValidSync(flair))) return (<></>);
   const hexColor = toHex(flair.color ?? 0);
   const darkenederHex = toHex(lightness(hexColor, 70, false));
   const darkenedHex = toHex(lightness(hexColor, 60, false));
