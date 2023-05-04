@@ -3,9 +3,10 @@ import { Bloods } from "@/types/assist/signs";
 import Link from "next/link";
 import styles from '@/styles/trollcard.module.css';
 import { Troll, TrollSchema } from "@/types/troll";
+import { CannotPreviewError } from "./form";
 
 export default function TrollCard({ troll, simple }: { troll: Troll, simple: boolean }) {
-  if (!(troll && TrollSchema.isValidSync(troll))) return (<></>);
+  if (!(troll && TrollSchema.isValidSync(troll))) return <CannotPreviewError type="TrollCard" />;
   const hexColor = toHex(Bloods[troll.sign?.fakeColor ?? troll.sign?.color ?? 0].colormap.map(x => x * 0xff));
   const styleBlah = {
     backgroundColor: toHex(lightness(hexColor, 60, false)),

@@ -11,8 +11,7 @@ import FlairRenderer from "@/components/flair";
 import Footer from "@/components/footer";
 import UsernameRenderer from "@/components/name";
 import { Themer } from "@/components/themer";
-
-const error = ((message:string) => <>-- <span className="error">{message}</span></>);
+import { error } from "@/components/form";
 
 export default function Flair({}:{}) {
   const [testVals, setTestVals] = useState({} as flairType);

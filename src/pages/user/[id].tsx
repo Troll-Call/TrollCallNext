@@ -12,9 +12,10 @@ import { Bloods, PossibleBloods } from "@/types/assist/signs";
 import { Themer } from "@/components/themer";
 import PesterCard from "@/components/pestercard";
 import { negate } from "@/types/assist/colors";
+import { CannotPreviewError } from "@/components/form";
 
 export default function User({ user, trolls, pesters, test }:{user:userType, trolls:trollType[], pesters:pesterType[], test?:boolean}) {
-  if (!(user && UserSchema.isValidSync(user))) return (<></>);
+  if (!(user && UserSchema.isValidSync(user))) return <CannotPreviewError type="User" />;
   var bloodColor = Bloods[PossibleBloods[user.color]] ?? Bloods[12];
   return (
     <div className="base">

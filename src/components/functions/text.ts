@@ -1,9 +1,18 @@
 import { Troll } from "@/types/troll";
 
 export const quirkFunctionsDescriptions:{[key: string]:string } = {
+  prefix: `Adds a prefix to the text.
+  Argument 0: Prefix text.`,
+  suffix: `Adds a suffix to the text.
+  Argument 0: Suffix text.`,
+  replaceSimple: `Replace a simple string match with another string. 
+  Argument 0: Matching string, 
+  Argument 1: Replacement string,
+  Argument 2: Affect every match (default: true)`,
   replace: `Replace any regex match with another string. 
-  Argument 0: Unformatted RegExp (gm), 
-  Argument 1: Replacement string`,
+  Argument 0: Unformatted RegExp (m), 
+  Argument 1: Replacement string,
+  Argument 2: Affect every match (adds g) (default: true)`,
   lowercase: `Change the case of the given text.
   Argument 0: Ignore next arguments and affect everything? (true/false),
   Argument 1: Starting letter amount (given "COOL", 1 would be "cOOL")
@@ -27,10 +36,25 @@ export const quirkFunctionsDescriptions:{[key: string]:string } = {
 }
 
 const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
+  prefix(str:string, args:[string]) {
+    let pre = args[0] ?? "";
+    return pre + str;
+  },
+  suffix(str:string, args:[string]) {
+    let suf = args[0] ?? "";
+    return str + suf;
+  },
+  replaceSimple(str: string, args: [string, string, boolean]) {
+    let regex = args[0] ?? "";
+    let replacement = args[1] ?? "";
+    let affectAll = (args[2] ?? true);
+    return affectAll ? str.replaceAll(regex, replacement) : str.replace(regex, replacement);
+  },
   replace(str: string, args: [string, string]) {
     let regex = args[0] ?? "";
     let replacement = args[1] ?? "";
-    return str.replace(new RegExp(regex, "gm"), replacement);
+    let affectAll = (args[2] ?? true) ? "gm": "m";
+    return str.replace(new RegExp(regex, affectAll), replacement);
   },
   lowercase(str: string, args: [boolean, number, number, number]) {
     let affectAll = args[0] ?? true;

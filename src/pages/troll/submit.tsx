@@ -16,8 +16,7 @@ import PesterBox from "@/components/pester";
 import { ExtendedZodiacIndexes } from "@/types/assist/extendedZodiac";
 import { quirkFunctionsDescriptions } from "@/components/functions/text";
 import TrollCard from "@/components/trollcard";
-
-const error = ((message:string) => <>-- <span className="error">{message}</span></>);
+import { error } from "@/components/form";
 
 export default function Troll({ allUsers }:{ allUsers:string[] }) {
   const [testVals, setTestVals] = useState({} as trollType);
@@ -47,15 +46,15 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                 <FieldArray name="owners">
                   {({insert, form, remove, push}) => (<>
                     <div className="label">Owners {form.errors.owners && typeof form.errors.owners === "string" && (<ErrorMessage name="owners">{error}</ErrorMessage>)}</div>
-                    {values.owners?.map((owner, index) => (<>
+                    {values.owners?.map((owner, index) => (<div key={index}>
                       <div className="tinyLabel">Owner {index} {form.errors.owners && typeof form.errors.owners !== "string" && (<ErrorMessage name={`owners[${index}]`}>{error}</ErrorMessage>)}</div>
-                      <span key={index}>
+                      <span>
                         <Field onFocus={() => setSelectedElement(index)} type="text" name={`owners[${index}]`} placeholder="Johnny Doefor" />
                         <button type="button" className="ml-2" onClick={() => remove(index)}>Remove User</button>
                         {index > 0 ? <button type="button" onClick={() => {remove(index);insert(index - 1, owner)}}>Up</button> : <></>}
                         {index < values.owners.length - 1 ? <button type="button" onClick={() => {remove(index);insert(index + 1, owner)}}>Down</button> : <></>}
                       </span>
-                    </>))}
+                    </div>))}
                     <span>
                       <button type="button" className="mt-1" onClick={() => push("")}>Add User</button>
                     </span>
@@ -315,10 +314,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     name="policies.fanart"
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    defaultValue="no"
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" selected label="No" />
+                    <option value="no" label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -331,10 +331,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     name="policies.fanartOthers"
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    defaultValue="no"
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" selected label="No" />
+                    <option value="no" label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -347,10 +348,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     name="policies.kinning"
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    defaultValue="no"
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" selected label="No" />
+                    <option value="no" label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -363,10 +365,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     name="policies.shipping"
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    defaultValue="no"
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" selected label="No" />
+                    <option value="no" label="No" />
                   </select>
                 </span>
                 <div className="help">
@@ -379,10 +382,11 @@ export default function Troll({ allUsers }:{ allUsers:string[] }) {
                     name="policies.fanfiction"
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    defaultValue="no"
                   >
                     <option value="yes" label="Yes" />
                     <option value="ask" label="Ask me" />
-                    <option value="no" selected label="No" />
+                    <option value="no" label="No" />
                   </select>
                 </span>
                 <div className="help">

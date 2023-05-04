@@ -10,8 +10,7 @@ import { FormEvent, useState } from "react";
 import UserRenderer from "@/pages/user/[id]";
 import Footer from "@/components/footer";
 import { findAll } from "@/lib/dbFunctions";
-
-const error = ((message:string) => {return <>-- <span className="error">{message}</span></>});
+import { error } from "@/components/form";
 
 export default function User({}:{}) {
   const [testVals, setTestVals] = useState({} as userType);
