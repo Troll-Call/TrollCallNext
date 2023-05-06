@@ -2,7 +2,7 @@
 const json = require('./package.json');
 const nextConfig = {
   reactStrictMode: true,
-  publicRuntimeConfig: json,
-}
+  publicRuntimeConfig: json
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

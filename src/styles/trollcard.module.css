@@ -14,7 +14,7 @@
   margin-left: 48px;
 }
 
-.cardBox>img {
+.cardBox > img {
   /* height: calc(100% - 24px); */
   height: 100%;
   margin-left: -48px;
@@ -24,7 +24,7 @@
   bottom: 12px; */
 }
 
-.cardBox>div {
+.cardBox > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -33,23 +33,23 @@
   gap: 12px;
 }
 
-.cardBox>div>span {
+.cardBox > div > span {
   padding-right: 12px;
   padding-left: 12px;
   font-size: 24px;
   line-height: 32px;
 }
 
-.cardBox>div>svg {
+.cardBox > div > svg {
   padding-bottom: 20px;
   padding-right: 20px;
   box-sizing: content-box;
 }
 
-.cardBox>svg {
+.cardBox > svg {
   position: absolute;
   right: -45px;
-  top: 14px
+  top: 14px;
 }
 
 .simpleCardLink {

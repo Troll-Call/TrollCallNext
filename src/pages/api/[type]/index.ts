@@ -6,18 +6,16 @@ async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  let rqt:string = req.query.type as string;
+  let rqt: string = req.query.type as string;
   if (!validyum.hasOwnProperty(rqt)) {
-    res.status(404).send(`Endpoint "${rqt}" Not Found`); 
+    res.status(404).send(`Endpoint "${rqt}" Not Found`);
     return;
   }
   switch (req.method) {
     case requestType.GET: {
       var rp = await findAll(rqt);
-      if (rp)
-        res.status(200).json(rp)
-      else
-        res.status(404).send(`Not Found`);
+      if (rp) res.status(200).json(rp);
+      else res.status(404).send(`Not Found`);
       break;
     }
   }

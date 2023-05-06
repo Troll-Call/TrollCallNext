@@ -1,6 +1,8 @@
-import { Troll } from "@/types/troll";
+import { Troll } from '@/types/troll';
 
-export const quirkFunctionsDescriptions:{[key: string]:string } = {
+export const quirkFunctionsDescriptions: {
+  [key: string]: string;
+} = {
   prefix: `Adds a prefix to the text.
   Argument 0: Prefix text.`,
   suffix: `Adds a suffix to the text.
@@ -33,97 +35,178 @@ export const quirkFunctionsDescriptions:{[key: string]:string } = {
   Argument 1: Starting letter amount (given "cool", 1 would be "Cool")
   Argument 2: Seperation between affected letters (given "cool", it would be the difference between "COol" and "CoOl"),
   Argument 3: Ending letter amount (given "cool", 1 would be "cooL")`
-}
+};
 
-const quirkFunctions: { [key: string]: (str: string, args: any) => string } = {
-  prefix(str:string, args:[string]) {
-    let pre = args[0] ?? "";
+const quirkFunctions: {
+  [key: string]: (str: string, args: any) => string;
+} = {
+  prefix(str: string, args: [string]) {
+    let pre = args[0] ?? '';
     return pre + str;
   },
-  suffix(str:string, args:[string]) {
-    let suf = args[0] ?? "";
+  suffix(str: string, args: [string]) {
+    let suf = args[0] ?? '';
     return str + suf;
   },
-  replaceSimple(str: string, args: [string, string, boolean]) {
-    let regex = args[0] ?? "";
-    let replacement = args[1] ?? "";
-    let affectAll = (args[2] ?? true);
-    return affectAll ? str.replaceAll(regex, replacement) : str.replace(regex, replacement);
+  replaceSimple(
+    str: string,
+    args: [string, string, boolean]
+  ) {
+    let regex = args[0] ?? '';
+    let replacement = args[1] ?? '';
+    let affectAll = args[2] ?? true;
+    return affectAll
+      ? str.replaceAll(regex, replacement)
+      : str.replace(regex, replacement);
   },
-  replace(str: string, args: [string, string]) {
-    let regex = args[0] ?? "";
-    let replacement = args[1] ?? "";
-    let affectAll = (args[2] ?? true) ? "gm": "m";
-    return str.replace(new RegExp(regex, affectAll), replacement);
+  replace(str: string, args: [string, string, string]) {
+    let regex = args[0] ?? '';
+    let replacement = args[1] ?? '';
+    let affectAll = args[2] ?? true ? 'gm' : 'm';
+    return str.replace(
+      new RegExp(regex, affectAll),
+      replacement
+    );
   },
-  lowercase(str: string, args: [boolean, number, number, number]) {
+  lowercase(
+    str: string,
+    args: [boolean, number, number, number]
+  ) {
     let affectAll = args[0] ?? true;
     let start = args[1] ?? 0;
     let sepsplit = args[2] ?? 0;
     let end = args[3] ?? 0;
     if (!affectAll) {
-      let newStr = str.split("");
+      let newStr = str.split('');
       let sep = sepsplit + 1;
-      if (start > 0) for (let i = 0; i < start; i += sep) {
-        if (i >= newStr.length) break;
-        newStr[i] = newStr[i].toLowerCase();
-      }
-      if (end > 0) for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
-        if (i < 0) break;
-        newStr[i] = newStr[i].toLowerCase();
-      }
-      return newStr.join("");
+      if (start > 0)
+        for (let i = 0; i < start; i += sep) {
+          if (i >= newStr.length) break;
+          newStr[i] = newStr[i].toLowerCase();
+        }
+      if (end > 0)
+        for (
+          let i = newStr.length;
+          i >= newStr.length - end;
+          i -= sep
+        ) {
+          if (i < 0) break;
+          newStr[i] = newStr[i].toLowerCase();
+        }
+      return newStr.join('');
     } else return str.toLowerCase();
   },
-  uppercase(str: string, args: [boolean, number, number, number]) {
+  uppercase(
+    str: string,
+    args: [boolean, number, number, number]
+  ) {
     let affectAll = args[0] ?? true;
     let start = args[1] ?? 0;
     let sepsplit = args[2] ?? 0;
     let end = args[3] ?? 0;
     if (!affectAll) {
-      let newStr = str.split("");
+      let newStr = str.split('');
       let sep = sepsplit + 1;
-      if (start > 0) for (let i = 0; i < start; i += sep) {
-        if (i >= newStr.length) break;
-        newStr[i] = newStr[i].toUpperCase();
-      }
-      if (end > 0) for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
-        if (i < 0) break;
-        newStr[i] = newStr[i].toUpperCase();
-      }
-      return newStr.join("");
+      if (start > 0)
+        for (let i = 0; i < start; i += sep) {
+          if (i >= newStr.length) break;
+          newStr[i] = newStr[i].toUpperCase();
+        }
+      if (end > 0)
+        for (
+          let i = newStr.length;
+          i >= newStr.length - end;
+          i -= sep
+        ) {
+          if (i < 0) break;
+          newStr[i] = newStr[i].toUpperCase();
+        }
+      return newStr.join('');
     } else return str.toUpperCase();
   },
-  lowercaseWords(str: string, args: [boolean, number, number, number]) {
-    return str.split(" ").map((word) => {
-      let thep1: string = "", thep3: string = "";
-      let newWord: string = word.replace(/^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g, (m: string, p1: string, p2: string, p3: string, _: any, __: any) => {
-        thep1 = p1;
-        thep3 = p3;
-        return p2;
-      });
-      return thep1 + quirkFunctions.lowercase(newWord, args) + thep3;
-    }).join(" ");
+  lowercaseWords(
+    str: string,
+    args: [boolean, number, number, number]
+  ) {
+    return str
+      .split(' ')
+      .map((word) => {
+        let thep1: string = '',
+          thep3: string = '';
+        let newWord: string = word.replace(
+          /^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g,
+          (
+            m: string,
+            p1: string,
+            p2: string,
+            p3: string,
+            _: any,
+            __: any
+          ) => {
+            thep1 = p1;
+            thep3 = p3;
+            return p2;
+          }
+        );
+        return (
+          thep1 +
+          quirkFunctions.lowercase(newWord, args) +
+          thep3
+        );
+      })
+      .join(' ');
   },
-  uppercaseWords(str: string, args: [boolean, number, number, number]) {
+  uppercaseWords(
+    str: string,
+    args: [boolean, number, number, number]
+  ) {
     // return str;
-    return str.split(" ").map((word) => {
-      let thep1: string = "", thep3: string = "";
-      let newWord: string = word.replace(/^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g, (m: string, p1: string, p2: string, p3: string, _: any, __: any) => {
-        thep1 = p1;
-        thep3 = p3;
-        return p2;
-      });
-      return thep1 + quirkFunctions.uppercase(newWord, args) + thep3;
-    }).join(" ");
+    return str
+      .split(' ')
+      .map((word) => {
+        let thep1: string = '',
+          thep3: string = '';
+        let newWord: string = word.replace(
+          /^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g,
+          (
+            m: string,
+            p1: string,
+            p2: string,
+            p3: string,
+            _: any,
+            __: any
+          ) => {
+            thep1 = p1;
+            thep3 = p3;
+            return p2;
+          }
+        );
+        return (
+          thep1 +
+          quirkFunctions.uppercase(newWord, args) +
+          thep3
+        );
+      })
+      .join(' ');
   }
-}
+};
 
-export function transformToQuirks(text: string, character: Troll, quirkIndex: string): string {
+export function transformToQuirks(
+  text: string,
+  character: Troll,
+  quirkIndex: string
+): string {
   let newText = text;
-  character.quirks[quirkIndex ?? "default"]?.forEach((quirkFunc: any) => {
-    if (quirkFunctions[quirkFunc.function] === undefined) return;
-    newText = quirkFunctions[quirkFunc.function](newText, quirkFunc.arguments);
-  })
+  // @ts-ignore sigh
+  character.quirks[quirkIndex ?? 'default']?.forEach(
+    (quirkFunc: any) => {
+      if (quirkFunctions[quirkFunc.function] === undefined)
+        return;
+      newText = quirkFunctions[quirkFunc.function](
+        newText,
+        quirkFunc.arguments
+      );
+    }
+  );
   return newText;
 }

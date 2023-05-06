@@ -3,11 +3,13 @@
 @tailwind utilities;
 /* trollcall-display-regular */
 @font-face {
-	font-family: TrollCall Display;
-	font-style: normal;
-	font-weight: 400;
-	src: url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2) format("woff2"), 
-  url(/assets/trollcall-display/TrollCallDisplay-Regular.woff) format("woff");
+  font-family: TrollCall Display;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2)
+      format('woff2'),
+    url(/assets/trollcall-display/TrollCallDisplay-Regular.woff)
+      format('woff');
 }
 
 :root {
@@ -23,21 +25,20 @@
   --pos-900: rgb(242, 242, 242);
   --pos-1000: rgb(255, 255, 255);
   --neg-0: #000;
-  --neg-100: #1F0000;
+  --neg-100: #1f0000;
   --neg-200: #570000;
-  --neg-300: #8F0000;
+  --neg-300: #8f0000;
   --neg-400: #c70000;
-  --neg-500: #F00;
-  --neg-600: #FF2929;
-  --neg-700: #FF5252;
-  --neg-800: #FF7A7A;
-  --neg-900: #FFA3A3;
-  --neg-1000: #FFF;
+  --neg-500: #f00;
+  --neg-600: #ff2929;
+  --neg-700: #ff5252;
+  --neg-800: #ff7a7a;
+  --neg-900: #ffa3a3;
+  --neg-1000: #fff;
 }
 
 body {
-  @apply
-    flex
+  @apply flex
     flex-col
     items-center
     font-body
@@ -52,16 +53,14 @@ li {
   list-style-position: inside;
 }
 body > div {
-  @apply
-    flex
+  @apply flex
     flex-col
     items-center
     min-h-full
     w-full;
 }
 div.base {
-  @apply
-    flex
+  @apply flex
     flex-col
     flex-1
     gap-4
@@ -71,51 +70,47 @@ div.base {
     max-w-screen-lg;
 }
 div.base.wide {
-  @apply
-    max-w-screen-2xl;
+  @apply max-w-screen-2xl;
 }
-p, details, ul {
-  display:inline-block;
-  @apply
-    text-base
+p,
+details,
+ul {
+  display: inline-block;
+  @apply text-base
     p-2
     w-full;
 }
 details {
   border-width: 1px;
-  @apply
-    border-neg-800;
+  @apply border-neg-800;
   border-right-width: 0;
   border-top-width: 0;
 }
 a {
-  @apply
-    underline;
+  @apply underline;
 }
 svg ul {
-  height:100%;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:stretch;
-  text-align:center;
-  font-weight:bold;
-  color:white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  font-weight: bold;
+  color: white;
   line-height: 18px;
   gap: 8px;
 }
 @layer components {
   .title {
-    @apply
-      font-title
+    @apply font-title
       uppercase
       p-0;
     font-size: 20px;
     line-height: 28px;
   }
   .subtitle {
-    @apply
-      font-title
+    @apply font-title
       text-xl
       uppercase
       p-0;
@@ -123,31 +118,26 @@ svg ul {
     line-height: 20px;
   }
   .monospace {
-    @apply
-      font-mono
+    @apply font-mono
       text-base
       p-0;
   }
   .box {
     border-width: 1px;
     box-shadow: 1px 1px var(--pos-800),
-                2px 2px var(--pos-800),
-                3px 3px var(--pos-800),
-                4px 4px var(--pos-800);
-    @apply
-      border-pos-800
+      2px 2px var(--pos-800), 3px 3px var(--pos-800),
+      4px 4px var(--pos-800);
+    @apply border-pos-800
       text-pos-800
       bg-pos-200
       p-2;
   }
   .negative {
     border-width: 1px;
-    box-shadow: 1px 1px var(--neg-800), 
-                2px 2px var(--neg-800), 
-                3px 3px var(--neg-800), 
-                4px 4px var(--neg-800);
-    @apply
-      border-neg-800
+    box-shadow: 1px 1px var(--neg-800),
+      2px 2px var(--neg-800), 3px 3px var(--neg-800),
+      4px 4px var(--neg-800);
+    @apply border-neg-800
       text-neg-800
       bg-neg-200
       p-2;
