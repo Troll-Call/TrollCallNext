@@ -3,10 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '@/lib/firebase';
 
-async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+async function handler(req: NextApiRequest, res: NextApiResponse) {
   let rqc = req.query.content;
   if (Array.isArray(rqc)) rqc = rqc.join('/');
   switch (req.method) {

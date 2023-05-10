@@ -23,14 +23,7 @@ export const PossibleBloods: { [key: string]: number } = {
   Default: 12
 };
 
-export const PronounsList = [
-  'he/him',
-  'she/her',
-  'they/them',
-  'it/its',
-  'xe/xem',
-  'xe/xir'
-];
+export const PronounsList = ['he/him', 'she/her', 'they/them', 'it/its', 'xe/xem', 'xe/xir'];
 
 export const Bloods: BloodDescription[] = [
   {
@@ -130,3 +123,14 @@ export const nameParallels: { [key: string]: string } = {
   CC: 'Feferi (cuttlefishCuller)',
   UU: 'Calliope (uranianUmbra) and Caliborn (undyingUmbrage)'
 };
+
+export function policyString(policy: string, yes: string, ask: string, no: string) {
+  switch (policy) {
+    case 'yes':
+      return yes;
+    case 'ask':
+      return ask;
+    case 'no':
+      return no;
+  }
+}

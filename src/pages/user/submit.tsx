@@ -1,15 +1,8 @@
 import Box from '@/components/box';
 import Navbar from '@/components/nav';
 import { brandUrl } from '@/types/assist/branding';
-import {
-  negate,
-  themeColor,
-  toHex
-} from '@/types/assist/colors';
-import {
-  Bloods,
-  PossibleBloods
-} from '@/types/assist/signs';
+import { negate, themeColor, toHex } from '@/types/assist/colors';
+import { Bloods, PossibleBloods } from '@/types/assist/signs';
 import { ClientUser, ClientUserSchema } from '@/types/user';
 import { User as userType } from '@/types/user';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
@@ -38,41 +31,23 @@ export default function User({}: {}) {
             validationSchema={ClientUserSchema}
             onSubmit={(values, { setSubmitting }) => {
               setTimeout(() => {
-                alert(
-                  JSON.stringify(
-                    ClientUserSchema.validateSync(values),
-                    null,
-                    2
-                  )
-                );
+                alert(JSON.stringify(ClientUserSchema.validateSync(values), null, 2));
                 setSubmitting(false);
               }, 2000);
             }}
           >
-            {({
-              isSubmitting,
-              setFieldValue,
-              handleChange,
-              handleBlur,
-              values
-            }) => (
+            {({ isSubmitting, setFieldValue, handleChange, handleBlur, values }) => (
               <Form>
                 <div>
                   <div>
-                    Submit an owner user to hold your trolls
-                    and pesters. Currently, you cannot
-                    &quot;sign in&quot; into these user
-                    accounts like you would on a normal
-                    website - these are simple placeholders
-                    for actual user accounts.
+                    Submit an owner user to hold your trolls and pesters. Currently, you cannot &quot;sign in&quot; into
+                    these user accounts like you would on a normal website - these are simple placeholders for actual
+                    user accounts.
                   </div>
                 </div>
                 <div>
                   <div className='label'>
-                    Username{' '}
-                    <ErrorMessage name='username'>
-                      {error}
-                    </ErrorMessage>
+                    Username <ErrorMessage name='username'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <Field
@@ -94,17 +69,11 @@ export default function User({}: {}) {
                       }}
                     />
                   </span>
-                  <div className='help'>
-                    The name that displays on your user page
-                    and owned trolls.
-                  </div>
+                  <div className='help'>The name that displays on your user page and owned trolls.</div>
                 </div>
                 <div>
                   <div className='label'>
-                    User ID{' '}
-                    <ErrorMessage name='id'>
-                      {error}
-                    </ErrorMessage>
+                    User ID <ErrorMessage name='id'>{error}</ErrorMessage>
                   </div>
                   <span className='input'>
                     {brandUrl}user/
@@ -117,24 +86,18 @@ export default function User({}: {}) {
                         setFieldValue(
                           'id',
                           // @ts-ignore
-                          event.target.value
-                            .replace(/[^a-zA-Z0-9-_]/g, '_')
-                            .toLowerCase()
+                          event.target.value.replace(/[^a-zA-Z0-9-_]/g, '_').toLowerCase()
                         );
                       }}
                     />
                   </span>
                   <div className='help'>
-                    User ID will update based on username,
-                    but you can always set one manually.
+                    User ID will update based on username, but you can always set one manually.
                   </div>
                 </div>
                 <div>
                   <div className='label'>
-                    Description ({textLength}/500){' '}
-                    <ErrorMessage name='description'>
-                      {error}
-                    </ErrorMessage>
+                    Description ({textLength}/500) <ErrorMessage name='description'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <textarea
@@ -151,16 +114,11 @@ export default function User({}: {}) {
                       onBlur={handleBlur}
                     />
                   </span>
-                  <div className='help'>
-                    Tell us about yourself.
-                  </div>
+                  <div className='help'>Tell us about yourself.</div>
                 </div>
                 <div>
                   <div className='label'>
-                    Website{' '}
-                    <ErrorMessage name='url'>
-                      {error}
-                    </ErrorMessage>
+                    Website <ErrorMessage name='url'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <Field
@@ -169,17 +127,11 @@ export default function User({}: {}) {
                       placeholder='https://example.com/'
                     />
                   </span>
-                  <div className='help'>
-                    If you have a website you want to link
-                    to, put it here.
-                  </div>
+                  <div className='help'>If you have a website you want to link to, put it here.</div>
                 </div>
                 <div>
                   <div className='label'>
-                    Color{' '}
-                    <ErrorMessage name='color'>
-                      {error}
-                    </ErrorMessage>
+                    Color <ErrorMessage name='color'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <select
@@ -204,10 +156,7 @@ export default function User({}: {}) {
                             v.sign +
                             ' (' +
                             v.name +
-                            (v.sign === 'Default'
-                              ? ' / Red'
-                              : ' / ' +
-                                Bloods[(i + 6) % 12].name) +
+                            (v.sign === 'Default' ? ' / Red' : ' / ' + Bloods[(i + 6) % 12].name) +
                             ')'
                           }
                         />
@@ -215,12 +164,8 @@ export default function User({}: {}) {
                     </select>
                   </span>
                   <div className='help'>
-                    The sign color that your user page
-                    inherits.
-                    <div className='warning'>
-                      This page changes color based on this
-                      value!
-                    </div>
+                    The sign color that your user page inherits.
+                    <div className='warning'>This page changes color based on this value!</div>
                   </div>
                 </div>
                 <div>

@@ -2,13 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { name } from '@/types/assist/branding';
 
-export default function Navbar({
-  title,
-  type
-}: {
-  title: string;
-  type: string;
-}) {
+export default function Navbar({ title, type }: { title: string; type: string }) {
   return (
     <>
       <Head>
@@ -21,12 +15,8 @@ export default function Navbar({
         >
           &lt;== Back
         </Link>
-        <span className='subtitle text-center break-words grow'>
-          {title}
-        </span>
-        <span className='monospace text-right flex-none'>
-          {type}
-        </span>
+        <span className='subtitle text-center break-words grow'>{title}</span>
+        <span className='monospace text-right flex-none'>{type}</span>
       </div>
     </>
   );

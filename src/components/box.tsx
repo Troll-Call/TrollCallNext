@@ -16,13 +16,7 @@ export default function Box({
       className={'box ' + className}
       style={style}
     >
-      {title ? (
-        <p className={subtitle ? 'subtitle' : 'title'}>
-          {title}
-        </p>
-      ) : (
-        <></>
-      )}
+      {title ? <p className={subtitle ? 'subtitle' : 'title'}>{title}</p> : <></>}
       {children}
     </div>
   );

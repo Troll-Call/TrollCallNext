@@ -7,18 +7,13 @@ export default function Home() {
   return (
     <div className='base'>
       <Head>
-        <title>
-          {module.exports.default.name + ' | ' + name}
-        </title>
+        <title>{module.exports.default.name + ' | ' + name}</title>
       </Head>
       <Box
         title={name}
         className='negative'
       >
-        <p>
-          Welcome to {name}, a website for indexing various
-          fantrolls. Check them out!
-        </p>
+        <p>Welcome to {name}, a website for indexing various fantrolls. Check them out!</p>
       </Box>
       <Footer />
     </div>

@@ -14,15 +14,7 @@ export default function UsernameRenderer({
   link?: boolean;
   full?: boolean;
 }) {
-  var theLink = link ? (
-    <Link href={'/user/' + user.id}>
-      {name ? user.username : ''}
-    </Link>
-  ) : name ? (
-    user.username
-  ) : (
-    ''
-  );
+  var theLink = link ? <Link href={'/user/' + user.id}>{name ? user.username : ''}</Link> : name ? user.username : '';
   return (
     <span className='inline'>
       {theLink}
@@ -52,21 +44,11 @@ export function TrollNameRenderer(
 ) {
   let sn =
     (character.time ? character.time[0] : '') +
-    character.character.username
-      .replace(/^(([a-z])[a-z]+)(([A-Z])[a-z]+)$/, '$2$4')
-      .toUpperCase();
+    character.character.username.replace(/^(([a-z])[a-z]+)(([A-Z])[a-z]+)$/, '$2$4').toUpperCase();
   var box =
     (character.time ? character.time + ' ' : '') +
-    (displayName
-      ? character.character.username +
-        (shortName ? ' ' : '')
-      : '') +
+    (displayName ? character.character.username + (shortName ? ' ' : '') : '') +
     (shortName ? (displayName ? `[${sn}]` : sn) : '');
-  if (link)
-    return (
-      <Link href={'/trolls/' + character.character.id}>
-        {box}
-      </Link>
-    );
+  if (link) return <Link href={'/trolls/' + character.character.id}>{box}</Link>;
   return box;
 }

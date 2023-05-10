@@ -8,10 +8,7 @@ import TrollCard from '@/components/trollcard';
 import UsernameRenderer from '@/components/name';
 import { Troll as trollType } from '@/types/troll';
 import { Pesterlog as pesterType } from '@/types/pester';
-import {
-  Bloods,
-  PossibleBloods
-} from '@/types/assist/signs';
+import { Bloods, PossibleBloods } from '@/types/assist/signs';
 import { Themer } from '@/components/themer';
 import PesterCard from '@/components/pestercard';
 import { negate } from '@/types/assist/colors';
@@ -28,10 +25,8 @@ export default function User({
   pesters: pesterType[];
   test?: boolean;
 }) {
-  if (!(user && UserSchema.isValidSync(user)))
-    return <CannotPreviewError type='User' />;
-  var bloodColor =
-    Bloods[PossibleBloods[user.color]] ?? Bloods[12];
+  if (!(user && UserSchema.isValidSync(user))) return <CannotPreviewError type='User' />;
+  var bloodColor = Bloods[PossibleBloods[user.color]] ?? Bloods[12];
   return (
     <div className='base'>
       <Themer
@@ -42,9 +37,7 @@ export default function User({
         color={
           bloodColor.colormapNeg
             ? bloodColor.colormapNeg?.map((x) => x * 255)
-            : negate(
-                bloodColor.colormap.map((x) => x * 255)
-              )
+            : negate(bloodColor.colormap.map((x) => x * 255))
         }
         label='neg'
       />
@@ -133,33 +126,20 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps(
-  context: GetStaticPropsContext
-) {
+export async function getStaticProps(context: GetStaticPropsContext) {
   // @ts-ignore Go fuck yourself, JavaScript
   const findOne = (await dbFunctions.default).findOne;
   // @ts-ignore Go fuck yourself, JavaScript
   const findQuery = (await dbFunctions.default).findQuery;
-  let cpi: string | undefined = context.params
-    ?.id as string;
+  let cpi: string | undefined = context.params?.id as string;
   if (cpi === undefined)
     return {
       notFound: true
     };
 
   var ru = await findOne('users', cpi);
-  var rt = await findQuery(
-    'trolls',
-    'owners',
-    'array-contains',
-    cpi
-  );
-  var rp = await findQuery(
-    'pesters',
-    'owners',
-    'array-contains',
-    cpi
-  );
+  var rt = await findQuery('trolls', 'owners', 'array-contains', cpi);
+  var rp = await findQuery('pesters', 'owners', 'array-contains', cpi);
 
   return {
     props: {

@@ -10,15 +10,9 @@ import PesterBox from '@/components/pester';
 import UsernameRenderer from '@/components/name';
 import { User as userType } from '@/types/user';
 
-export default function Trolllog({
-  pester
-}: {
-  pester: pesterType;
-}) {
+export default function Trolllog({ pester }: { pester: pesterType }) {
   let theme: { [key: string]: string } = {};
-  themeColor('#FF0000').forEach(
-    (x, i) => (theme['--pos-' + i * 100] = toHex(x))
-  );
+  themeColor('#FF0000').forEach((x, i) => (theme['--pos-' + i * 100] = toHex(x)));
   return (
     <div className='base'>
       <Navbar
@@ -27,9 +21,7 @@ export default function Trolllog({
       />
       <Box title={pester.name}>
         <p className='py-1'>
-          <span>
-            Created {new Date(pester.date).toLocaleString()}
-          </span>
+          <span>Created {new Date(pester.date).toLocaleString()}</span>
           <br />
           <span>
             by{' '}
@@ -90,13 +82,10 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps(
-  context: GetStaticPropsContext
-) {
+export async function getStaticProps(context: GetStaticPropsContext) {
   // @ts-ignore Go fuck yourself, JavaScript
   const findOne = (await dbFunctions.default).findOne;
-  let cpi: string | undefined = context.params
-    ?.id as string;
+  let cpi: string | undefined = context.params?.id as string;
   if (cpi === undefined)
     return {
       notFound: true

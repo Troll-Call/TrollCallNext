@@ -1,17 +1,8 @@
 import Box from '@/components/box';
 import Navbar from '@/components/nav';
 import { brandUrl } from '@/types/assist/branding';
-import {
-  negate,
-  themeColor,
-  lightness,
-  toHex,
-  toInt
-} from '@/types/assist/colors';
-import {
-  Bloods,
-  PossibleBloods
-} from '@/types/assist/signs';
+import { negate, themeColor, lightness, toHex, toInt } from '@/types/assist/colors';
+import { Bloods, PossibleBloods } from '@/types/assist/signs';
 import { FlairSchema } from '@/types/flair';
 import { Flair as flairType } from '@/types/flair';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
@@ -41,33 +32,17 @@ export default function Flair({}: {}) {
             validationSchema={FlairSchema}
             onSubmit={(values, { setSubmitting }) => {
               setTimeout(() => {
-                alert(
-                  JSON.stringify(
-                    FlairSchema.validateSync(values),
-                    null,
-                    2
-                  )
-                );
+                alert(JSON.stringify(FlairSchema.validateSync(values), null, 2));
                 setSubmitting(false);
               }, 2000);
             }}
           >
-            {({
-              isSubmitting,
-              setFieldValue,
-              handleChange,
-              handleBlur,
-              values
-            }) => (
+            {({ isSubmitting, setFieldValue, handleChange, handleBlur, values }) => (
               <Form>
                 <div>
                   <div>
-                    A flair should only refer to a role,
-                    class, or notable accomplishment.
-                    Personally identifying flairs are{' '}
-                    <b>not allowed</b>, for personal
-                    identifiers should be put in a
-                    user&apos;s description.
+                    A flair should only refer to a role, class, or notable accomplishment. Personally identifying flairs
+                    are <b>not allowed</b>, for personal identifiers should be put in a user&apos;s description.
                   </div>
                   <div>
                     Good examples:
@@ -82,10 +57,7 @@ export default function Flair({}: {}) {
                             url: ''
                           }}
                         />
-                        <div className='help'>
-                          A flair for the winner of a (fake)
-                          notable event.
-                        </div>
+                        <div className='help'>A flair for the winner of a (fake) notable event.</div>
                       </li>
                       <li>
                         ✅{' '}
@@ -97,9 +69,7 @@ export default function Flair({}: {}) {
                             url: ''
                           }}
                         />
-                        <div className='help'>
-                          The owner of the site.
-                        </div>
+                        <div className='help'>The owner of the site.</div>
                       </li>
                       <li>
                         ✅{' '}
@@ -111,10 +81,7 @@ export default function Flair({}: {}) {
                             url: ''
                           }}
                         />
-                        <div className='help'>
-                          A beta tester for TrollCall Next,
-                          the current version of TrollCall.
-                        </div>
+                        <div className='help'>A beta tester for TrollCall Next, the current version of TrollCall.</div>
                       </li>
                       <li>
                         ✅{' '}
@@ -127,9 +94,7 @@ export default function Flair({}: {}) {
                           }}
                         />
                         <div className='help'>
-                          A (fake) accomplishment, showing
-                          that this user has the most trolls
-                          on the site.
+                          A (fake) accomplishment, showing that this user has the most trolls on the site.
                         </div>
                       </li>
                     </ul>
@@ -148,12 +113,8 @@ export default function Flair({}: {}) {
                           }}
                         />
                         <div className='help'>
-                          Pronouns are an infinitely
-                          variable trait of language, and
-                          adding them all in TrollCall
-                          flairs would be a waste of space
-                          when they could just be written in
-                          your user description.
+                          Pronouns are an infinitely variable trait of language, and adding them all in TrollCall flairs
+                          would be a waste of space when they could just be written in your user description.
                         </div>
                       </li>
                       <li>
@@ -167,14 +128,9 @@ export default function Flair({}: {}) {
                           }}
                         />
                         <div className='help'>
-                          Do not make a TrollCall user for
-                          your cat. Even if your cat knew
-                          how to make a TrollCall account
-                          (in which they would be allowed),
-                          species would be a poor addition
-                          as a flair anyway, as that
-                          information could also be put in
-                          your cat's user description.
+                          Do not make a TrollCall user for your cat. Even if your cat knew how to make a TrollCall
+                          account (in which they would be allowed), species would be a poor addition as a flair anyway,
+                          as that information could also be put in your cat's user description.
                         </div>
                       </li>
                       <li>
@@ -187,10 +143,7 @@ export default function Flair({}: {}) {
                             url: ''
                           }}
                         />
-                        <div className='help'>
-                          Gender can also be put in your
-                          user description.
-                        </div>
+                        <div className='help'>Gender can also be put in your user description.</div>
                       </li>
                       <li>
                         ⚠️{' '}
@@ -202,20 +155,14 @@ export default function Flair({}: {}) {
                             url: ''
                           }}
                         />
-                        <div className='help'>
-                          Don't submit useless or
-                          unnecessary flairs.
-                        </div>
+                        <div className='help'>Don't submit useless or unnecessary flairs.</div>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div>
                   <div className='label'>
-                    Name{' '}
-                    <ErrorMessage name='name'>
-                      {error}
-                    </ErrorMessage>
+                    Name <ErrorMessage name='name'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <Field
@@ -237,16 +184,11 @@ export default function Flair({}: {}) {
                       }}
                     />
                   </span>
-                  <div className='help'>
-                    The name that displays in the flair.
-                  </div>
+                  <div className='help'>The name that displays in the flair.</div>
                 </div>
                 <div>
                   <div className='label'>
-                    Flair ID{' '}
-                    <ErrorMessage name='id'>
-                      {error}
-                    </ErrorMessage>
+                    Flair ID <ErrorMessage name='id'>{error}</ErrorMessage>
                   </div>
                   <span className='input'>
                     flair/
@@ -259,24 +201,16 @@ export default function Flair({}: {}) {
                         setFieldValue(
                           'id',
                           // @ts-ignore stfu
-                          event.target.value
-                            .replace(/[^a-zA-Z0-9-_]/g, '_')
-                            .toLowerCase()
+                          event.target.value.replace(/[^a-zA-Z0-9-_]/g, '_').toLowerCase()
                         );
                       }}
                     />
                   </span>
-                  <div className='help'>
-                    Flair ID will update based on name, but
-                    you can always set one manually.
-                  </div>
+                  <div className='help'>Flair ID will update based on name, but you can always set one manually.</div>
                 </div>
                 <div>
                   <div className='label'>
-                    Website{' '}
-                    <ErrorMessage name='url'>
-                      {error}
-                    </ErrorMessage>
+                    Website <ErrorMessage name='url'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <Field
@@ -286,19 +220,13 @@ export default function Flair({}: {}) {
                     />
                   </span>
                   <div className='help'>
-                    If you have a website you want to link
-                    to when you click on the flair; for
-                    example, a flair for an MSPFA veteran
-                    would probably link to{' '}
-                    <b>https://mspfa.com/</b>.
+                    If you have a website you want to link to when you click on the flair; for example, a flair for an
+                    MSPFA veteran would probably link to <b>https://mspfa.com/</b>.
                   </div>
                 </div>
                 <div>
                   <div className='label'>
-                    Color{' '}
-                    <ErrorMessage name='color'>
-                      {error}
-                    </ErrorMessage>
+                    Color <ErrorMessage name='color'>{error}</ErrorMessage>
                   </div>
                   <span>
                     <Field
@@ -309,10 +237,7 @@ export default function Flair({}: {}) {
                   </span>
                   <div className='help'>
                     The color of the flair.
-                    <div className='warning'>
-                      This page changes color based on this
-                      value!
-                    </div>
+                    <div className='warning'>This page changes color based on this value!</div>
                   </div>
                 </div>
                 <div>
@@ -328,74 +253,38 @@ export default function Flair({}: {}) {
                         username: 'Johnny Doefor',
                         flairs: [
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                75,
-                                false
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 75, false)),
                             id: '75dark',
                             name: '-75',
                             url: testVals.url
                           },
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                50,
-                                false
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 50, false)),
                             id: '50dark',
                             name: '-50',
                             url: testVals.url
                           },
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                25,
-                                false
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 25, false)),
                             id: '25dark',
                             name: '-25',
                             url: testVals.url
                           },
                           testVals,
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                25,
-                                true
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 25, true)),
                             id: '25light',
                             name: '+25',
                             url: testVals.url
                           },
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                50,
-                                true
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 50, true)),
                             id: '50light',
                             name: '+50',
                             url: testVals.url
                           },
                           {
-                            color: toInt(
-                              lightness(
-                                testVals.color ?? 0,
-                                75,
-                                true
-                              )
-                            ),
+                            color: toInt(lightness(testVals.color ?? 0, 75, true)),
                             id: '75light',
                             name: '+75',
                             url: testVals.url

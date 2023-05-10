@@ -6,10 +6,8 @@
   font-family: TrollCall Display;
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2)
-      format('woff2'),
-    url(/assets/trollcall-display/TrollCallDisplay-Regular.woff)
-      format('woff');
+  src: url(/assets/trollcall-display/TrollCallDisplay-Regular.woff2) format('woff2'),
+    url(/assets/trollcall-display/TrollCallDisplay-Regular.woff) format('woff');
 }
 
 :root {
@@ -77,7 +75,7 @@ details,
 ul {
   display: inline-block;
   @apply text-base
-    p-2
+    p-1
     w-full;
 }
 details {
@@ -100,6 +98,11 @@ svg ul {
   color: white;
   line-height: 18px;
   gap: 8px;
+}
+code {
+  @apply text-neg-800
+    bg-neg-200
+    p-1;
 }
 @layer components {
   .title {
@@ -124,9 +127,7 @@ svg ul {
   }
   .box {
     border-width: 1px;
-    box-shadow: 1px 1px var(--pos-800),
-      2px 2px var(--pos-800), 3px 3px var(--pos-800),
-      4px 4px var(--pos-800);
+    box-shadow: 1px 1px var(--pos-800), 2px 2px var(--pos-800), 3px 3px var(--pos-800), 4px 4px var(--pos-800);
     @apply border-pos-800
       text-pos-800
       bg-pos-200
@@ -134,9 +135,7 @@ svg ul {
   }
   .negative {
     border-width: 1px;
-    box-shadow: 1px 1px var(--neg-800),
-      2px 2px var(--neg-800), 3px 3px var(--neg-800),
-      4px 4px var(--neg-800);
+    box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800), 3px 3px var(--neg-800), 4px 4px var(--neg-800);
     @apply border-neg-800
       text-neg-800
       bg-neg-200

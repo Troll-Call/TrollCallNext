@@ -1,9 +1,4 @@
-import {
-  Html,
-  Head,
-  Main,
-  NextScript
-} from 'next/document';
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -25,9 +20,7 @@ export default function Document() {
       </Head>
       <body>
         <noscript>
-          ERRM... SORRY.... THIS WEBSITE REQUIRES
-          JAVASCRIPT..... SORRY TROLLCALL NOSCRIPT USER THIS
-          SITE USES REACT :[
+          ERRM... SORRY.... THIS WEBSITE REQUIRES JAVASCRIPT..... SORRY TROLLCALL NOSCRIPT USER THIS SITE USES REACT :[
         </noscript>
         <Main />
         <NextScript />

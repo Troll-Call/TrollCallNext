@@ -1,11 +1,7 @@
 import * as yup from 'yup';
 import { TrollSchema } from './troll';
 import { UserSchema } from './user';
-import {
-  requiredish,
-  ensureish,
-  IDSchema
-} from './generics';
+import { requiredish, ensureish, IDSchema } from './generics';
 
 const LogSchema = yup.object({
   character: yup.number().integer().min(0).optional(),
@@ -16,16 +12,14 @@ const LogSchema = yup.object({
   id: IDSchema
 });
 
-export interface Log
-  extends yup.InferType<typeof LogSchema> {}
+export interface Log extends yup.InferType<typeof LogSchema> {}
 
 export const CharacterReferenceSchema = yup.object({
   character: TrollSchema.required('Character?'),
   time: yup.string().ensure()
 });
 
-export interface CharacterReference
-  extends yup.InferType<typeof CharacterReferenceSchema> {}
+export interface CharacterReference extends yup.InferType<typeof CharacterReferenceSchema> {}
 
 export const PesterlogSchema = yup
   .object({
@@ -37,20 +31,13 @@ export const PesterlogSchema = yup
       .required("Pootis 'cription here!")
       .min(3, 'Description too short')
       .max(1000, 'Description is too long!'),
-    date: yup.date().required('Date?'),
-    characters: yup
-      .array()
-      .of(CharacterReferenceSchema)
-      .required('Characters?'),
+    date: yup.number().required('Date?'),
+    characters: yup.array().of(CharacterReferenceSchema).required('Characters?'),
     config: yup
       .object({
         memo: yup.boolean().default(false),
         memoName: yup.string().required('Memo Name?'),
-        memoCreator: yup
-          .number()
-          .integer()
-          .min(0)
-          .required('Memo Opener?'),
+        memoCreator: yup.number().integer().min(0).required('Memo Opener?'),
         memoCreationTime: yup.string().ensure()
       })
       .optional(),
@@ -71,7 +58,5 @@ export const ClientPesterlogSchema = PesterlogSchema.shape({
     .required('Characters?')
 });
 
-export interface Pesterlog
-  extends yup.InferType<typeof PesterlogSchema> {}
-export interface ClientPesterlog
-  extends yup.InferType<typeof ClientPesterlogSchema> {}
+export interface Pesterlog extends yup.InferType<typeof PesterlogSchema> {}
+export interface ClientPesterlog extends yup.InferType<typeof ClientPesterlogSchema> {}

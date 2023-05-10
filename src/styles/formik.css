@@ -1,10 +1,7 @@
-input:not([type='submit']):not([type='reset']):not(
-    [type='button']
-  ),
+input:not([type='submit']):not([type='reset']):not([type='button']),
 select,
 textarea {
-  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800),
-    3px 3px var(--neg-800), 4px 4px var(--neg-800);
+  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800), 3px 3px var(--neg-800), 4px 4px var(--neg-800);
   @apply placeholder-neg-600
     text-neg-800
     bg-neg-200
@@ -15,8 +12,7 @@ input[type='submit'],
 input[type='reset'],
 input[type='button'] {
   border-width: 1px;
-  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800),
-    3px 3px var(--neg-800), 4px 4px var(--neg-800);
+  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800), 3px 3px var(--neg-800), 4px 4px var(--neg-800);
   transition: all 0.05s;
   @apply text-neg-800
     bg-neg-200
@@ -45,10 +41,7 @@ input[type='button']:disabled {
     bg-neg-100 ml-2 mr-1 mb-1 mt-2;
 }
 
-span:not(.input)
-  input:not([type='submit']):not([type='reset']):not(
-    [type='button']
-  ),
+span:not(.input) input:not([type='submit']):not([type='reset']):not([type='button']),
 span:not(.input) select,
 span:not(.input) textarea {
   border-width: 1px;
@@ -61,8 +54,7 @@ form span {
 }
 
 span.input {
-  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800),
-    3px 3px var(--neg-800), 4px 4px var(--neg-800);
+  box-shadow: 1px 1px var(--neg-800), 2px 2px var(--neg-800), 3px 3px var(--neg-800), 4px 4px var(--neg-800);
   border-width: 1px;
   width: max-content;
   @apply placeholder-neg-600
@@ -73,10 +65,7 @@ span.input {
     p-2;
 }
 
-span.input
-  input:not([type='submit']):not([type='reset']):not(
-    [type='button']
-  ),
+span.input input:not([type='submit']):not([type='reset']):not([type='button']),
 span.input select,
 span.input textarea {
   box-shadow: none;
@@ -90,10 +79,7 @@ form > div {
   gap: 8px;
 }
 
-span
-  input:not([type='submit']):not([type='reset']):not(
-    [type='button']
-  ),
+span input:not([type='submit']):not([type='reset']):not([type='button']),
 span select,
 span textarea {
   @apply p-1 mx-1;

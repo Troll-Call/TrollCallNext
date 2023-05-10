@@ -1,27 +1,15 @@
 import { requestType, findOne } from '@/lib/dbFunctions';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import validyum from '@/lib/validyum';
-import {
-  setDoc,
-  doc,
-  updateDoc,
-  SnapshotOptions
-} from 'firebase/firestore';
+import { setDoc, doc, updateDoc, SnapshotOptions } from 'firebase/firestore';
 import { database } from '@/lib/firebase';
 import validtypes from '@/lib/validtypes';
 import { dialogCompiler } from '@/components/pester';
 
-async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+async function handler(req: NextApiRequest, res: NextApiResponse) {
   let rqt: string = req.query.type as string;
   if (rqt === undefined || rqt !== 'pesters') {
-    res
-      .status(404)
-      .send(
-        `Endpoint "${rqt}" does not support formatting.`
-      );
+    res.status(404).send(`Endpoint "${rqt}" does not support formatting.`);
     return;
   }
   switch (req.method) {

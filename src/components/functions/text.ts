@@ -41,37 +41,31 @@ const quirkFunctions: {
   [key: string]: (str: string, args: any) => string;
 } = {
   prefix(str: string, args: [string]) {
+    args = args ?? [''];
     let pre = args[0] ?? '';
     return pre + str;
   },
   suffix(str: string, args: [string]) {
+    args = args ?? [''];
     let suf = args[0] ?? '';
     return str + suf;
   },
-  replaceSimple(
-    str: string,
-    args: [string, string, boolean]
-  ) {
+  replaceSimple(str: string, args: [string, string, boolean]) {
+    args = args ?? ['', '', true];
     let regex = args[0] ?? '';
     let replacement = args[1] ?? '';
     let affectAll = args[2] ?? true;
-    return affectAll
-      ? str.replaceAll(regex, replacement)
-      : str.replace(regex, replacement);
+    return affectAll ? str.replaceAll(regex, replacement) : str.replace(regex, replacement);
   },
   replace(str: string, args: [string, string, string]) {
+    args = args ?? ['', '', '', true];
     let regex = args[0] ?? '';
     let replacement = args[1] ?? '';
     let affectAll = args[2] ?? true ? 'gm' : 'm';
-    return str.replace(
-      new RegExp(regex, affectAll),
-      replacement
-    );
+    return str.replace(new RegExp(regex, affectAll), replacement);
   },
-  lowercase(
-    str: string,
-    args: [boolean, number, number, number]
-  ) {
+  lowercase(str: string, args: [boolean, number, number, number]) {
+    args = args ?? [true, 0, 0, 0];
     let affectAll = args[0] ?? true;
     let start = args[1] ?? 0;
     let sepsplit = args[2] ?? 0;
@@ -85,21 +79,15 @@ const quirkFunctions: {
           newStr[i] = newStr[i].toLowerCase();
         }
       if (end > 0)
-        for (
-          let i = newStr.length;
-          i >= newStr.length - end;
-          i -= sep
-        ) {
+        for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
           if (i < 0) break;
           newStr[i] = newStr[i].toLowerCase();
         }
       return newStr.join('');
     } else return str.toLowerCase();
   },
-  uppercase(
-    str: string,
-    args: [boolean, number, number, number]
-  ) {
+  uppercase(str: string, args: [boolean, number, number, number]) {
+    args = args ?? [true, 0, 0, 0];
     let affectAll = args[0] ?? true;
     let start = args[1] ?? 0;
     let sepsplit = args[2] ?? 0;
@@ -113,21 +101,15 @@ const quirkFunctions: {
           newStr[i] = newStr[i].toUpperCase();
         }
       if (end > 0)
-        for (
-          let i = newStr.length;
-          i >= newStr.length - end;
-          i -= sep
-        ) {
+        for (let i = newStr.length; i >= newStr.length - end; i -= sep) {
           if (i < 0) break;
           newStr[i] = newStr[i].toUpperCase();
         }
       return newStr.join('');
     } else return str.toUpperCase();
   },
-  lowercaseWords(
-    str: string,
-    args: [boolean, number, number, number]
-  ) {
+  lowercaseWords(str: string, args: [boolean, number, number, number]) {
+    args = args ?? [true, 0, 0, 0];
     return str
       .split(' ')
       .map((word) => {
@@ -135,31 +117,18 @@ const quirkFunctions: {
           thep3: string = '';
         let newWord: string = word.replace(
           /^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g,
-          (
-            m: string,
-            p1: string,
-            p2: string,
-            p3: string,
-            _: any,
-            __: any
-          ) => {
+          (m: string, p1: string, p2: string, p3: string, _: any, __: any) => {
             thep1 = p1;
             thep3 = p3;
             return p2;
           }
         );
-        return (
-          thep1 +
-          quirkFunctions.lowercase(newWord, args) +
-          thep3
-        );
+        return thep1 + quirkFunctions.lowercase(newWord, args) + thep3;
       })
       .join(' ');
   },
-  uppercaseWords(
-    str: string,
-    args: [boolean, number, number, number]
-  ) {
+  uppercaseWords(str: string, args: [boolean, number, number, number]) {
+    args = args ?? [true, 0, 0, 0];
     // return str;
     return str
       .split(' ')
@@ -168,45 +137,24 @@ const quirkFunctions: {
           thep3: string = '';
         let newWord: string = word.replace(
           /^([^a-zA-Z]*)(.*?)([^a-zA-Z]*)$/g,
-          (
-            m: string,
-            p1: string,
-            p2: string,
-            p3: string,
-            _: any,
-            __: any
-          ) => {
+          (m: string, p1: string, p2: string, p3: string, _: any, __: any) => {
             thep1 = p1;
             thep3 = p3;
             return p2;
           }
         );
-        return (
-          thep1 +
-          quirkFunctions.uppercase(newWord, args) +
-          thep3
-        );
+        return thep1 + quirkFunctions.uppercase(newWord, args) + thep3;
       })
       .join(' ');
   }
 };
 
-export function transformToQuirks(
-  text: string,
-  character: Troll,
-  quirkIndex: string
-): string {
+export function transformToQuirks(text: string, character: Troll, quirkIndex: string): string {
   let newText = text;
   // @ts-ignore sigh
-  character.quirks[quirkIndex ?? 'default']?.forEach(
-    (quirkFunc: any) => {
-      if (quirkFunctions[quirkFunc.function] === undefined)
-        return;
-      newText = quirkFunctions[quirkFunc.function](
-        newText,
-        quirkFunc.arguments
-      );
-    }
-  );
+  character.quirks[quirkIndex ?? 'default']?.forEach((quirkFunc: any) => {
+    if (quirkFunctions[quirkFunc.function] === undefined) return;
+    newText = quirkFunctions[quirkFunc.function](newText, quirkFunc.arguments);
+  });
   return newText;
 }

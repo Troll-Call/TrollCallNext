@@ -1,11 +1,5 @@
-import {
-  ClientTrollSchema,
-  TrollSchema
-} from '@/types/troll';
-import {
-  ClientPesterlogSchema,
-  PesterlogSchema
-} from '@/types/pester';
+import { ClientTrollSchema, TrollSchema } from '@/types/troll';
+import { ClientPesterlogSchema, PesterlogSchema } from '@/types/pester';
 import { FlairSchema } from '@/types/flair';
 import { ClientUserSchema, UserSchema } from '@/types/user';
 import { Schema } from 'yup';

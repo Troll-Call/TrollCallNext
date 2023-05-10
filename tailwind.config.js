@@ -30,14 +30,11 @@ module.exports = {
         1000: 'var(--neg-1000)'
       },
       white: '#ffffff',
-      black: '#000000'
+      black: '#000000',
+      red: '#ff0000'
     },
     fontFamily: {
-      title: [
-        '"TrollCall Display"',
-        'Helvetica',
-        'sans-serif'
-      ],
+      title: ['"TrollCall Display"', 'Helvetica', 'sans-serif'],
       body: ['Nunito', 'Helvetica', 'sans-serif'],
       mono: ['Inconsolata', '"Courier New"', 'monospace']
     },
