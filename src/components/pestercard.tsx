@@ -10,8 +10,9 @@ export default function PesterCard({ pester }: { pester: Pesterlog }) {
       className='no-underline'
     >
       <Box
-        className='box noborder'
+        className='box noshadow'
         title={pester.name}
+        subtitle
       >
         <p className='py-1'>Created {new Date(pester.date).toLocaleString()}</p>
         <div className='negative noborder no-underline my-1 font-mono whitespace-pre-line'>

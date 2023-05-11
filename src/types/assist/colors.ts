@@ -17,7 +17,7 @@ export function convertColor(color: any): Color {
 
 export function toHex(color: any) {
   return `#${convertColor(color)
-    .map((x: number) => x.toString(16).padStart(2, '0'))
+    .map((x: number) => Math.floor(x).toString(16).padStart(2, '0'))
     .join('')}`;
 }
 

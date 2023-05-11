@@ -15,8 +15,9 @@ import { Themer } from '@/components/themer';
 export default function Troll({ troll }: { troll: trollType }) {
   var mySignColor = troll.sign.fakeColor ?? troll.sign.color;
   var bloodColor = Bloods[mySignColor] ?? Bloods[12];
-  var bloodHex = toHex(bloodColor.colormap.map((x) => x * 255));
-  console.log(troll);
+  var realBloodColor = Bloods[troll.sign.color] ?? Bloods[12];
+  var bloodHex = toHex(realBloodColor.colormap.map((x) => x * 255));
+  console.log(troll, bloodHex);
   return (
     <div className='base'>
       <Themer
@@ -104,7 +105,9 @@ export default function Troll({ troll }: { troll: trollType }) {
         </div>
       </Box>
       <div className='w-full grid grid-cols-2 gap-2'>
-        <img src={'/api/cdn/trolls/' + troll.id + '/image.png'} />
+        <div className='w-full max-w-full flex flex-row items-center justify-center'>
+          <img src={'/api/cdn/trolls/' + troll.id + '/image.png'} />
+        </div>
         <div>
           <Box
             title={'About ' + troll.name.first}

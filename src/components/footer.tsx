@@ -5,6 +5,7 @@ import Box from './box';
 const { publicRuntimeConfig } = getConfig();
 import thejson from '@/../sites.json';
 import { lightness, toHex } from '@/types/assist/colors';
+import Flair from './flair';
 
 export default function Footer() {
   var map = thejson.map((x, i) => {
@@ -35,7 +36,19 @@ export default function Footer() {
   return (
     <Box
       className='negative'
-      title={name + domain}
+      title={
+        <>
+          {name + domain}
+          <Flair
+            flair={{
+              id: 'beta',
+              color: 8323327,
+              name: 'Beta',
+              url: ''
+            }}
+          />
+        </>
+      }
       subtitle
     >
       <p>

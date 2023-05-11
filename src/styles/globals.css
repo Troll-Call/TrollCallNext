@@ -35,6 +35,16 @@
   --neg-1000: #fff;
 }
 
+/* * {
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  image-rendering: optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+} */
+
 body {
   @apply flex
     flex-col
@@ -151,7 +161,10 @@ code {
       flex-col
       gap-4;
   }
+  .noshadow {
+    box-shadow: none;
+  }
   .flair {
-    @apply p-0.5 mx-1 my-0.5 px-1 select-none inline-block;
+    @apply p-0.5 mx-1 my-0.5 px-1 select-none inline-block font-body align-middle text-[16px];
   }
 }

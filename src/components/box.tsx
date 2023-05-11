@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export default function Box({
   children,
   title,
@@ -7,7 +9,7 @@ export default function Box({
 }: {
   style?: any;
   children?: any;
-  title?: string;
+  title?: ReactNode;
   className?: string;
   subtitle?: boolean;
 }) {

@@ -1,4 +1,15 @@
-import { getDocs, getDoc, where, query, doc, collection, WhereFilterOp } from 'firebase/firestore';
+import {
+  getDocs,
+  getDoc,
+  where,
+  query,
+  doc,
+  collection,
+  WhereFilterOp,
+  DocumentData,
+  Query,
+  QueryConstraint
+} from 'firebase/firestore';
 import { database } from '@/lib/firebase';
 import validtypes from '@/lib/validtypes';
 
@@ -22,5 +33,10 @@ export async function findAll(collectionName: string) {
 
 export async function findQuery(collectionName: string, a: string, b: WhereFilterOp, c: unknown) {
   const object = await getDocs(query(collection(database, collectionName), where(a, b, c)));
+  return await Promise.all(object.docs.map(async (x) => await validtypes[collectionName].fromFirestore(x)));
+}
+
+export async function findQueryPrecise(collectionName: string, ...theQueryStuff: QueryConstraint[]) {
+  const object = await getDocs(query(collection(database, collectionName), ...theQueryStuff));
   return await Promise.all(object.docs.map(async (x) => await validtypes[collectionName].fromFirestore(x)));
 }

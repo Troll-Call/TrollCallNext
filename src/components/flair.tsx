@@ -3,8 +3,8 @@ import { FlairSchema, Flair as flairType } from '@/types/flair';
 import Link from 'next/link';
 import { CSSProperties } from 'react';
 
-export default function Flair({ flair }: { flair: flairType }) {
-  if (!(flair && FlairSchema.isValidSync(flair))) return <></>;
+export default function Flair({ flair, chip }: { flair: flairType; chip?: boolean }) {
+  if (!(flair && (chip || FlairSchema.isValidSync(flair)))) return <></>;
   const hexColor = toHex(flair.color ?? 0);
   const darkenederHex = toHex(lightness(hexColor, 70, false));
   const darkenedHex = toHex(lightness(hexColor, 60, false));
