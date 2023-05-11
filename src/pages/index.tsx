@@ -10,8 +10,10 @@ import { Pesterlog } from '@/types/pester';
 import PesterCard from '@/components/pestercard';
 import TrollCard from '@/components/trollcard';
 import Flair from '@/components/flair';
+import { User } from '@/types/user';
+import UserRenderer from '@/components/user';
 
-export default function Home({ trolls, pesters }: { trolls: Troll[]; pesters: Pesterlog[] }) {
+export default function Home({ trolls, pesters, users }: { trolls: Troll[]; pesters: Pesterlog[]; users: User[] }) {
   return (
     <div className='base !max-w-screen-2xl'>
       <Head>
@@ -31,7 +33,7 @@ export default function Home({ trolls, pesters }: { trolls: Troll[]; pesters: Pe
         <p>
           If you are a Beta Tester, <b>thank you!</b> Your patronage is helping the website.
         </p>
-        <p>If you aren't, then don't fret. You can still view trolls and observe things.</p>
+        <p>If you aren't a Beta Tester, then don't fret. You're still invited to look around!</p>
         <p>
           - <b>MeowcaTheoRange</b>
         </p>
@@ -74,10 +76,19 @@ export default function Home({ trolls, pesters }: { trolls: Troll[]; pesters: Pe
           }}
           chip
         />
+        <Flair
+          flair={{
+            id: 'join-discord',
+            color: 5793266,
+            name: 'Join the Discord Server',
+            url: 'http://discord.trollcall.xyz/'
+          }}
+          chip
+        />
       </Box>
       <div className='flex flex-row gap-4 flex-wrap justify-start w-full'>
         <Box
-          title='Some Recent Trolls'
+          title='Recent Trolls'
           className='grow basis-[calc(60%_-_0.5rem)]'
         >
           <div className='noshow flex-row flex-wrap justify-around'>
@@ -93,10 +104,10 @@ export default function Home({ trolls, pesters }: { trolls: Troll[]; pesters: Pe
           </div>
         </Box>
         <Box
-          title='Some Recent Pesters'
+          title='Recent Pesters'
           className='grow basis-[calc(40%_-_0.5rem)]'
         >
-          <div className='noshow flex-row flex-wrap justify-around'>
+          <div className='noshow flex-column flex-nowrap justify-start'>
             {pesters.length <= 0
               ? 'No blabbing in earshot...'
               : pesters.map((x, i) => (
@@ -105,6 +116,14 @@ export default function Home({ trolls, pesters }: { trolls: Troll[]; pesters: Pe
                     key={i}
                   />
                 ))}
+          </div>
+        </Box>
+        <Box
+          title='Recent Users'
+          className='w-full'
+        >
+          <div className='noshow flex-column flex-nowrap justify-start'>
+            {users.length <= 0 ? 'No people in credibility...' : users.map((x, i) => <UserRenderer user={x} />)}
           </div>
         </Box>
       </div>
@@ -119,13 +138,15 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 
   var rt = await findQueryPrecise('trolls', limit(10));
   var rp = await findQueryPrecise('pesters', limit(10));
+  var ru = await findQueryPrecise('users', limit(10));
 
-  console.log(rt, rp);
+  console.log(rt, rp, ru);
 
   return {
     props: {
       trolls: rt,
-      pesters: rp
+      pesters: rp,
+      users: ru
     }
   };
 }
